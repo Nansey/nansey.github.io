@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nansey.github.io</id>
     <title>翻译动态</title>
-    <updated>2021-04-29T06:35:43.418Z</updated>
+    <updated>2021-04-29T06:47:31.657Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nansey.github.io"/>
     <link rel="self" href="https://nansey.github.io/atom.xml"/>
@@ -494,6 +494,37 @@ foreach($exported_files as $key => $file)
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 6]]></title>
+        <id>https://nansey.github.io/post/moments-day-six/</id>
+        <link href="https://nansey.github.io/post/moments-day-six/">
+        </link>
+        <updated>2021-04-19T06:41:45.000Z</updated>
+        <summary type="html"><![CDATA[<p>在学习编程的过程中，有一些错误即便老师反复提醒，反复举例说明，但同学们还是会在写代码的过程中出错，举几个有趣的例子：</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>在学习编程的过程中，有一些错误即便老师反复提醒，反复举例说明，但同学们还是会在写代码的过程中出错，举几个有趣的例子：</p>
+<!-- more -->
+<p><strong>例一：大小写</strong></p>
+<p>通过<a href="https://book.douban.com/subject/35156980/">本书</a>的学习，大家应该知道网页上显示的许多内容并不是代码里敲出来的，而是我们通过代码从数据库中获得的。</p>
+<p>从获取数据的角度来看，我们应该首先连接到一个远程的服务器上，然后选中这个服务器上的一个数据库，然后选中这个数据库中的数据表，而这个数据表长得就像一张Excel表格，表格的第一行有好几列，每列都有自己的名字，我们称之为字段名。</p>
+<p>比如有个字段名叫：ID</p>
+<p>如果我们想获取到这个字段名对应列下的数据，我们在代码中就要写要从哪个字段中去获取。</p>
+<p>我经常会遇到有同学在代码中写：id</p>
+<p>显然，这个时候数据库不知道id是哪张表的哪个字段，所以你的代码自然无法运行正确。</p>
+<p>我们的同学这个时候就非常疑惑：什么时候大小写是功能等同的，什么时候又不是呢？</p>
+<p>这种大小写敏感的例子非常多，在我们书中就有很多，比如你写的<a href="https://zh.wikipedia.org/zh-cn/SQL">SQL</a>语句大小写就不敏感，你写的<a href="https://zh.wikipedia.org/zh-cn/HTML">HTML</a>代码大小写也不敏感，可偏偏就是SQL语句里你要指定的字段名大小写敏感。</p>
+<p>为了直观理解，你可以认为凡是要点名指姓的东西大小写都是敏感的，因为你想去找小王打架时如果找到了大王，吃亏的概率就会比较大。</p>
+<p><strong>例二：标点符号的先后顺序</strong></p>
+<p>这也是一个初学者很讨厌的知识点。今天一位学员遇到了个问题，TA的表格没有显示完整，不知道哪里出错了。我仔细一看，原来是表格的尾巴</table>放到了循环里头：</p>
+<figure data-type="image" tabindex="1"><img src="https://nansey.github.io/post-images/1619678795780.png" alt="" loading="lazy"></figure>
+<p>已经开始学本书的同学应该知道我在说什么。在上面这个例子里，用于打印表格的<table>元素是一对的，我们的表格只有一个<table>和一个</table>，而在上面的循环语句中，花括号{}定义了循环的循环体部分，这里面的东西会根据条件来重复运行。因此，很有可能会出现</table>被多次打印，这个时候我们的表格肯定无法正常显示。</p>
+<p>可初学者在看到这个例子的时候，搞不清楚哪儿错了，根本原因在于while循环的标点符号起到了什么作用还没有搞明白，<table>元素怎么把表格显示出来的还比较陌生。</p>
+<p>以上两个例子都非常有代表性，这种错误初学者肉眼怎么看都看不出来，我称这种错误为初学者的坑码，跳进去自己跳不出来的，必须要求助场外观众。</p>
+<p>教材中无法将所有出现的错误都呈现出来，每个人遇到的错误可能会非常个性化，需要我们一起来解决问题，一起往前走。</p>
+<p>读者群的作用就是这样，一堆人在帮你解决问题，所以遇到问题就大胆提出来，让更多人看到，共同学习。</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[巴黎高翻问卷调查 RSI]]></title>
         <id>https://nansey.github.io/post/esit-survey-on-rsi/</id>
         <link href="https://nansey.github.io/post/esit-survey-on-rsi/">
@@ -504,19 +535,6 @@ foreach($exported_files as $key => $file)
         <content type="html"><![CDATA[<p>近日，巴黎高翻(<a href="http://www.univ-paris3.fr/bienvenue-sur-le-site-de-l-esit-63854.kjsp">ESIT</a>)启动了一项远程同传（<a href="https://www.ata-chronicle.online/cover-feature/remote-simultaneous-interpreting-the-upside-and-downside/">RSI</a>）相关研究，通过问卷形式搜集了来自7个地区19个国家946名职业译员的意见（样本涵盖私人市场、国际组织、欧洲机构和公共管理部门的企业译员和自由译员，其中78%的受访者还是口译专业协会的成员）。</p>
 <!-- more -->
 <p>问卷涵盖会议时长、客户来源、工作条件、工作表现、搭档合作等方面内容，以期反映疫情发生至今远程口译市场的变化趋势。详细的调查结果见<a href="https://sites.google.com/aiic.net/study-on-remote-simultaneous-i/home?fbclid=IwAR3N16Znn0iO41XQXwgGviMvllAgwCFo1FmeU4QOqZu7JASrCcXQdXT5Wz8">这里</a>。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[欧委会任命新的口译总干事]]></title>
-        <id>https://nansey.github.io/post/European-Commission-Appoints-New-Director-General-for-Interpretation/</id>
-        <link href="https://nansey.github.io/post/European-Commission-Appoints-New-Director-General-for-Interpretation/">
-        </link>
-        <updated>2021-04-18T10:50:08.000Z</updated>
-        <summary type="html"><![CDATA[<p><a href="https://twitter.com/calaveraruiz">Genoveva Ruiz Calavera</a> 已就任欧盟委员会口译总司(<a href="https://ec.europa.eu/info/departments/interpretation_en">DG SCIC</a>)总干事一职。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://twitter.com/calaveraruiz">Genoveva Ruiz Calavera</a> 已就任欧盟委员会口译总司(<a href="https://ec.europa.eu/info/departments/interpretation_en">DG SCIC</a>)总干事一职。</p>
-<!-- more -->
-<p>Genoveva Ruiz Calavera 于4月1日开始担任这一职务。去年9月总干事 <a href="https://ec.europa.eu/info/persons/director-general-florika-fink-hooijer_en">Florika Fink-Hooijer</a> 卸任后，欧盟委员会便开始寻找接替人选。由于在 COVID-19 大流行期间改用远程工作模式，合同口译员受到重创，Ruiz Calavera 希望改善他们的聘用情况。</p>
 ]]></content>
     </entry>
 </feed>
