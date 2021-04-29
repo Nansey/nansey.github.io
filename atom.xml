@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nansey.github.io</id>
     <title>翻译动态</title>
-    <updated>2021-04-29T06:53:58.298Z</updated>
+    <updated>2021-04-29T07:37:16.988Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nansey.github.io"/>
     <link rel="self" href="https://nansey.github.io/atom.xml"/>
@@ -10,6 +10,165 @@
     <logo>https://nansey.github.io/images/avatar.png</logo>
     <icon>https://nansey.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 翻译动态</rights>
+    <entry>
+        <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 15]]></title>
+        <id>https://nansey.github.io/post/moments-day-fifteen/</id>
+        <link href="https://nansey.github.io/post/moments-day-fifteen/">
+        </link>
+        <updated>2021-04-28T07:01:35.000Z</updated>
+        <summary type="html"><![CDATA[<p>在之前的帖子中我们介绍过读懂翻译记忆库文件（<a href="https://en.wikipedia.org/wiki/Translation_Memory_eXchange">TMX</a>）所需的 <a href="https://en.wikipedia.org/wiki/XML">XML</a> 和 <a href="https://zh.wikipedia.org/wiki/%E6%96%87%E6%A1%A3%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89">DTD</a> 基础知识和使用 <a href="https://www.tmxmall.com/">Tmxmall</a> 的文档解析 <a href="https://www.mulesoft.com/resources/api/what-is-an-api">API</a> 来进行多种类型文档的断句，以及如何基于 TMX 来制作翻译记忆库（如何制作一个简易的大会报告双语检索工具）。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>在之前的帖子中我们介绍过读懂翻译记忆库文件（<a href="https://en.wikipedia.org/wiki/Translation_Memory_eXchange">TMX</a>）所需的 <a href="https://en.wikipedia.org/wiki/XML">XML</a> 和 <a href="https://zh.wikipedia.org/wiki/%E6%96%87%E6%A1%A3%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89">DTD</a> 基础知识和使用 <a href="https://www.tmxmall.com/">Tmxmall</a> 的文档解析 <a href="https://www.mulesoft.com/resources/api/what-is-an-api">API</a> 来进行多种类型文档的断句，以及如何基于 TMX 来制作翻译记忆库（如何制作一个简易的大会报告双语检索工具）。</p>
+<!-- more -->
+<p>同样是基于 XML 技术的 SRX 却一直没有介绍过，其全称是“<a href="https://en.wikipedia.org/wiki/Segmentation_Rules_eXchange">Segmentation  Rules eXchange</a>”，可译为“断句规则交换”。</p>
+<p>简单来说就是：开发计算机辅助翻译工具的厂商约定都按照 SRX 标准来存储和读取文本断句规则，这些断句规则存储在“.srx”格式的文件中。</p>
+<p>有了断句规则，我们就可以轻松的将一篇文章切分成一个个的句段（Segment），而计算机辅助翻译工具最喜欢的就是这种类型的待译原文呈现形式。</p>
+<p>写这篇文章的目的就是为大家介绍如何基于 SRX 将英文文本切分成一个个的句子。</p>
+<p>一、“.srx”格式的文件长啥样？</p>
+<p>请看下面这个示例：</p>
+<pre><code class="language-&lt;?xml">&lt;srx version=&quot;2.0&quot; 
+  xmlns=&quot;http://www.lisa.org/srx20&quot;
+  xsi:schemaLocation=&quot;http://www.lisa.org/srx20 srx20.xsd&quot;
+  xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+    &lt;header segmentsubflows=&quot;yes&quot; cascade=&quot;yes&quot;&gt;
+        &lt;formathandle type=&quot;start&quot; include=&quot;no&quot;/&gt;
+        &lt;formathandle type=&quot;end&quot; include=&quot;yes&quot;/&gt;
+        &lt;formathandle type=&quot;isolated&quot; include=&quot;yes&quot;/&gt;
+    &lt;/header&gt;
+    &lt;body&gt;
+        &lt;languagerules&gt;
+            &lt;languagerule languagerulename=&quot;Default&quot;&gt;
+                &lt;!-- Common rules for most languages --&gt;
+                &lt;rule break=&quot;no&quot;&gt;
+                    &lt;beforebreak&gt;^\s*[0-9]+\.&lt;/beforebreak&gt;
+                    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
+                &lt;/rule&gt;
+                &lt;rule break=&quot;yes&quot;&gt;
+                    &lt;afterbreak&gt;\n&lt;/afterbreak&gt;
+                &lt;/rule&gt;
+                &lt;rule break=&quot;yes&quot;&gt;
+                    &lt;beforebreak&gt;[\.\?!]+&lt;/beforebreak&gt;
+                    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
+                &lt;/rule&gt;
+            &lt;/languagerule&gt;
+            &lt;languagerule languagerulename=&quot;English&quot;&gt;
+                &lt;!-- Some English abbreviations --&gt;
+                &lt;rule break=&quot;no&quot;&gt;
+                    &lt;beforebreak&gt;\s[Ee][Tt][Cc]\.&lt;/beforebreak&gt;
+                    &lt;afterbreak&gt;\s[a-z]&lt;/afterbreak&gt;
+                &lt;/rule&gt;
+                &lt;rule break=&quot;no&quot;&gt;
+                    &lt;beforebreak&gt;\sMr\.&lt;/beforebreak&gt;
+                    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
+                &lt;/rule&gt;
+                &lt;rule break=&quot;no&quot;&gt;
+                    &lt;beforebreak&gt;\sU\.K\.&lt;/beforebreak&gt;
+                    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
+                &lt;/rule&gt;
+            &lt;/languagerule&gt;
+            &lt;languagerule languagerulename=&quot;French&quot;&gt;
+                &lt;!-- Some French abbreviations --&gt;
+                &lt;rule break=&quot;no&quot;&gt;
+                    &lt;beforebreak&gt;\s[Mm]lle\.&lt;/beforebreak&gt;
+                    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
+                &lt;/rule&gt;
+                &lt;rule break=&quot;no&quot;&gt;
+                    &lt;beforebreak&gt;\s[Mm]lles\.&lt;/beforebreak&gt;
+                    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
+                &lt;/rule&gt;
+                &lt;rule break=&quot;no&quot;&gt;
+                    &lt;beforebreak&gt;\s[Mm]me\.&lt;/beforebreak&gt;
+                    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
+                &lt;/rule&gt;
+                &lt;rule break=&quot;no&quot;&gt;
+                    &lt;beforebreak&gt;\s[Mm]mes\.&lt;/beforebreak&gt;
+                    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
+                &lt;/rule&gt;
+            &lt;/languagerule&gt;
+            &lt;languagerule languagerulename=&quot;Japanese&quot;&gt;
+                &lt;!-- Rules for breaking on Japanese punctuation
+                
+                \xff61: Halfwidth ideographic full stop
+                \x3002: Ideographic full stop
+                \xff0e: Fullwidth full stop
+                \xff1f: Fullwidth question mark
+                \xff01: Fullwidth exclamation mark
+                --&gt;
+                &lt;rule break=&quot;yes&quot;&gt;
+                    &lt;beforebreak&gt;[\xff61\x3002\xff0e\xff1f\xff01]+&lt;/beforebreak&gt;
+                    &lt;afterbreak&gt;&lt;/afterbreak&gt;
+                &lt;/rule&gt;
+            &lt;/languagerule&gt;
+        &lt;/languagerules&gt;
+        &lt;maprules&gt;
+            &lt;!-- List exceptions first --&gt;
+            &lt;languagemap languagepattern=&quot;[Ee][Nn].*&quot; languagerulename=&quot;English&quot;/&gt;
+            &lt;languagemap languagepattern=&quot;[Ff][Rr].*&quot; languagerulename=&quot;French&quot;/&gt;
+            &lt;!-- Japanese breaking rules --&gt;
+            &lt;languagemap languagepattern=&quot;[Jj][Aa].*&quot; languagerulename=&quot;Japanese&quot;/&gt;
+            &lt;!-- Common breaking rules --&gt;
+            &lt;languagemap languagepattern=&quot;.*&quot; languagerulename=&quot;Default&quot;/&gt;
+        &lt;/maprules&gt;
+    &lt;/body&gt;
+&lt;/srx&gt;
+</code></pre>
+<p>来源：https://www.gala-global.org/srx-20-april-7-2008</p>
+<p>如果你之前看过我录制的 XML 基础视频，看到这个样子的文件肯定就不陌生了，如果你没有看过而且不知道什么是 XML，那么就可以关掉这个页面，先去看这篇帖子：读懂翻译记忆库文件（TMX）所需的 XML 和 DTD 基础知识。</p>
+<p>二、SRX 文件是如何存储断句规则的？</p>
+<p>要想知道 SRX 文件是如何存储断句规则的，除了需要有 XML 基础知识外，更重要的是要掌握正则表达式的基础，我也同样录过一系列的视频：面向文科生的正则表达式基础视频教程。很抱歉，你可能又要关掉这个页面，去补一下正则表达式的基础知识了。</p>
+<p>在 SRX 文件中，你会看到三个非常重要的元素：<rule>元素、<beforebreak>元素和<afterbreak>元素。它们以这样的形式一同出现：</p>
+<pre><code>&lt;rule break=&quot;yes&quot;&gt;
+    &lt;beforebreak&gt;[\.\?!]+&lt;/beforebreak&gt;
+    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
+&lt;/rule&gt;
+</code></pre>
+<p>在上面的 XML 代码中，一个<rule>元素中包含了一条断句规则，这个断句规则分为两部分，首先用<beforebreak>元素定义了“断点”前是什么，然后用<afterbreak>元素定义了“断点”后是什么。</p>
+<p>大家需要特别注意“断点”这个概念，以下面这两个句子为例：</p>
+<p>Good morning! Welcome to BLCU.</p>
+<p>如果我们希望将这段话切分成两句话，我们肯定会选择将其分为“Good morning! ”和“Welcome to BLCU.”</p>
+<p>所有要从惊叹号后面进行断句：</p>
+<p>Good morning! | Welcome to BLCU.</p>
+<p>上面红色的位置就是所谓的“断点”，对应的英文即“Break”。如果我们想让计算机来断句，那么就得告诉计算机断点前是什么，断点后是什么。在上面的例子中，断点前是个惊叹号，断点后是一个空格。</p>
+<p>如果我们想用正则表达式来表示惊叹号，直接写“!”就可以。但除了惊叹号之外，我们也可以用问号“?”、句号“.”，而且有时一个句子后面会有好多种情况，比如：</p>
+<p>Hi!<br>
+What?!<br>
+Yes!<br>
+Thanks.<br>
+No!!!</p>
+<p>所以我们用这样一个正则表达式就可以覆盖以上几种情况：[.?!]+</p>
+<p>. 表示的是 .<br>
+? 表示的是 ?<br>
+! 表示的是 !<br>
+[] 表示的是 集合</p>
+<ul>
+<li>表示的是 前面的表达式出现一次或多次</li>
+</ul>
+<p>正是[]+ 这个正则表达式组合使得我们可以匹配多个符号同时出现的情况。</p>
+<p>运行效果如下图：</p>
+<figure data-type="image" tabindex="1"><img src="https://nansey.github.io/post-images/1619680188916.png" alt="" loading="lazy"></figure>
+<p>至于空格，则可以使用正则表达式“\s”来表示。</p>
+<p>最后需要再看的就是<rule>元素的“break”属性值，如果这个值是“yes”就表明要在这个断点将句子断开，如果是“no”就表明不断开。</p>
+<p>了解上面这个断句规则的实现原理后，再来看这两段 XML 代码你就更了解断句规则是如何存储的了：</p>
+<pre><code>&lt;rule break=&quot;yes&quot;&gt;
+    &lt;beforebreak&gt;[\.\?!]+&lt;/beforebreak&gt;
+    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
+&lt;/rule&gt;
+</code></pre>
+<pre><code>&lt;rule break=&quot;no&quot;&gt;
+    &lt;beforebreak&gt;\sMr\.&lt;/beforebreak&gt;
+    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
+&lt;/rule&gt;
+</code></pre>
+<p>最初提出 SRX 标准的本地化专家们考虑到了非常多的断句规则，涉及不同的断句场景，涉及不同的语言，涉及断句规则如何扩充，涉及断句规则如何应用。SRX 标准早在2004年便正式使用，现在通行的是2008年的第二个版本，发起者均是本地化行业标准协会（<a href="https://en.wikipedia.org/wiki/Localization_Industry_Standards_Association">LISA</a>, Localization Industry Stardards Association）。LISA 推动了本地化行业非常重要的几个标准：TMX、TBX、SRX。但在2011年2月，该组织因资不抵债而关闭。如今全球化与本地化协会（<a href="https://www.gala-global.org/">GALA</a>, Globalization and Localization Association）的官网上还可以看到这些标准的全文，这也是我们了解本地化行业标准的主要渠道。</p>
+<p>三、如何通过代码来实现断句？</p>
+<p>如果我们想用代码来实现断句，自然需要先知道原理。我们在这一系列文章中将依然以PHP作为实现断句的编程语言。</p>
+<p>因为 SRX 中断句实现的主要路径是正则表达式，所以我们会介绍 PHP 中与正则表达式操作相关的函数：preg_replace()、preg_match()、preg_match_all()、explode()。</p>
+<p>因为 SRX 是基于 XML 的，所以我会带着大家回顾之前的帖子中讲过的 XML 读取函数simplexml_load_file()。</p>
+<p>配合 PHP 的数组知识、循环知识，我们就能够实现断句。</p>
+<p>在后面的帖子中我们继续为大家介绍。</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 14]]></title>
         <id>https://nansey.github.io/post/moments-day-fourteen/</id>
@@ -514,27 +673,14 @@ foreach($exported_files as $key => $file)
 <p>这种大小写敏感的例子非常多，在我们书中就有很多，比如你写的<a href="https://zh.wikipedia.org/zh-cn/SQL">SQL</a>语句大小写就不敏感，你写的<a href="https://zh.wikipedia.org/zh-cn/HTML">HTML</a>代码大小写也不敏感，可偏偏就是SQL语句里你要指定的字段名大小写敏感。</p>
 <p>为了直观理解，你可以认为凡是要点名指姓的东西大小写都是敏感的，因为你想去找小王打架时如果找到了大王，吃亏的概率就会比较大。</p>
 <p><strong>例二：标点符号的先后顺序</strong></p>
-<p>这也是一个初学者很讨厌的知识点。今天一位学员遇到了个问题，TA的表格没有显示完整，不知道哪里出错了。我仔细一看，原来是表格的尾巴</table>放到了循环里头：</p>
+<p>这也是一个初学者很讨厌的知识点。今天一位学员遇到了个问题，TA的表格没有显示完整，不知道哪里出错了。我仔细一看，原来是表格的尾巴(/table)放到了循环里头：</p>
 <figure data-type="image" tabindex="1"><img src="https://nansey.github.io/post-images/1619678795780.png" alt="" loading="lazy"></figure>
-<p>已经开始学本书的同学应该知道我在说什么。在上面这个例子里，用于打印表格的<table>元素是一对的，我们的表格只有一个<table>和一个</table>，而在上面的循环语句中，花括号{}定义了循环的循环体部分，这里面的东西会根据条件来重复运行。因此，很有可能会出现</table>被多次打印，这个时候我们的表格肯定无法正常显示。</p>
-<p>可初学者在看到这个例子的时候，搞不清楚哪儿错了，根本原因在于while循环的标点符号起到了什么作用还没有搞明白，<table>元素怎么把表格显示出来的还比较陌生。</p>
+<p>已经开始学本书的同学应该知道我在说什么。在上面这个例子里，用于打印表格的(table)元素是一对的，我们的表格只有一个(table)和一个(/table)，而在上面的循环语句中，花括号{}定义了循环的循环体部分，这里面的东西会根据条件来重复运行。因此，很有可能会出现(/table)被多次打印，这个时候我们的表格肯定无法正常显示。</p>
+<p>可初学者在看到这个例子的时候，搞不清楚哪儿错了，根本原因在于while循环的标点符号起到了什么作用还没有搞明白，(table)元素怎么把表格显示出来的还比较陌生。</p>
 <p>以上两个例子都非常有代表性，这种错误初学者肉眼怎么看都看不出来，我称这种错误为初学者的坑码，跳进去自己跳不出来的，必须要求助场外观众。</p>
 <p>教材中无法将所有出现的错误都呈现出来，每个人遇到的错误可能会非常个性化，需要我们一起来解决问题，一起往前走。</p>
 <p>读者群的作用就是这样，一堆人在帮你解决问题，所以遇到问题就大胆提出来，让更多人看到，共同学习。</p>
 <p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[巴黎高翻问卷调查 RSI]]></title>
-        <id>https://nansey.github.io/post/esit-survey-on-rsi/</id>
-        <link href="https://nansey.github.io/post/esit-survey-on-rsi/">
-        </link>
-        <updated>2021-04-18T11:07:13.000Z</updated>
-        <summary type="html"><![CDATA[<p>近日，巴黎高翻(<a href="http://www.univ-paris3.fr/bienvenue-sur-le-site-de-l-esit-63854.kjsp">ESIT</a>)启动了一项远程同传（<a href="https://www.ata-chronicle.online/cover-feature/remote-simultaneous-interpreting-the-upside-and-downside/">RSI</a>）相关研究，通过问卷形式搜集了来自7个地区19个国家946名职业译员的意见（样本涵盖私人市场、国际组织、欧洲机构和公共管理部门的企业译员和自由译员，其中78%的受访者还是口译专业协会的成员）。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>近日，巴黎高翻(<a href="http://www.univ-paris3.fr/bienvenue-sur-le-site-de-l-esit-63854.kjsp">ESIT</a>)启动了一项远程同传（<a href="https://www.ata-chronicle.online/cover-feature/remote-simultaneous-interpreting-the-upside-and-downside/">RSI</a>）相关研究，通过问卷形式搜集了来自7个地区19个国家946名职业译员的意见（样本涵盖私人市场、国际组织、欧洲机构和公共管理部门的企业译员和自由译员，其中78%的受访者还是口译专业协会的成员）。</p>
-<!-- more -->
-<p>问卷涵盖会议时长、客户来源、工作条件、工作表现、搭档合作等方面内容，以期反映疫情发生至今远程口译市场的变化趋势。详细的调查结果见<a href="https://sites.google.com/aiic.net/study-on-remote-simultaneous-i/home?fbclid=IwAR3N16Znn0iO41XQXwgGviMvllAgwCFo1FmeU4QOqZu7JASrCcXQdXT5Wz8">这里</a>。</p>
 ]]></content>
     </entry>
 </feed>
