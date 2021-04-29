@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>韩林涛老师：译者编程知识30天×300字写作计划 | Day 4 | 翻译动态</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.0/css/all.min.css">
+<link rel="shortcut icon" href="https://nansey.github.io/favicon.ico?v=1619678099240">
+<link rel="stylesheet" href="https://nansey.github.io/styles/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="学习编程有个技巧：记笔记
+我一直觉得在早期社交平台还没有这么多的时候，中国互联网上主要的内容输出者是程序员，直到今天程序员还有着非常好的写博客、写技术笔记的习惯。像CSDN、GitHub这种程序员社区，还有一大堆独立博客，主力作者都是程序员..." />
+    <meta name="keywords" content="CodeSlator" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://nansey.github.io">
+        <img src="https://nansey.github.io/images/avatar.png?v=1619678099240" class="site-logo">
+        <h1 class="site-title">翻译动态</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://nansey.github.io/post/resource" class="site-nav">
+            资源
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      全球翻译新闻速递
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://nansey.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">韩林涛老师：译者编程知识30天×300字写作计划 | Day 4</h2>
+            <div class="post-date">2021-04-17</div>
+            
+            <div class="post-content" v-pre>
+              <p>学习编程有个技巧：记笔记</p>
+<p>我一直觉得在早期社交平台还没有这么多的时候，中国互联网上主要的内容输出者是程序员，直到今天程序员还有着非常好的写博客、写技术笔记的习惯。像<a href="https://www.csdn.net/">CSDN</a>、<a href="https://github.com/">GitHub</a>这种程序员社区，还有一大堆独立博客，主力作者都是程序员。</p>
+<!-- more -->
+<p>我也一直鼓励自己的学生去写东西，而在学习编程的过程中只有把自己学习过程中的想法写下来才可以帮助自己更好地回顾知识。</p>
+<p>《<a href="https://book.douban.com/subject/35156980/">译者编程入门指南</a>》这本书都可以看作是我的笔记，当某一天我产生了那种强烈的想搞清楚<a href="https://zh.wikipedia.org/zh-cn/%E9%9B%BB%E8%85%A6%E8%BC%94%E5%8A%A9%E7%BF%BB%E8%AD%AF">计算机辅助翻译</a>工具是怎么开发出来的意愿时，我就开始摸索通过编程实现的路径，于是我渐渐搞清楚数据库里双语数据是怎么存储和检索的、渐渐搞清楚文件导入和导出的过程是怎么实现的、渐渐搞清楚<a href="https://zh.wikipedia.org/wiki/%E6%9C%BA%E5%99%A8%E7%BF%BB%E8%AF%91">机器翻译</a>怎么与自己开发的工具交互，但这些东西如果长时间不用就会忘记，必须要把开发过程记录下来。于是我就开始在微信公众号（编者注：“<a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&amp;__biz=MzA5OTk4MDEzNw==&amp;scene=124&amp;uin=&amp;key=&amp;devicetype=Windows+10+x64&amp;version=6302018f&amp;lang=zh_CN&amp;a8scene=7&amp;fontgear=2">简言</a>”）上把这些笔记发布出来，希望更多人看到并给我提修改建议。</p>
+<p>我收到了许多人的反馈后，笔记越来越完善了，自己对技术的理解也更加深刻了，书就出版了，但这本书依然是我上课时的重要工具，帮助我把课程上好，让学生也能像我一样理解技术的实现方法。</p>
+<p>我鼓励更多读者将你学习的笔记发布在自己的博客中、发布在我们的教学论坛中、发布在你的微博、朋友圈里，和身边一样在学习编程的朋友共享，你肯定会收获意想不到的效果！</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://nansey.github.io/tag/codeslator/" class="tag">
+                    CodeSlator
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://nansey.github.io/post/first-language-data-science-app-forum-held/">
+                  <h3 class="post-title">
+                    CATTI 国际版四川高校研讨会举行
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>韩林涛老师：译者编程知识30天×300字写作计划 | Day 13 | 翻译动态</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.0/css/all.min.css">
+<link rel="shortcut icon" href="https://nansey.github.io/favicon.ico?v=1619678099240">
+<link rel="stylesheet" href="https://nansey.github.io/styles/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="学生发来一个网页，说看不懂。
+
+我问哪儿看不懂，TA说第一句话就看不懂：“当我们需要判断一个变量是否已声明但值为空的时候......”
+我发现原来TA不知道什么叫“声明”。
+我们以前讲过，变量是个容器，里面可以放东西。但这个容器哪儿来的，为..." />
+    <meta name="keywords" content="CodeSlator" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://nansey.github.io">
+        <img src="https://nansey.github.io/images/avatar.png?v=1619678099240" class="site-logo">
+        <h1 class="site-title">翻译动态</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://nansey.github.io/post/resource" class="site-nav">
+            资源
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      全球翻译新闻速递
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://nansey.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">韩林涛老师：译者编程知识30天×300字写作计划 | Day 13</h2>
+            <div class="post-date">2021-04-26</div>
+            
+            <div class="post-content" v-pre>
+              <p>学生发来一个<a href="https://blog.csdn.net/weixin_42737761/article/details/95046852">网页</a>，说看不懂。</p>
+<!-- more -->
+<p>我问哪儿看不懂，TA说第一句话就看不懂：“当我们需要判断一个变量是否已声明但值为空的时候......”</p>
+<p>我发现原来TA不知道什么叫“声明”。</p>
+<p>我们以前讲过，变量是个容器，里面可以放东西。但这个容器哪儿来的，为什么可以放东西呢？</p>
+<p>咱们举个直观的例子：</p>
+<p>你家需要一个箱子来装书，但你现在手里没有箱子，所以你只能先打开京东下单一个箱子，但这个时候你依然没有箱子，需要等到箱子到了之后你才能把书放进去存着。</p>
+<p>上面这个过程中，下单买箱子的过程叫“声明”，箱子到了之后才叫“定义”。当你付了钱买箱子后，实际上只是给家里人声明：那个啥，我买了个装书的箱子哈。此时你家并没有容箱之地。</p>
+<p>只有箱子到了，书放进去了，我们才会给它安排一个确定的存放地址。</p>
+<p>对应到计算机里，当我们声明一个变量时，计算机并没有为其分配内存，只有到定义了变量的内容后才会分配。</p>
+<p>这位同学就是没有搞清楚什么叫声明才会糊涂：</p>
+<p>判断一个变量是否已声明但值为空，就是去判断我们是不是在代码说写了一个变量，但里面其实是空的。</p>
+<p>比如你希望程序把你的名字显示在浏览器中：</p>
+<p>echo $name;</p>
+<p>那这个name变量是不是空的呢?</p>
+<p>我们用empty函数来试一下就可以了。</p>
+<p>TA发给我的帖子就是在解释什么是所谓的empty。</p>
+<p>这个同学的问题非常有普遍性，因为困扰TA的实际上是一个TA习以为常的术语，而TA又没有发现这个术语的本意，于是就按照自己的理解去解读，却怎么也搞不懂。</p>
+<p>这种知识点需要拿出来问，自己琢磨半天也徒劳。</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://nansey.github.io/tag/codeslator/" class="tag">
+                    CodeSlator
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://nansey.github.io/post/moments-day-twelve/">
+                  <h3 class="post-title">
+                    韩林涛老师：译者编程知识30天×300字写作计划 | Day 12
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>

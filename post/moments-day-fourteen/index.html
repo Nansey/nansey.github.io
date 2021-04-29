@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>韩林涛老师：译者编程知识30天×300字写作计划 | Day 14 | 翻译动态</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.0/css/all.min.css">
+<link rel="shortcut icon" href="https://nansey.github.io/favicon.ico?v=1619678099240">
+<link rel="stylesheet" href="https://nansey.github.io/styles/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="什么是ParaTrans？
+ParaTrans是一个可以同时对比多个机器翻译译文的在线工具，在之前的文章中已有详细介绍：《ParaTrans 2.0：百度、有道、搜狗、谷歌四款机器翻译服务大PK！》、《ParaTrans升级：上传一个文档，..." />
+    <meta name="keywords" content="CodeSlator" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://nansey.github.io">
+        <img src="https://nansey.github.io/images/avatar.png?v=1619678099240" class="site-logo">
+        <h1 class="site-title">翻译动态</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://nansey.github.io/post/resource" class="site-nav">
+            资源
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      全球翻译新闻速递
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://nansey.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">韩林涛老师：译者编程知识30天×300字写作计划 | Day 14</h2>
+            <div class="post-date">2021-04-27</div>
+            
+            <div class="post-content" v-pre>
+              <p><strong>什么是ParaTrans？</strong></p>
+<p><a href="http://paratrans.vip/">ParaTrans</a>是一个可以同时对比多个机器翻译译文的在线工具，在之前的文章中已有详细介绍：《<a href="https://mp.weixin.qq.com/s?__biz=MzA5OTk4MDEzNw==&amp;mid=2650688422&amp;idx=1&amp;sn=ab7089fb99c9b7b94b80cafea5b95e58&amp;chksm=88f0eda0bf8764b65d6773372aa91013b45748d1473938e2ae81993426b5f75a5b89eccef973&amp;scene=21#wechat_redirect">ParaTrans 2.0：百度、有道、搜狗、谷歌四款机器翻译服务大PK！</a>》、《<a href="https://mp.weixin.qq.com/s?__biz=MzA5OTk4MDEzNw==&amp;mid=2650689042&amp;idx=1&amp;sn=a0c08e776db8818ae1811af1540411ad&amp;chksm=88f0e814bf8761020a58d4df40d4f857923ef27172e8143b6d39722de8f3169ea626bcda9d8b&amp;scene=21#wechat_redirect">ParaTrans升级：上传一个文档，同时获得四个机器翻译结果</a>》。</p>
+<!-- more -->
+<p>效果图如下：</p>
+<figure data-type="image" tabindex="1"><img src="https://nansey.github.io/post-images/1619502190325.png" alt="" loading="lazy"></figure>
+<p><strong>为什么要更换域名？</strong></p>
+<p>ParaTrans是给学生授课过程中为教学演示而开发的工具，其开发原理也在《<a href="https://book.douban.com/subject/35156980/">译者编程入门指南</a>》一书中有详细介绍。最早开发该工具时仅仅将其作为<a href="http://translation.education/paratrans">附属网站</a>放到<a href="http://translation.education/">个人域名</a>下，名字非常长，不方便记忆，更换域名后用户将更容易在手机端、电脑端访问：<a href="http://paratrans.vip">http://paratrans.vip</a></p>
+<p><strong>“新网站”有哪些新增功能？</strong></p>
+<p>更换域名后原网站的所有用户均可继续使用之前的用户名密码登录，并不影响正常使用。</p>
+<p>由于ParaTrans访问量较大，所使用的<a href="https://fanyi.sogou.com/">搜狗翻译</a>API、<a href="http://fanyi.youdao.com/">有道翻译</a>API、<a href="https://translate.google.com/">谷歌翻译</a>API均由我个人付费购买，有时每月会花费数百元。为了平衡收支，新用户将拥有1000字的免费流量，超过免费流量后将按照10元/10000字标准收费。</p>
+<p>新域名启用后网站将新增“ParaMT流量券”兑换功能，用户可以前往微店购买流量券，购买后会在手机上收到兑换券，凭该兑换券可在网站的“兑换”页面兑换流量：</p>
+<figure data-type="image" tabindex="2"><img src="https://nansey.github.io/post-images/1619502483549.png" alt="" loading="lazy"></figure>
+<p><strong>想要获取更多机器翻译引擎结果怎么办？</strong></p>
+<p>一直有用户希望我添加更多机器翻译引擎，我会找时间继续添加，但目前对我来说，现在的几款已经够用了，所以后期会根据心情再添加。</p>
+<p>大家如果等不及的话可以使用这款国人研发的神器：<a href="https://gt4t.net/">GT4T</a></p>
+<p>猜猜下面谁是开发者：</p>
+<figure data-type="image" tabindex="3"><img src="https://nansey.github.io/post-images/1619502610052.png" alt="" loading="lazy"></figure>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://nansey.github.io/tag/codeslator/" class="tag">
+                    CodeSlator
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://nansey.github.io/post/moments-day-thirteen/">
+                  <h3 class="post-title">
+                    韩林涛老师：译者编程知识30天×300字写作计划 | Day 13
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>

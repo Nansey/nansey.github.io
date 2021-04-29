@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>韩林涛老师：译者编程知识30天×300字写作计划 | Day 1 | 翻译动态</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.0/css/all.min.css">
+<link rel="shortcut icon" href="https://nansey.github.io/favicon.ico?v=1619678099240">
+<link rel="stylesheet" href="https://nansey.github.io/styles/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="
+编者按：2021年4月14日，北京语言大学高级翻译学院讲师、《译者编程入门指南》作者韩林涛老师在其《译者编程入门指南》（已开通官方博客）读者群里宣布，将开启一个为期30天的“日更”朋友圈活动，30天内每天更新至少300字与译者编程学习相关..." />
+    <meta name="keywords" content="CodeSlator" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://nansey.github.io">
+        <img src="https://nansey.github.io/images/avatar.png?v=1619678099240" class="site-logo">
+        <h1 class="site-title">翻译动态</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://nansey.github.io/post/resource" class="site-nav">
+            资源
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      全球翻译新闻速递
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://nansey.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">韩林涛老师：译者编程知识30天×300字写作计划 | Day 1</h2>
+            <div class="post-date">2021-04-14</div>
+            
+            <div class="post-content" v-pre>
+              <blockquote>
+<p>编者按：2021年4月14日，<a href="https://www.blcu.edu.cn/">北京语言大学</a>高级翻译学院讲师、《<a href="https://book.douban.com/subject/35156980/">译者编程入门指南</a>》作者<a href="https://faculty.blcu.edu.cn/hlt/zh_CN/index.htm">韩林涛</a>老师在其《译者编程入门指南》（已开通<a href="https://codeslator.blog/">官方博客</a>）读者群里宣布，将开启一个为期30天的“日更”朋友圈活动，30天内每天更新至少300字与译者编程学习相关的知识。「翻译动态」（fanyi.news）于近日获得韩老师的授权，将在本网站同步转载该系列，以期使更多对译者编程、翻译技术感兴趣的译者朋友们可以因此受益。在此，「翻译动态」（fanyi.news）也向韩老师真诚致谢，感谢其一直以来的无私分享，使得我们众多译者和翻译行业均受益匪浅。韩老师自2014年起任教于北京语言大学外国语学部<a href="http://sti.blcu.edu.cn/">高级翻译学院</a>，担任本科翻译（本地化方向）专业负责人、翻译专业硕士（本地化管理方向）负责人，长期致力于探索“翻译”与“技术”的深度<a href="http://translation.education/">融合之道</a>。</p>
+</blockquote>
+<!-- more -->
+<p>这个学期给研一的同学开设了一门《内容管理系统设计与开发》课程，主要是教同学们如何开发出一个多语言的在线翻译记忆库和术语库。本周上到第七周，基本上快教完了数据库的增删改查。今天特别感慨的是：即便我已经根据许多读者的反馈在视频教程中融入了一些常见的问题分析，但在面授课程中讲编程时还是会遇到许多同学们非常个性化的问题。所以我一直讲，编程学习一定要有人指导学习，光靠自学是不行的。</p>
+<p>在学习编程的过程中，每位同学都会遇到许多意想不到的问题：</p>
+<p>案例一：</p>
+<p>今天一位同学在修改代码时发现无论怎么修改，浏览器里都无法正常显示运行的结果，我去看了每一行代码，都没有发现问题。我突然注意到原来修改的文件和浏览器里运行的文件是两个文件。</p>
+<p>我开始反思自己在讲台上演示时的一些不好的习惯：一顿操作猛如虎，学生原来蒙在鼓。所以非常有必要在上课时给学生讲清楚文件间的关系，尤其是为什么要创建新的文件来存储新的代码，而且文件名也不能随意起。</p>
+<p>案例二：</p>
+<p>今天我在讲解变量的时候，本来一个变量的名字应该是这个：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>i</mi><mi>d</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">但</mi><mi mathvariant="normal">是</mi><mi mathvariant="normal">我</mi><mi mathvariant="normal">上</mi><mi mathvariant="normal">课</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">时</mi><mi mathvariant="normal">候</mi><mi mathvariant="normal">改</mi><mi mathvariant="normal">成</mi><mi mathvariant="normal">了</mi><mi mathvariant="normal">：</mi></mrow><annotation encoding="application/x-tex">id，但是我上课的时候改成了：</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">i</span><span class="mord mathdefault">d</span><span class="mord cjk_fallback">，</span><span class="mord cjk_fallback">但</span><span class="mord cjk_fallback">是</span><span class="mord cjk_fallback">我</span><span class="mord cjk_fallback">上</span><span class="mord cjk_fallback">课</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">时</span><span class="mord cjk_fallback">候</span><span class="mord cjk_fallback">改</span><span class="mord cjk_fallback">成</span><span class="mord cjk_fallback">了</span><span class="mord cjk_fallback">：</span></span></span></span>womenxianghuoqudezhi（我们想获取的值的拼音），对于文科生来说，其实教学过程中可以通过类似的方法来给编程带来趣味性，将一些可能引起误解的概念用有趣的方式来讲解，效果也许会更好一些。</p>
+<p>我喜欢给同学们上课，上课的过程自己会有许多新的发现和体会，借着朋友圈的分享把这些难得的想法记录下来，以后回想起来也会觉得很有意思。</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://nansey.github.io/tag/codeslator/" class="tag">
+                    CodeSlator
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://nansey.github.io/post/Pierre-Joris-win-pen-Ralph-Manheim-translation-Award/">
+                  <h3 class="post-title">
+                    Pierre Joris 获2021笔会/拉尔夫·曼海姆翻译奖
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>

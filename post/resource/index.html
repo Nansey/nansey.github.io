@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>CAT 和 MT 及翻译相关资源合集 | 翻译动态</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.0/css/all.min.css">
+<link rel="shortcut icon" href="https://nansey.github.io/favicon.ico?v=1619678099240">
+<link rel="stylesheet" href="https://nansey.github.io/styles/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="目录
+
+目录
+在线术语库
+在线语料库（国内）
+在线语料库（国外）
+其他子语料库
+主流CAT
+对齐工具
+主流机器翻译
+语法检查工具
+线上PDF工具
+翻译项目与计划
+翻译和语言类播客
+Machine Translation Tools (sta..." />
+    <meta name="keywords" content="CAT,MT,LSP,本地化" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://nansey.github.io">
+        <img src="https://nansey.github.io/images/avatar.png?v=1619678099240" class="site-logo">
+        <h1 class="site-title">翻译动态</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://nansey.github.io/post/resource" class="site-nav">
+            资源
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      全球翻译新闻速递
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://nansey.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">CAT 和 MT 及翻译相关资源合集</h2>
+            <div class="post-date">2021-01-15</div>
+            
+            <div class="post-content" v-pre>
+              <h1 id="目录">目录</h1>
+<p><ul class="markdownIt-TOC">
+<li><a href="#%E7%9B%AE%E5%BD%95">目录</a></li>
+<li><a href="#%E5%9C%A8%E7%BA%BF%E6%9C%AF%E8%AF%AD%E5%BA%93">在线术语库</a></li>
+<li><a href="#%E5%9C%A8%E7%BA%BF%E8%AF%AD%E6%96%99%E5%BA%93%E5%9B%BD%E5%86%85">在线语料库（国内）</a></li>
+<li><a href="#%E5%9C%A8%E7%BA%BF%E8%AF%AD%E6%96%99%E5%BA%93%E5%9B%BD%E5%A4%96">在线语料库（国外）</a></li>
+<li><a href="#%E5%85%B6%E4%BB%96%E5%AD%90%E8%AF%AD%E6%96%99%E5%BA%93">其他子语料库</a></li>
+<li><a href="#%E4%B8%BB%E6%B5%81cat">主流CAT</a></li>
+<li><a href="#%E5%AF%B9%E9%BD%90%E5%B7%A5%E5%85%B7">对齐工具</a></li>
+<li><a href="#%E4%B8%BB%E6%B5%81%E6%9C%BA%E5%99%A8%E7%BF%BB%E8%AF%91">主流机器翻译</a></li>
+<li><a href="#%E8%AF%AD%E6%B3%95%E6%A3%80%E6%9F%A5%E5%B7%A5%E5%85%B7">语法检查工具</a></li>
+<li><a href="#%E7%BA%BF%E4%B8%8Apdf%E5%B7%A5%E5%85%B7">线上PDF工具</a></li>
+<li><a href="#%E7%BF%BB%E8%AF%91%E9%A1%B9%E7%9B%AE%E4%B8%8E%E8%AE%A1%E5%88%92">翻译项目与计划</a></li>
+<li><a href="#%E7%BF%BB%E8%AF%91%E5%92%8C%E8%AF%AD%E8%A8%80%E7%B1%BB%E6%92%AD%E5%AE%A2">翻译和语言类播客</a></li>
+<li><a href="#machine-translation-tools-statistical">Machine Translation Tools (statistical)</a></li>
+<li><a href="#mt-evaluation-tools">MT Evaluation Tools</a></li>
+<li><a href="#other-tools-and-links">Other Tools and Links</a></li>
+<li><a href="#%E7%89%88%E6%9D%83%E4%B8%8E%E5%85%B6%E4%BB%96">版权与其他</a></li>
+</ul>
+</p>
+<h1 id="在线术语库">在线术语库</h1>
+<p><a href="http://www.china.org.cn/chinese/china_key_words/">中国关键词</a><br>
+<a href="http://210.72.20.108/index/index.jsp">中国特色话语对外翻译标准化术语库</a><br>
+<a href="https://www.cnkeywords.net/index">中国核心词汇</a><br>
+<a href="http://www.chinesethought.cn/TermBase.aspx">中国思想文化术语</a><br>
+<a href="https://unterm.un.org/UNTERM/portal/welcome">联合国术语库</a><br>
+<a href="http://termonline.cn/index.htm">术语在线</a><br>
+<a href="http://terms.naer.edu.tw/download/">国家教育研究院术语库</a><br>
+<a href="http://8btc.com/thread-17286-16-1.html">区块链相关术语</a><br>
+<a href="https://www.escholarship.org/uc/item/2bz3v185">明代职官中英辞典</a><br>
+<a href="http://shuyu.cnki.net/index.aspx">中国规范术语</a><br>
+<a href="http://www.granddictionnaire.com/">Grand Dictionnaire Terminologique</a><br>
+<a href="http://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng">TERMIUM</a><br>
+<a href="http://termbox.lingosail.com/">语帆术语宝</a><br>
+<a href="https://www.microsoft.com/zh-cn/language">微软术语库</a><br>
+<a href="http://www.who.int/substance_abuse/terminology/zh/">世界卫生组织术语库</a><br>
+<a href="https://www.maximintegrated.com/cn/glossary/definitions.mvp/terms/all">电子工程术语表</a><br>
+<a href="https://downloads.freemdict.com/">Mdict 100GB超大离线词库下载</a><br>
+<a href="http://www.onedict.com/">一本词典</a><br>
+<a href="http://zizhan.mot.gov.cn/zhuantizhuanlan/gonglujiaotong/shoufeigongluzmk/zhengcefagui/201508/t20150814_1863913.html">国家标准《物流术语》</a><br>
+<a href="http://owgt.lingosail.com/">冬奥会术语查询网站</a><br>
+<a href="http://dictionary.t-classical.com/">音乐术语查询</a><br>
+<a href="https://europa.eu/european-union/documents-publications/language-and-terminology_en">European Union Language and terminology</a><br>
+<a href="https://iate.europa.eu/home">IATE EU’s terminology database</a><br>
+<a href="https://www.elegislation.gov.hk/glossary/chi">香港法律中英术语</a><br>
+<a href="http://magicsearch.org">Magic Search</a><br>
+<a href="https://www.microsoft.com/en-us/language">Microsoft Language Portal</a><br>
+<a href="https://www.linguee.com/">Linguee</a><br>
+<a href="http://www.thefreedictionary.com/">The Free Dictionary</a><br>
+<a href="https://glosbe.com/tmem/">Glosbe</a><br>
+<a href="https://github.com/Dictionaryphile/All_Dictionaries">宇宙最全在线词典网站导航</a></p>
+<h1 id="在线语料库国内">在线语料库（国内）</h1>
+<p><a href="http://yulk.org/">语料库</a><br>
+<a href="http://bcc.blcu.edu.cn/">BCC语料库</a><br>
+<a href="http://www.cncorpus.org/">语料库在线</a><br>
+<a href="http://ccl.pku.edu.cn/corpus.asp">北京大学中国语言学研究中心</a><br>
+<a href="http://www.bfsu-corpus.org/">北外语料库语言学</a><br>
+<a href="http://www.sinica.edu.tw/SinicaCorpus/">现代汉语平衡语料库</a><br>
+<a href="http://www.sinica.edu.tw/ftms-bin/ftmsw">古汉语语料库</a><br>
+<a href="http://www.sinica.edu.tw/Early_Mandarin/">近代汉语标记语料库</a><br>
+<a href="http://treebank.sinica.edu.tw/">树图数据库</a><br>
+<a href="http://words.sinica.edu.tw/">搜文解字</a><br>
+<a href="http://www.sinica.edu.tw/~tdbproj/handy1/">汉籍电子文献</a><br>
+<a href="http://ling.cuc.edu.cn/RawPub/">中国传媒大学文本语料库检索系统</a><br>
+<a href="http://ir.hit.edu.cn/demo/ltp/Sharing_Plan.htm">哈工大信息检索研究室对外共享语料库</a><br>
+<a href="http://www.livac.org/index.php?lang=sc">香港教育学院语言资讯科学中心及其语料库实验室</a><br>
+<a href="http://www.chineseldc.org/">中文语言资源联盟</a><br>
+<a href="http://www.daizhige.org/">殆知阁</a><br>
+<a href="http://ctext.org/">中国哲学书电子化计划</a><br>
+<a href="http://ling.cuc.edu.cn/RawPub/">媒体语言语料库（MLC）</a><br>
+<a href="http://www.aihanyu.org/cncorpus/index.aspx">汉语语料库</a><br>
+<a href="https://github.com/chinese-poetry/chinese-poetry">最全中华古诗词数据库</a><br>
+<a href="http://www.mh.sinica.edu.tw/index.aspx">英華字典資料庫</a><br>
+<a href="http://mhdb.mh.sinica.edu.tw/">近代史數位資料庫(MHDB)</a><br>
+<a href="http://www.cadal.cn/">大学数字图书馆国际合作计划</a><br>
+<a href="http://www.scio.gov.cn/zfbps/">中国政府白皮书</a></p>
+<h1 id="在线语料库国外">在线语料库（国外）</h1>
+<p><a href="http://www.natcorp.ox.ac.uk/">BNC英国国家语料库</a><br>
+<a href="http://www.collinslanguage.com/language-resources/dictionary-datasets/">BOE柯林斯英语语料库</a><br>
+<a href="http://www.anc.org/">ANC美国国家语料库</a><br>
+<a href="http://ota.oucs.ox.ac.uk/scripts/download.php?otaid=2474">LCMC兰开斯特汉语语料库</a><br>
+<a href="www.sketchengine.co.uk">SKETCH ENGINE多语言语料库</a><br>
+<a href="http://www2.warwick.ac.uk/fac/soc/celte/research/base/">BASE英国学术口语语料库</a><br>
+<a href="http://www.lextutor.ca/">Lextutor</a><br>
+<a href="https://mymemory.translated.net/">My Memory</a><br>
+<a href="http://www.tausdata.org/index.php/language-search-engine">TAUS</a><br>
+<a href="https://www.ttmem.com/terminology/download-translation-memory/">TTMEM</a><br>
+<a href="http://tinytm.sourceforge.net/">TinyTM</a><br>
+<a href="https://magmatranslation.com/en/free-translation-memory/">DGT Translation Memory</a><br>
+<a href="http://statmt.org/europarl/">European Parliament Proceedings Parallel Corpus 1996-2011</a><br>
+<a href="http://users.umiacs.umd.edu/~resnik/parallel/bible.html">University of Maryland Parallel Corpus Project: The Bible</a><br>
+<a href="https://www.isi.edu/natural-language/download/hansard/">Aligned Hansards of the 36th Parliament of Canada</a><br>
+<a href="https://publications.europa.eu/en/web/general-publications/publications">EU Publication Offices</a><br>
+<a href="https://dumps.wikimedia.org/backup-index.html">Wikimedia Downloads</a><br>
+<a href="https://www.opensubtitles.org/en/search/subs">Open Subtitles</a><br>
+<a href="https://cms.unov.org/UNCorpus/">United Nations Parallel Corpus</a><br>
+<a href="http://www.statmt.org/wmt13/translation-task.html#download">European language pairs</a><br>
+<a href="http://paralela.clarin-pl.eu/#">parallel corpus search</a><br>
+<a href="http://nlp2ct.cis.umac.mo/um-corpus/um-corpus-license.html">UM-Corpus: A Large English-Chinese Parallel Corpus</a><br>
+<a href="https://www.clarin.eu/resource-families/parallel-corpora">Clarin Parallel corpora</a><br>
+<a href="https://www.lancaster.ac.uk/fass/projects/corpus/863parallel/">The PKU 863 Chinese-English Parallel Corpus</a><br>
+<a href="http://corpus.usx.edu.cn/hongloumeng/images/shiyongshuoming.htm">《红楼梦》平行语料库</a><br>
+<a href="http://lingcorpus.iis.sinica.edu.tw/early/">中央研究院近代汉语标记语料库</a><br>
+<a href="https://corpus.byu.edu/">BYU corpora</a><br>
+<a href="https://books.google.com/ngrams">Google Ngram Viewer</a><br>
+<a href="https://corpus.byu.edu/coca/">COCA</a><br>
+<a href="https://www.wordandphrase.info/frequencyList.asp">COCA Frequency</a><br>
+<a href="https://hypcol.marutank.net/">Hyper Collocation</a><br>
+<a href="http://bncweb.lancs.ac.uk/bncwebSignup/user/login.php">Lancaster BNCweb</a><br>
+<a href="http://www.anc.org/">The Open American National Corpus (OANC)</a></p>
+<h1 id="其他子语料库">其他子语料库</h1>
+<p><a href="http://opus.nlpl.eu/Books.php">Books – A collection of translated literature</a><br>
+<a href="http://opus.nlpl.eu/DGT.php">DGT – A collection of EU Translation Memories provided by the JRC</a><br>
+<a href="http://opus.nlpl.eu/DOGC.php">DOGC – Documents from the Catalan Goverment</a><br>
+<a href="http://opus.nlpl.eu/ECB.php">ECB – European Central Bank corpus</a><br>
+<a href="http://opus.nlpl.eu/EMEA.php">EMEA – European Medicines Agency documents</a><br>
+<a href="http://opus.nlpl.eu/EUbookshop.php">The EU bookshop corpus</a><br>
+<a href="http://opus.nlpl.eu/EUconst.php">EUconst – The European constitution</a><br>
+<a href="http://opus.nlpl.eu/Europarl.php">EUROPARL v7 – European Parliament Proceedings</a><br>
+<a href="http://opus.nlpl.eu/giga-fren.php">giga-fren – French-English Gigal-Word Corpus</a><br>
+<a href="http://opus.nlpl.eu/GNOME.php">GNOME – GNOME localization files</a><br>
+<a href="http://opus.nlpl.eu/GlobalVoices.php">Global Voices – News stories in various languages</a><br>
+<a href="http://opus.nlpl.eu/hrenWaC.php">The Croatian – English WaC corpus</a><br>
+<a href="http://opus.nlpl.eu/JRC-Acquis.php">JRC-Acquis- legislative EU texts</a><br>
+<a href="http://opus.nlpl.eu/KDE4.php">KDE4 – KDE4 localization files (v.2)</a><br>
+<a href="http://opus.nlpl.eu/KDEdoc.php">KDEdoc – the KDE manual corpus</a><br>
+<a href="http://opus.nlpl.eu/MBS.php">MBS – Belgisch Staatsblad corpus</a><br>
+<a href="http://opus.nlpl.eu/memat.php">memat – Xhosa/English parallel data</a><br>
+<a href="http://opus.nlpl.eu/MontenegrinSubs.php">MontenegrinSubs – Montenegrin movie subtitles</a><br>
+<a href="http://opus.nlpl.eu/MultiUN.php">MultiUN – Translated UN documents</a><br>
+<a href="http://opus.nlpl.eu/News-Commentary-v9.1.php">News Commentary, v9.0, v9.1</a><br>
+<a href="http://opus.nlpl.eu/OfisPublik.php">OfisPublik – Breton – French parallel texts</a><br>
+<a href="http://opus.nlpl.eu/OpenOffice-v2.php">OO – the OpenOffice.org corpus</a><br>
+<a href="http://opus.nlpl.eu/OpenOffice-v3.php">OpenOffice.org 3 corpus</a><br>
+<a href="http://opus.nlpl.eu/OpenSubtitles-v1.php">OpenSubtitles – the opensubtitles.org corpus</a><br>
+<a href="http://opus.nlpl.eu/OpenSubtitles-v2011.php">OpenSubtitles2011, OpenSubtitles2012, OpenSubtitles2013</a><br>
+<a href="http://opus.nlpl.eu/OpenSubtitles-v2016.php">OpenSubtitles2016 – snapshot from 2016</a><br>
+<a href="http://opus.nlpl.eu/OpenSubtitles-v2018.php">OpenSubtitles2018 – new complete version</a><br>
+<a href="http://opus.nlpl.eu/ParaCrawl.php">ParaCrawl corpus</a><br>
+<a href="http://opus.nlpl.eu/ParCor">ParCor – A Parallel Pronoun-Coreference Corpus</a><br>
+<a href="http://opus.nlpl.eu/PHP.php">PHP – the PHP manual corpus</a><br>
+<a href="http://opus.nlpl.eu/RF.php">Regeringsförklaringen – a tiny example corpus</a><br>
+<a href="http://opus.nlpl.eu/SETIMES.php">SETIMES– A parallel corpus of the Balkan languages</a><br>
+<a href="http://opus.nlpl.eu/SPC.php">SPC – Stockholm Parallel Corpora</a><br>
+<a href="http://opus.nlpl.eu/Tatoeba.php">Tatoeba – A DB of translated sentences</a><br>
+<a href="http://opus.nlpl.eu/TedTalks.php">TedTalks hr-en</a><br>
+<a href="http://opus.nlpl.eu/TED2013.php">TED Talks 2013</a><br>
+<a href="http://opus.nlpl.eu/Tanzil.php">Tanzil – A collection of Quran translations</a><br>
+<a href="http://opus.nlpl.eu/TEP.php">TEP – The Tehran English-Persian subtitle corpus</a><br>
+<a href="http://opus.nlpl.eu/Ubuntu.php">Ubuntu – Ubuntu localization files</a><br>
+<a href="http://opus.nlpl.eu/UN.php">UN – Translated UN documents</a><br>
+<a href="http://opus.nlpl.eu/Wikipedia.php">Wikipedia – translated sentences from Wikipedia</a><br>
+<a href="http://opus.nlpl.eu/WikiSource.php">WikiSource</a><br>
+<a href="http://opus.nlpl.eu/WMT-News.php">WMT News Test Sets</a><br>
+<a href="http://opus.nlpl.eu/XhosaNavy.php">The Xhosa – English Navy corpus</a></p>
+<h1 id="主流cat">主流CAT</h1>
+<p><a href="https://www.sdltrados.cn/">SDL Trados</a><br>
+<a href="https://www.basiccat.org/">BasicCAT</a><br>
+<a href="https://dejavux4.com/installers/DejaVuX3.Setup.exe">Déjà Vu</a><br>
+<a href="https://www.memoq.com/downloads">MemoQ</a><br>
+<a href="http://www.gcys.cn/">雪人CAT</a><br>
+<a href="http://omegat.org/download">OmegaT</a><br>
+<a href="https://www.across.net/">Across</a><br>
+<a href="http://www.uedrive.com/">Transmate</a><br>
+<a href="http://www.wordfast.net/">WordFast</a><br>
+<a href="http://www.yxcat.com/">雅信CAT</a><br>
+<a href="https://www.wordbee.com">Wordbee</a><br>
+<a href="https://www.smartcat.ai/">SmartCAT</a><br>
+<a href="https://www.matecat.com/">MateCAT</a><br>
+<a href="https://www.cafetran.com/">CafeTran</a></p>
+<h1 id="对齐工具">对齐工具</h1>
+<p><a href="https://fix4dll.com/winalign_dll">WinAlign</a><br>
+<a href="https://www.abbyy.com/en-eu/support/linguistic/aligner2/info/sr/">Abbyy Aligner</a><br>
+<a href="https://sourceforge.net/projects/tmxeditor/">TmxEditor</a><br>
+<a href="http://okapi.sourceforge.net/downloads.html">Okapi Olifant</a><br>
+<a href="https://youalign.com/">You Align</a><br>
+<a href="http://5icat.cn/thread-4246-1-1.html">Transmate Aligner</a><br>
+<a href="https://www.basiccat.org/zh/new-tool-bitext-aligner/">BasicCAT Aligner</a><br>
+<a href="https://www.memoq.com/en/livedocs">MemoQ LiveDocs</a><br>
+<a href="http://sourceforge.net/projects/superalign">Super Align</a><br>
+<a href="http://mokk.bme.hu/resources/hunalign">hunalign (LGPL)</a><br>
+<a href="http://code.google.com/p/corpus-tools/downloads/list">Europarl sentence aligner</a><br>
+<a href="http://search.cpan.org/~achimru/Text-GaleChurch-1.00/lib/Text/GaleChurch.pm">MetaCpan</a><br>
+<a href="https://github.com/vchahun/galechurch">Gale &amp; Church in Python</a><br>
+<a href="http://sourceforge.net/projects/gargantua/">Gargantua</a><br>
+<a href="http://nlp.cs.nyu.edu/GMA/">Melamed’s GMA (GPL)</a><br>
+<a href="http://research.microsoft.com/en-us/downloads/aafd5dcf-4dcc-49b2-8a22-f7055113e656/">Bob Moore’s sentence aligner</a><br>
+<a href="http://sourceforge.net/projects/aligner/">LF aligner</a><br>
+<a href="https://github.com/rsennrich/bleualign">Bleualign</a><br>
+<a href="http://sourceforge.net/projects/align/">maligna</a><br>
+<a href="http://freeterm.wordpress.com/2010/06/30/tca2-parallel-text-processing-at-uib-no/">tca-align</a><br>
+<a href="https://github.com/jhclark/akerblad">Champollion in scala</a><br>
+<a href="http://sourceforge.net/projects/uplug/">sentence aligner from Uplug</a><br>
+<a href="http://opus.lingfil.uu.se/tools.php">Movie subtitle alignment</a><br>
+<a href="http://www.terminotix.com/index.asp?name=AlignFactory">AlignFactroy</a><br>
+<a href="http://www.youalign.com/">free on-line aligner</a><br>
+<a href="http://www.ims.uni-stuttgart.de/~fraser/pubs/braune_coling2010.pdf">Comparisons of alignment performance</a><br>
+<a href="http://search.cpan.org/~andrefs/">Tools for book alignment</a><br>
+<a href="http://jgosme.perso.info.unicaen.fr/sentpair.html">Extract parallel sentences from comparable corpora</a><br>
+<a href="http://www.accurat-project.eu/index.php?p=accurat-toolkit">Accurat toolkit</a><br>
+<a href="https://github.com/machinalis/yalign">yalign</a></p>
+<h1 id="主流机器翻译">主流机器翻译</h1>
+<p><a href="https://www.deepl.com/translator">DeepL</a><br>
+<a href="https://fanyi.sogou.com/text">搜狗</a><br>
+<a href="https://niutrans.com/">小牛</a><br>
+<a href="https://translate.google.com/">Google</a><br>
+<a href="https://www.bing.com/translator">微软</a><br>
+<a href="https://fanyi.qq.com/">腾讯翻译君</a><br>
+<a href="https://fanyi.baidu.com/">百度</a><br>
+<a href="https://fanyi.caiyunapp.com/#/">彩云小译</a><br>
+<a href="https://gt4t.cn/">GT4T</a><br>
+<a href="https://transmart.qq.com/index">Transmart</a><br>
+<a href="http://fanyi.youdao.com/">有道翻译</a><br>
+<a href="https://www.omifanyi.com/">欧米翻译</a><br>
+<a href="https://cloudtranslation.com/online/">云译</a><br>
+<a href="https://translate.alibaba.com/">阿里翻译</a><br>
+<a href="https://aws.amazon.com/cn/translate/">Amazon Translate</a><br>
+<a href="https://translate.systran.net/">SYSTRAN translate</a></p>
+<h1 id="语法检查工具">语法检查工具</h1>
+<p><a href="https://douc.cc/35bOwr">Grammarly</a><br>
+<a href="https://douc.cc/1JXon4">Hemingway</a><br>
+<a href="https://douc.cc/48FLVk">Nounplus</a><br>
+<a href="https://douc.cc/1XKmN6">Spellcheckplus</a><br>
+<a href="https://douc.cc/2o0Yt3">Essay Forum</a><br>
+<a href="https://douc.cc/42HPDt">VirtualWritingTutor</a><br>
+<a href="https://douc.cc/2qLrLx">Ginger</a><br>
+<a href="https://douc.cc/2rJEib">Prowritingaid</a><br>
+<a href="https://douc.cc/0ld3uy">Whitesmoke</a><br>
+<a href="https://douc.cc/3zUy86">Papersogay</a><br>
+<a href="https://www.autocrit.com/">AutoCrit Online Editing</a><br>
+<a href="https://prowritingaid.com/">Writing and Book Editing Software</a><br>
+<a href="http://www.editorsoftware.com/StyleWriter.html">StyleWriter</a><br>
+<a href="http://www.1checker.com">1checker</a><br>
+<a href="https://linggle.com/"> Linggle 10^12</a><br>
+<a href="https://fanyi.sogou.com/writing">搜狗写作助手</a><br>
+<a href="http://aimwriting.mtutor.engkoo.com/">微软爱写作</a><br>
+<a href="http://enpuz.com/">Enpuz</a><br>
+<a href="https://writefullapp.com/">Writefull</a><br>
+<a href="https://languagetool.org/">Language Tool</a><br>
+<a href="https://www.microsoft.com/en-us/microsoft-365/microsoft-editor">Microsoft Editor</a></p>
+<h1 id="线上pdf工具">线上PDF工具</h1>
+<p><a href="https://www.cleverpdf.com/cn">CleverPDF</a><br>
+<a href="https://www.ilovepdf.com">iLovePDF</a><br>
+<a href="https://pdfcandy.com">PDF Candy</a><br>
+<a href="https://lightpdf.com/zh/">LightPDF</a><br>
+<a href="www.extractpdf.com">PDF Extractor</a><br>
+<a href="https://www.pdftoword.com">PDF to Word Converter</a><br>
+<a href="https://docs.zone">PDF Converter</a><br>
+<a href="https://www.pdfconverter.com">PDF Converter Online</a><br>
+<a href="Smallpdf.com">Smallpdf</a><br>
+<a href="https://pdf.io">PDF.IO</a><br>
+<a href="http://www.ocrall.com/">Ocrall</a><br>
+<a href="https://www.onlineocr.net">Free Online Ocr</a></p>
+<h1 id="翻译项目与计划">翻译项目与计划</h1>
+<p><a href="https://paper-republic.org/">Paper Republic 纸托邦</a><br>
+<a href="http://tenonists.com/">The Tenonists 塔内</a><br>
+<a href="https://writingchinese.leeds.ac.uk/">The Leeds Centre for New Chinese Writing</a><br>
+<a href="https://chinachannel.org/">LARB China Channel</a><br>
+<a href="http://taiwanlit.org/">Taiwan Lit</a><br>
+<a href="https://twitter.com/PathlightMag">Pathlight 路灯</a><br>
+<a href="https://u.osu.edu/mclc/">MCLC 当代华语文学与文化</a><br>
+<a href="http://en.pkulaw.cn/">北大法宝</a><br>
+<a href="https://www.chinafile.com/">ChinaFile 中参馆</a><br>
+<a href="http://www.asianbooksblog.com/">Asian Books Blog</a><br>
+<a href="https://www.chinalawtranslate.com/">China Law Translate</a><br>
+<a href="https://bruce-humes.com/">Bruce Humes 非漂</a><br>
+<a href="http://g.yeeyan.org/">译言古登堡计划</a><br>
+<a href="https://github.com/xitu/gold-miner">掘金翻译计划</a><br>
+<a href="https://www.onespiece.com/">ONES Piece 翻译计划</a></p>
+<h1 id="翻译和语言类播客">翻译和语言类播客</h1>
+<p><a href="http://dginterpretation.podbean.com/">European Commission Interpretation</a><br>
+<a href="https://speakingoftranslation.com/listen/">Speaking of Translation</a><br>
+<a href="https://www.adrechsel.de/podcast/">The LangFM podcast</a><br>
+<a href="https://www.troubleterps.com/">Troublesome Terps</a><br>
+<a href="https://www.atanet.org/resources/podcasts.php">ATA Podcast</a><br>
+<a href="https://www.globallyspeakingradio.com/podcast">Globally Speaking</a><br>
+<a href="https://www.waywordradio.org">A Way With Words</a><br>
+<a href="https://www.pri.org/categories/world-words">The World in Words</a><br>
+<a href="http://marketingtipsfortranslators.com/archive/podcast/">Marketing Tips for Translators</a><br>
+<a href="https://player.fm/series/series-2150601">Israel in Translation</a><br>
+<a href="https://player.fm/series/modern-poetry-in-translation">Modern Poetry in Translation</a><br>
+<a href="https://player.fm/series/dual-poetry-podcast">DUAL Poetry Podcast</a><br>
+<a href="https://castbox.fm/vb/149709932">NPR Rough Translation</a><br>
+<a href="https://www.smartling.com/podcasts/locshow/">The Loc SHow</a><br>
+<a href="https://www.slatorpod.com/">SlatorPod</a><br>
+<a href="https://blacklangpod.buzzsprout.com/">The Black Language Podcast</a><br>
+<a href="https://thelanguagerevolution.co.uk/">The Language Revolution</a><br>
+<a href="https://anchor.fm/lexispodcast">Lexis</a><br>
+<a href="https://anchor.fm/standingonpoints/">Standing on Points</a><br>
+<a href="https://subtitlepod.com/">Subtitle</a><br>
+<a href="https://digital.nepr.net/podcasthub/word-matters/">Word Matters</a><br>
+<a href="https://feed.podbean.com/trchfic/feed.xml">Translated Chinese Fiction Podcast</a><br>
+<a href="https://www.buzzsprout.com/1188758">Conversations</a><br>
+<a href="https://globalambitions.net/">Global Ambitions</a><br>
+<a href="https://www.stitcher.com/show/the-global-podcast-2">The Global Podcast</a><br>
+<a href="https://www.7sisterslearn.com/about-us">Not Quite Magic</a><br>
+<a href="https://anchor.fm/translation-confessional">Translation Confessional</a><br>
+<a href="https://thetranslationcompanytalkshow.podbean.com/">The Translation Company Talk Show</a><br>
+<a href="https://player.fm/series/the-culture-translator">The Culture Translator</a><br>
+<a href="https://player.fm/series/meet-the-translator">Meet The Translator</a><br>
+<a href="https://player.fm/series/three-percent-podcast-109272">Three Percent Podcast</a><br>
+<a href="https://player.fm/series/translation-mavens">Translation Mavens</a><br>
+<a href="https://player.fm/series/the-translators-podcast">The Translators' Podcast</a><br>
+<a href="https://player.fm/series/smart-habits-for-translators">Smart Habits for Translators</a><br>
+<a href="https://player.fm/series/2512055">Freelance Translator Business</a><br>
+<a href="https://omny.fm/shows/trafika-europe-radio/playlists/women-in-translation">Women in Translation Podcast</a><br>
+<a href="https://www.wordbee.com/international-buzz/">The International Buzz Podcast</a><br>
+<a href="https://www.brandtheinterpreter.com/podcast.html">Brand the Interpreter</a><br>
+<a href="https://ilstranslations.libsyn.com/">Global Connections</a><br>
+<a href="https://www.citaa.org.au/resources/">CITAA Podcast</a><br>
+<a href="https://translationspod.podbean.com/">Lost in Translations</a><br>
+<a href="https://www.andrewzhan.com/podcast">Drew哥Translate</a><br>
+<a href="http://www.literatureireland.com/books/talking-translations-podcast/">Talking Translations</a><br>
+<a href="https://www.dragoman.ist/podcasts/">Dragoman Transcreation Podcast</a><br>
+<a href="https://www.trainingfortranslators.com/category/podcasts/">Training for Translators Podcast</a></p>
+<p><a href="https://chinapower.csis.org/podcasts/">China Power</a><br>
+<a href="https://supchina.com/series/caixin/">Caixin x Sinica</a><br>
+<a href="http://chinaplus.cri.cn/podcast/list/17">The Beijing Hour</a><br>
+<a href="https://carnegietsinghua.org/publications/?fa=podcasts">China in the World</a><br>
+<a href="https://supchina.com/series/sinica/">Sinica</a><br>
+<a href="https://www.scmp.com/podcasts/article/2178837/inside-china">Inside China</a><br>
+<a href="https://mosaicofchina.podbean.com/">Mosaic of China</a><br>
+<a href="https://omny.fm/shows/the-little-red-podcast/playlists/podcast">The Little Red Podcast</a><br>
+<a href="https://supchina.com/series/strangers-in-china/">Strangers in China</a><br>
+<a href="https://unravelstorytelling.podbean.com/">Unravel Storytelling</a><br>
+<a href="https://www.womenpodcast.net/">Wǒ Men</a><br>
+<a href="https://environmentchinapod.libsyn.com/">Environment China</a><br>
+<a href="https://nuvoices.com/category/podcast/">NüVoices</a><br>
+<a href="https://bottledinchina.simplecast.com/">Bottled in China</a><br>
+<a href="https://art19.com/shows/ta-for-ta">Ta for Ta: Women, Success, China</a><br>
+<a href="https://supchina.com/series/middle-earth-chinas-cultural-industry-podcast/">Middle Earth: China’s Cultural Industry Podcast</a><br>
+<a href="https://www.bbc.co.uk/programmes/b09zgd6y">Chinese Characters</a><br>
+<a href="https://chinahistorypodcast.libsyn.com/">China History Podcast</a><br>
+<a href="https://www.bbc.co.uk/programmes/b08jpqwb/episodes/player">Intrigue: Murder in the Lucky Holiday Hotel</a><br>
+<a href="https://art19.com/shows/tech-buzz">Tech Buzz China</a><br>
+<a href="https://chinatechinvestor.simplecast.com/episodes">China Tech Investor</a><br>
+<a href="https://www.patreon.com/learningchinesethroughstories">Learning Chinese through Stories</a><br>
+<a href="https://youcanlearnchinese.mandarincompanion.com/">You Can Learn Chinese</a></p>
+<h1 id="machine-translation-tools-statistical">Machine Translation Tools (statistical)</h1>
+<p><a href="http://www.statmt.org/moses/">Moses</a><br>
+<a href="http://www-i6.informatik.rwth-aachen.de/jane/">SMT toolkit</a><br>
+<a href="http://cdec-decoder.org">cdec SMT decoder</a><br>
+<a href="http://www.nlplab.com/NiuPlan/NiuTrans.html">NiuTrans</a><br>
+<a href="http://www.cs.helsinki.fi/u/mtkaaria/">sinhue</a><br>
+<a href="http://www.cs.cmu.edu/~zollmann/samt/">Syntax-augmented SMT (SAMT)</a><br>
+<a href="https://github.com/chardmeier/docent/wiki">Docent</a><br>
+<a href="http://staff.science.uva.nl/~christof/html/software.html">A decoder in Perl</a><br>
+<a href="http://wiki.apertium.org/wiki/Main_Page">Apertium</a><br>
+<a href="http://thot.sourceforge.net/">Thot (GPL)</a><br>
+<a href="http://smtmood.sourceforge.net/about">Mood/MISTRAL/Ramses (GPL)</a><br>
+<a href="https://smtmood.svn.sourceforge.net/svnroot/smtmood/trunk/mood">svn co</a><br>
+<a href="http://cs.jhu.edu/~ccb/joshua/">Joshua</a><br>
+<a href="http://cs.jhu.edu/~jonny/thrax/">Thrax</a><br>
+<a href="http://www.phramer.org/">Phramer</a><br>
+<a href="http://www.openmatrex.org/">OpenMaTrEx</a><br>
+<a href="http://perso.limsi.fr/Individu/jmcrego/bincoder/">n-code (n-gram based SMT)</a></p>
+<h1 id="mt-evaluation-tools">MT Evaluation Tools</h1>
+<p><a href="https://www.letsmt.eu/Bleu.aspx">Tilde</a><br>
+<a href="ftp://jaguar.ncsl.nist.gov/mt/resources/mteval-v11b.pl">NIST BLEU</a><br>
+<a href="http://www.cs.cmu.edu/~alavie/METEOR/">METOR</a><br>
+<a href="http://www.lsi.upc.edu/~nlp/Asiya/">The Asiya Open Toolkit for Automatic MT (Meta-)Evaluation</a><br>
+<a href="http://www.umiacs.umd.edu/~snover/terp/">TER</a><br>
+<a href="http://sourceforge.net/projects/tercpp">tercpp</a><br>
+<a href="https://github.com/jhclark/multeval">Different metrics &amp; significance testing</a><br>
+<a href="http://kheafield.com/code/scoring.tar.gz">Combining various metrics in a simple script</a><br>
+<a href="https://github.com/mjdenkowski/meteor/tree/master/xray">visualization</a></p>
+<h1 id="other-tools-and-links">Other Tools and Links</h1>
+<p><a href="http://projectile.sv.cmu.edu/research/public/tools/bootStrap/tutorial.htm">significance tests</a><br>
+<a href="http://http://code.google.com/p/ibleu/">interactive BLEU</a><br>
+<a href="http://kheafield.com/code/scoring.tar.gz">XML wrapper</a><br>
+<a href="http://wiki.apertium.org/wiki/Main_Page">Apertium</a><br>
+<a href="http://sourceforge.net/projects/bitext2tmx/">convert bitexts to tmx</a><br>
+<a href="http://www.worldwidelexicon.org/api">WorldWideLexicon</a><br>
+<a href="http://blog.worldwidelexicon.org/">WorldWideLexicon</a><br>
+<a href="http://code.google.com/p/m4loc/">WorldWideLexicon</a><br>
+<a href="http://code.google.com/p/geppetto/">Phrase extraction toolkit</a></p>
+<h1 id="版权与其他">版权与其他</h1>
+<p><em>本页面由「翻译动态」（<a href="https://fanyi.news/">fanyi.news</a>）整理、维护和更新，转载请注明出处（禁止用于商业目的）。</em><br>
+<em>如需获取更多翻译资源，请加入知识星球「<a href="https://public.zsxq.com/groups/518881821514.html">翻译圈</a>」。</em></p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://nansey.github.io/tag/bpmb5jOo5/" class="tag">
+                    CAT
+                  </a>
+                
+                  <a href="https://nansey.github.io/tag/JASk8jdJkr/" class="tag">
+                    MT
+                  </a>
+                
+                  <a href="https://nansey.github.io/tag/7GVyPY37G0/" class="tag">
+                    LSP
+                  </a>
+                
+                  <a href="https://nansey.github.io/tag/0tmJLlP8tH/" class="tag">
+                    本地化
+                  </a>
+                
+              </div>
+            
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>

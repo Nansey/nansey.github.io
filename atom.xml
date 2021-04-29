@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://nansey.github.io</id>
+    <title>翻译动态</title>
+    <updated>2021-04-29T06:35:43.418Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://nansey.github.io"/>
+    <link rel="self" href="https://nansey.github.io/atom.xml"/>
+    <subtitle>全球翻译新闻速递</subtitle>
+    <logo>https://nansey.github.io/images/avatar.png</logo>
+    <icon>https://nansey.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2021, 翻译动态</rights>
+    <entry>
+        <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 14]]></title>
+        <id>https://nansey.github.io/post/moments-day-fourteen/</id>
+        <link href="https://nansey.github.io/post/moments-day-fourteen/">
+        </link>
+        <updated>2021-04-27T05:37:22.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>什么是ParaTrans？</strong></p>
+<p><a href="http://paratrans.vip/">ParaTrans</a>是一个可以同时对比多个机器翻译译文的在线工具，在之前的文章中已有详细介绍：《<a href="https://mp.weixin.qq.com/s?__biz=MzA5OTk4MDEzNw==&amp;mid=2650688422&amp;idx=1&amp;sn=ab7089fb99c9b7b94b80cafea5b95e58&amp;chksm=88f0eda0bf8764b65d6773372aa91013b45748d1473938e2ae81993426b5f75a5b89eccef973&amp;scene=21#wechat_redirect">ParaTrans 2.0：百度、有道、搜狗、谷歌四款机器翻译服务大PK！</a>》、《<a href="https://mp.weixin.qq.com/s?__biz=MzA5OTk4MDEzNw==&amp;mid=2650689042&amp;idx=1&amp;sn=a0c08e776db8818ae1811af1540411ad&amp;chksm=88f0e814bf8761020a58d4df40d4f857923ef27172e8143b6d39722de8f3169ea626bcda9d8b&amp;scene=21#wechat_redirect">ParaTrans升级：上传一个文档，同时获得四个机器翻译结果</a>》。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p><strong>什么是ParaTrans？</strong></p>
+<p><a href="http://paratrans.vip/">ParaTrans</a>是一个可以同时对比多个机器翻译译文的在线工具，在之前的文章中已有详细介绍：《<a href="https://mp.weixin.qq.com/s?__biz=MzA5OTk4MDEzNw==&amp;mid=2650688422&amp;idx=1&amp;sn=ab7089fb99c9b7b94b80cafea5b95e58&amp;chksm=88f0eda0bf8764b65d6773372aa91013b45748d1473938e2ae81993426b5f75a5b89eccef973&amp;scene=21#wechat_redirect">ParaTrans 2.0：百度、有道、搜狗、谷歌四款机器翻译服务大PK！</a>》、《<a href="https://mp.weixin.qq.com/s?__biz=MzA5OTk4MDEzNw==&amp;mid=2650689042&amp;idx=1&amp;sn=a0c08e776db8818ae1811af1540411ad&amp;chksm=88f0e814bf8761020a58d4df40d4f857923ef27172e8143b6d39722de8f3169ea626bcda9d8b&amp;scene=21#wechat_redirect">ParaTrans升级：上传一个文档，同时获得四个机器翻译结果</a>》。</p>
+<!-- more -->
+<p>效果图如下：</p>
+<figure data-type="image" tabindex="1"><img src="https://nansey.github.io/post-images/1619502190325.png" alt="" loading="lazy"></figure>
+<p><strong>为什么要更换域名？</strong></p>
+<p>ParaTrans是给学生授课过程中为教学演示而开发的工具，其开发原理也在《<a href="https://book.douban.com/subject/35156980/">译者编程入门指南</a>》一书中有详细介绍。最早开发该工具时仅仅将其作为<a href="http://translation.education/paratrans">附属网站</a>放到<a href="http://translation.education/">个人域名</a>下，名字非常长，不方便记忆，更换域名后用户将更容易在手机端、电脑端访问：<a href="http://paratrans.vip">http://paratrans.vip</a></p>
+<p><strong>“新网站”有哪些新增功能？</strong></p>
+<p>更换域名后原网站的所有用户均可继续使用之前的用户名密码登录，并不影响正常使用。</p>
+<p>由于ParaTrans访问量较大，所使用的<a href="https://fanyi.sogou.com/">搜狗翻译</a>API、<a href="http://fanyi.youdao.com/">有道翻译</a>API、<a href="https://translate.google.com/">谷歌翻译</a>API均由我个人付费购买，有时每月会花费数百元。为了平衡收支，新用户将拥有1000字的免费流量，超过免费流量后将按照10元/10000字标准收费。</p>
+<p>新域名启用后网站将新增“ParaMT流量券”兑换功能，用户可以前往微店购买流量券，购买后会在手机上收到兑换券，凭该兑换券可在网站的“兑换”页面兑换流量：</p>
+<figure data-type="image" tabindex="2"><img src="https://nansey.github.io/post-images/1619502483549.png" alt="" loading="lazy"></figure>
+<p><strong>想要获取更多机器翻译引擎结果怎么办？</strong></p>
+<p>一直有用户希望我添加更多机器翻译引擎，我会找时间继续添加，但目前对我来说，现在的几款已经够用了，所以后期会根据心情再添加。</p>
+<p>大家如果等不及的话可以使用这款国人研发的神器：<a href="https://gt4t.net/">GT4T</a></p>
+<p>猜猜下面谁是开发者：</p>
+<figure data-type="image" tabindex="3"><img src="https://nansey.github.io/post-images/1619502610052.png" alt="" loading="lazy"></figure>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 13]]></title>
+        <id>https://nansey.github.io/post/moments-day-thirteen/</id>
+        <link href="https://nansey.github.io/post/moments-day-thirteen/">
+        </link>
+        <updated>2021-04-26T05:30:30.000Z</updated>
+        <summary type="html"><![CDATA[<p>学生发来一个<a href="https://blog.csdn.net/weixin_42737761/article/details/95046852">网页</a>，说看不懂。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>学生发来一个<a href="https://blog.csdn.net/weixin_42737761/article/details/95046852">网页</a>，说看不懂。</p>
+<!-- more -->
+<p>我问哪儿看不懂，TA说第一句话就看不懂：“当我们需要判断一个变量是否已声明但值为空的时候......”</p>
+<p>我发现原来TA不知道什么叫“声明”。</p>
+<p>我们以前讲过，变量是个容器，里面可以放东西。但这个容器哪儿来的，为什么可以放东西呢？</p>
+<p>咱们举个直观的例子：</p>
+<p>你家需要一个箱子来装书，但你现在手里没有箱子，所以你只能先打开京东下单一个箱子，但这个时候你依然没有箱子，需要等到箱子到了之后你才能把书放进去存着。</p>
+<p>上面这个过程中，下单买箱子的过程叫“声明”，箱子到了之后才叫“定义”。当你付了钱买箱子后，实际上只是给家里人声明：那个啥，我买了个装书的箱子哈。此时你家并没有容箱之地。</p>
+<p>只有箱子到了，书放进去了，我们才会给它安排一个确定的存放地址。</p>
+<p>对应到计算机里，当我们声明一个变量时，计算机并没有为其分配内存，只有到定义了变量的内容后才会分配。</p>
+<p>这位同学就是没有搞清楚什么叫声明才会糊涂：</p>
+<p>判断一个变量是否已声明但值为空，就是去判断我们是不是在代码说写了一个变量，但里面其实是空的。</p>
+<p>比如你希望程序把你的名字显示在浏览器中：</p>
+<p>echo $name;</p>
+<p>那这个name变量是不是空的呢?</p>
+<p>我们用empty函数来试一下就可以了。</p>
+<p>TA发给我的帖子就是在解释什么是所谓的empty。</p>
+<p>这个同学的问题非常有普遍性，因为困扰TA的实际上是一个TA习以为常的术语，而TA又没有发现这个术语的本意，于是就按照自己的理解去解读，却怎么也搞不懂。</p>
+<p>这种知识点需要拿出来问，自己琢磨半天也徒劳。</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 12]]></title>
+        <id>https://nansey.github.io/post/moments-day-twelve/</id>
+        <link href="https://nansey.github.io/post/moments-day-twelve/">
+        </link>
+        <updated>2021-04-25T05:19:02.000Z</updated>
+        <summary type="html"><![CDATA[<p>译者学编程难道就只学<a href="https://www.python.org/">Python</a>、<a href="https://www.php.net/downloads.php">PHP</a>这种编程语言吗？<a href="https://zh.wikipedia.org/zh-hans/C%E8%AF%AD%E8%A8%80">C语言</a>学不学、<a href="https://www.java.com/en/">Java</a>学不学、<a href="https://zh.wikipedia.org/zh-hans/%E7%AE%97%E6%B3%95">算法</a>学不学、<a href="https://www.coursera.org/learn/os-pku">操作系统原理</a>学不学、<a href="https://zh.wikipedia.org/zh-cn/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84">数据结构</a>学不学、<a href="https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E5%BA%93">数据库</a>学不学、<a href="https://zh.wikipedia.org/zh/%E6%95%B0%E5%AD%A6">数学</a>学不学？</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>译者学编程难道就只学<a href="https://www.python.org/">Python</a>、<a href="https://www.php.net/downloads.php">PHP</a>这种编程语言吗？<a href="https://zh.wikipedia.org/zh-hans/C%E8%AF%AD%E8%A8%80">C语言</a>学不学、<a href="https://www.java.com/en/">Java</a>学不学、<a href="https://zh.wikipedia.org/zh-hans/%E7%AE%97%E6%B3%95">算法</a>学不学、<a href="https://www.coursera.org/learn/os-pku">操作系统原理</a>学不学、<a href="https://zh.wikipedia.org/zh-cn/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84">数据结构</a>学不学、<a href="https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E5%BA%93">数据库</a>学不学、<a href="https://zh.wikipedia.org/zh/%E6%95%B0%E5%AD%A6">数学</a>学不学？</p>
+<!-- more -->
+<p>如果大家去看计算机专业的课表，再看看你正在学的编程，脑子里会冒出一个大大的黑人问号。</p>
+<p>如果你是计算机专业的学生，自然是按照计算机专业的培养方案去进行系统的学习，但你不是，而且你也没有足够多的时间去完成一个新的专业的学习，所以这个时候就只能根据你自己专业的需要去由简入难学最相关的知识。</p>
+<p>译者学编程最重要的是在应用层上去探索提升效率的可能性，但又不是完全去使用别人已经开发好的应用程序，也不是去把别人程序的源代码一行行全都读一遍搞清楚全部所以然。</p>
+<p>就好像如果你想去编辑图片，你可以用别人开发好的<a href="https://www.adobe.com/cn/products/photoshop.html">PhotoShop</a>或者是<a href="https://pc.meitu.com/">美图秀秀</a>，不用去管这些工具是怎么开发出来的，也可以去用一些命令行工具自己定义批量修改图片的流程。</p>
+<p>学习编程的过程是重新认识代码的过程，把代码视为与Word、PPT、Excel一样的效率工具，不被没有用户可视化界面这件事儿所干扰，然后去探索函数、算法带给自己的灵活多变性。</p>
+<p>至于如何选择编程语言，首当其冲的自然是最简单的，Python和PHP都很简单，都可以学，其次要选择实用的配套工具，比如<a href="https://zh.wikipedia.org/zh-cn/SQL">SQL</a>、<a href="https://zh.wikipedia.org/wiki/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F">正则表达式</a>、实用编辑器等，最后就是要依循与本专业或者个人兴趣爱好相关的极简场景特点，在老师的指导下开发自己熟悉的、能用上的小工具。</p>
+<p>大家可能会问了，所以学的这些都能用上吗？记不住怎么办？</p>
+<p>学编程最不用担心的就是忘记，因为我们不用参加任何编程考级测试，完全是为了用而学，记不住的就去查，搞不清楚的就去问，有些代码到了需要的时候粘贴复制就可以，没有必要一个字一个字地敲。</p>
+<p>有些人还会问，要学的这些编程语言之间有什么关系吗？</p>
+<p>从用途来看，你可以把编程语言看作就是用来处理数据的，Python之所以被大家追捧，就是因为人工智能领域有海量数据要处理，而Python有一大堆处理数据的内部和第三方工具；PHP则因为是网页开发时代的利器，在初学阶段你可以把它和HTML看成都是用来展示数据的，而不是做数据计算的；而数据多了就需要管理和查询，SQL就是用来干这个的，所以每当谈到数据库，你就肯定会听说SQL；数据多了，有些数据的格式具备统一的特点，正则表达式就是用来匹配特定格式数据的；那数据除了存在数据库里，也可以存在文件里，所以除了要去了解怎么把数据存到数据库中，也要去了解怎么把数据写到文件中并且从文件中读取出来，因此各个编程语言中都有一个很大的部分是去讲文件的读写，你也会因此去了解到一些常见的文件储存格式，比如<a href="https://en.wikipedia.org/wiki/XML">XML</a>、<a href="https://zh.wikipedia.org/wiki/JSON">json</a>。</p>
+<p>如果看完上面这段话，你知道我在说什么，你又去看最流行的程序语言排行榜，发现许多程序语言排名前5名，但你从来没有听说过，感觉程序员都在学，你却在学习排名靠后的编程语言，就会很纳闷为什么。</p>
+<p>其实这个理解起来也很简单，随着技术的发展总是会有一些更好的编程语言冒出来，但编程语言的适用环境和场景是不一样的，有些是硬件开发用的，有些是软件开发用的，有些是前端用的，有些是后端用的，并不是每一种语言你都必须要学习，能够精通一门就够了，万不可眉毛胡子一把抓，什么流行学什么。都说西班牙语好，你怎么去学英语而不学西班牙语呢？</p>
+<p>所以啊，有些时候要学什么编程语言，决定了就学下去，学着学着自然而然就会把一些相关的编程语言融入进来，不把他们当作是完全不一样的语言就行，学好一个自然就能融会贯通。</p>
+<p>最重要的是，学习编程语言是对自己思维能力的训练。</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 11]]></title>
+        <id>https://nansey.github.io/post/moments-day-eleven/</id>
+        <link href="https://nansey.github.io/post/moments-day-eleven/">
+        </link>
+        <updated>2021-04-24T05:14:37.000Z</updated>
+        <summary type="html"><![CDATA[<p>今天和一位正在学计算机专业的大一学生聊天，TA说不想学计算机了，每天都是在与代码打交道，而且接下来的几年还要学很多的编程语言，还要学数学，还要学算法，TA觉得这样过着太累了，自己并没有兴趣。想考虑学翻译，又不想纯做翻译。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>今天和一位正在学计算机专业的大一学生聊天，TA说不想学计算机了，每天都是在与代码打交道，而且接下来的几年还要学很多的编程语言，还要学数学，还要学算法，TA觉得这样过着太累了，自己并没有兴趣。想考虑学翻译，又不想纯做翻译。</p>
+<!-- more -->
+<p>我和TA聊了很多，其中一点是这样的：</p>
+<p>我们在很年轻的时候会学一些很难的内容，越学越没有动力，很容易放弃。但过了几年之后再回头看，会觉得那个经历很有意思，有些之前学过的知识已经内化成自己的肌肉记忆，虽然很久没有用过，但是一提起来就能想到。</p>
+<p>有些知识我们在学起来之所以难，就是因为有些别人看起来很简单的坎，我们迈不过去。</p>
+<p>比如“变量”这个概念。我记得我第一次了解到这个概念的时候，就很疑惑，比如：</p>
+<p>word = 'chinese'</p>
+<p>word = 'english'</p>
+<p>print(word)</p>
+<p>我就很疑惑为什么print函数打印出来的结果是english，而不是chineseenglish？</p>
+<p>变量不是容器吗？先放进去的东西和后放进去的东西不应该同时在里面吗？</p>
+<p>至于后面是怎么把这个坎儿迈过去的，我也不知道，也许就是把这个事情放下了，过一阵子再想起来就不去想那么多，先把结果记住再说。</p>
+<p>后来再也没有被这样的问题给难住过，到了要教学生的时候才又重新想起来，仔细去查了变量这个概念背后的原理，才一下子明白了究竟背后发生了什么。</p>
+<p>我给TA讲这个例子，实际上是鼓励TA能够坚持把现在认为难的事情学下去，如果有些事情真的搞不明白就记住，也许过一阵子就会恍然大悟，但这个等待的过程并不影响着你去学更多的内容。</p>
+<p>大家现在在20来岁的时候学编程，实际上也是在一个非常年轻非常美好的时代学习，在入门阶段真的没有什么难的知识点，并不是一定需要很高的智商才能够学会，傻傻地去学就可以了。</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 10]]></title>
+        <id>https://nansey.github.io/post/moments-day-ten/</id>
+        <link href="https://nansey.github.io/post/moments-day-ten/">
+        </link>
+        <updated>2021-04-23T05:10:26.000Z</updated>
+        <summary type="html"><![CDATA[<p>昨天晚上给<a href="http://www.cupl.edu.cn/">中国政法大学</a>的同学上课，介绍译者在日常工作中会使用到的各种高效率的工具。在与同学们互动的过程中，我发现同学们对于许多我认为能够极大程度提高效率的工具闻所未闻，比如昨天我们介绍了这么几类工具：</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>昨天晚上给<a href="http://www.cupl.edu.cn/">中国政法大学</a>的同学上课，介绍译者在日常工作中会使用到的各种高效率的工具。在与同学们互动的过程中，我发现同学们对于许多我认为能够极大程度提高效率的工具闻所未闻，比如昨天我们介绍了这么几类工具：</p>
+<!-- more -->
+<ul>
+<li>光学字符识别工具</li>
+<li>字数统计工具</li>
+<li>质量检查工具</li>
+<li>文档对比工具</li>
+<li>笔记工具</li>
+<li>协作工具</li>
+<li>语音识别工具</li>
+<li>文件类型转换工具</li>
+<li>录屏截图工具</li>
+<li>远程协助工具</li>
+<li>日程管理工具</li>
+<li>信息展示工具</li>
+</ul>
+<p>我之所以会给大家介绍这些类型的工具，是因为我一直认为每一位学习翻译的同学毕业后在工作岗位上并非仅仅是靠自己的语言能力或者翻译能力来获得上级青睐的，许多翻译之外的能力同样能让大家在工作中提升工作效率，为身边的团队共享更多的智慧。</p>
+<p>而这些工具大家其实只需要在读书期间稍微花点时间使用一下，等需要用的时候再拾起来也不晚。所以我坚持在计算机辅助翻译课程中融入这部分内容的教学，尤其是让大家感受到译者一般会在哪些与翻译相关的场景下使用到哪类工具，具体是哪款无所谓，但工具的核心用途应当了解。</p>
+<p>我们大家都是喜欢守旧的，一台新电脑会用很多年，习惯哪款工具后短时间也不愿意去尝试其他同类型的产品，这都是可以理解的，因为从一种舒服的状态迁移至另外一种陌生的状态是需要投入成本的。</p>
+<p>但我还是建议同学们在未进入到工作岗位前，多去尝试一些新鲜的玩意儿，说不定你就会发现几款能让自己效率大增的法宝，在日后的工作生活学习中享受支配工具解决问题的独特体验。</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 9]]></title>
+        <id>https://nansey.github.io/post/moments-day-nine/</id>
+        <link href="https://nansey.github.io/post/moments-day-nine/">
+        </link>
+        <updated>2021-04-22T05:03:29.000Z</updated>
+        <summary type="html"><![CDATA[<p>我经常在想一个问题：为什么国外的翻译技术工具层出不穷，生态链越做越长越做越细，但我们偌大的国家，能坚持下来的翻译技术工具屈指可数，难以形成大气候?</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>我经常在想一个问题：为什么国外的翻译技术工具层出不穷，生态链越做越长越做越细，但我们偌大的国家，能坚持下来的翻译技术工具屈指可数，难以形成大气候?</p>
+<!-- more -->
+<p>如果让我来列举的话，北方知名翻译技术辅助工具开发商有<a href="http://www.lingosail.com/">语智云帆</a>、<a href="https://www.gtcom.com.cn/">中译语通</a>，南方有<a href="https://www.tmxmall.com/">一者科技</a>、<a href="http://www.uedrive.com/">优译</a>，还要独立开发者<a href="https://gt4t.net/">曹首光</a>。</p>
+<p>其他还有许多机器翻译公司，大多是北大清华中科院的机器翻译背景技术人才在做，他们大多并不直接做翻译，以翻译自动化为目标。</p>
+<p>但很多国人都忽视了辅助翻译工具的价值，既不愿意花钱采购，也不愿意投资研发。</p>
+<p>这里面很大一部分原因我猜是我们的翻译人才培养一直没有把真正的技术素养融入进去，以至于在企业语言服务部门工作的人做到管理层决策层后也并没有很强的技术意识和产品意识，对翻译流程的认识还停留在传统的层面。而高校里这几年也就北大在产业化这边做了不少工作，最早的港中文虽说比北大还早，但一年的硕士能学到多深呢?</p>
+<p>我有时候不愿意参与一些学术上的翻译技术研讨也是觉得大家的视野没有放在企业的翻译技术解决方案上，也没有放在学生的核心技术素养的训练上。</p>
+<p>我们很多人总是觉得有了机器翻译有了人工智能有了译后编辑以后翻译的问题就越来越简单了。那只是我们把企业级的语言服务需求看简单了，整个语言服务链条上能够使用到技术的地方太多，我们的研究却不够深入。</p>
+<p>我们正在经历一个产业更替换代的关键期，机器翻译吸引了太多关注，人工翻译被无理贬低，我们既不去关注翻译人才培养过程中需要什么技术，也不关心企业级语言服务需求如何通过技术手段来充分满足，这对于中国语言服务行业的升级并没有什么好处。</p>
+<p>一个很简单的例子：高校大面积参与翻译技术沙龙后这个沙龙还在继续办吗？</p>
+<p>一个健康的生态圈既需要有人提供营养也需要有人吸收营养。</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 8]]></title>
+        <id>https://nansey.github.io/post/moments-day-eight/</id>
+        <link href="https://nansey.github.io/post/moments-day-eight/">
+        </link>
+        <updated>2021-04-21T04:54:47.000Z</updated>
+        <summary type="html"><![CDATA[<p>昨天发了<a href="https://fanyi.news/post/moments-day-seven/">一篇文章</a>，介绍如何使用PHP来分割txt，这实际上是一个非常小的需求，我也只是在项目过程中遇到了就分享出来，代码也是现写的，以前并没有写过。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>昨天发了<a href="https://fanyi.news/post/moments-day-seven/">一篇文章</a>，介绍如何使用PHP来分割txt，这实际上是一个非常小的需求，我也只是在项目过程中遇到了就分享出来，代码也是现写的，以前并没有写过。</p>
+<!-- more -->
+<p>在写的过程中我也在想，哪一天学习编程的译者也能掌握这种能力？应该学习到什么程度才能写出这种代码来？</p>
+<p>我想，也许路径是这样的：</p>
+<ol>
+<li>通过实践夯实基本功</li>
+</ol>
+<p>我在拿着代码给学生上课的过程中会时不时问大家几个问题，比如如何判断一个变量中存储的是字符串还是数组？遍历数组的方法是什么？</p>
+<p>这些问题于我而言可能已经非常简单，但是对于同学们而言，光靠教材里的定义显然是不够的，要靠许多的案例和试错才能真正掌握。</p>
+<p>因此，我们的学习者要通过许多实践来夯实基本功，而不是通过背诵或者听课来夯实。</p>
+<ol start="2">
+<li>挖掘问题场景，摸索问题多种解决路径</li>
+</ol>
+<p>在昨天的案例中我之所以把一个复杂的解决方法放到前面，把一个简单的解决方法放到后面，实际上就是想告诉大家，不是每一个人一上来就能找到问题的最优解决办法。只要能解决问题就是好办法。但我们也是可以针对特定的问题场景不断寻求最优解的，在寻找的过程中探索多种问题解决路径，这个过程本身也是对个人能力的一种验证。</p>
+<ol start="3">
+<li>人外有人天外有天，多学习别人的代码</li>
+</ol>
+<p>其实许多问题早就被其他人解决过了，我们不知道是因为我们没有搜索到。世界上每天那么多人在解决问题，又有那么多人在分享问题解决的方法，我们只要愿意搜索，就肯定能找到相似的解决方案，学习一下也会有很大的收获。</p>
+<p>我把我的代码分享出来，大家去学习。其实我写代码的过程也会去学习其他人的代码，然后形成自己的解决方案后再拿出来给大家学习。</p>
+<p>我一直崇尚“教学相长”，如果不是把我的代码写成文章分享出来，其实有些问题我也没有想明白，写文章的过程也是我自我教学的过程。</p>
+<p>前面这几步做好了，我想应该就可以写出自己的代码了。</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 7]]></title>
+        <id>https://nansey.github.io/post/moments-day-seven/</id>
+        <link href="https://nansey.github.io/post/moments-day-seven/">
+        </link>
+        <updated>2021-04-20T04:28:09.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>背景</strong></p>
+<p>我们接到了一个客户的机器翻译译后编辑项目需求，对方提供了20万字的英文，共4700句话，并且提供了机器翻译给出的中文译文，要求我们提供译后编辑结果。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p><strong>背景</strong></p>
+<p>我们接到了一个客户的机器翻译译后编辑项目需求，对方提供了20万字的英文，共4700句话，并且提供了机器翻译给出的中文译文，要求我们提供译后编辑结果。</p>
+<!-- more -->
+<p>客户提供的英文和中文在两个不同的txt文本中，两个文本中的句子均是以换行符隔开。</p>
+<p>客户并未说明使用怎样的工具完成译后编辑，仅需要译后编辑之后的结果。</p>
+<p>（注：以上案例描述已在真实案例信息基础上进行了调整，隐去了关键信息）</p>
+<p>在拿到这个项目后，我很快在研一本地化管理方向的学生中召集了一位同学担任项目经理，与客户联络具体的项目需求，在本周《翻译项目管理》课上以此为案例分析此类项目的需求背景、项目规划方法、报价方法等。并在《翻译与本地化工程技术实践》课上为同学介绍了在实际操作过程中如何创建项目和分配项目。</p>
+<p>在今天这篇帖子中，我主要介绍如何通过编程对txt格式任务文件进行切分。</p>
+<p><strong>正文</strong></p>
+<p>我们在本文中依然是以PHP为例介绍如何开发一个txt文件切分工具，主要是考虑到开发完成后可以比较方便部署成在线工具，一次开发部署方便多人同时随时随地使用。</p>
+<p><strong>第一步：读取待处理文本</strong></p>
+<figure data-type="image" tabindex="1"><img src="https://nansey.github.io/post-images/1619498414768.png" alt="" loading="lazy"></figure>
+<p>为了方便展示，我创建了一个名为demo.txt的文本文件，里面包含10个句子，计划将其切分后每个文件中包含3行。</p>
+<p>我们在开发环境的根目录下创建名为split的文件夹，将上述txt文件放置到split文件夹内，并在该文件夹内创建一个名为index.php的文件，输入代码如下：</p>
+<?php
+
+$file = "demo.txt";
+
+$file_content = file_get_contents($file);
+
+$sentences_array = explode("\n",$file_content);
+
+var_dump($sentences_array);
+?>
+<p>第3行：定义一个变量，将待处理的文件名放置其中</p>
+<p>第5行：使用file_get_contents()函数读取txt文件，并将读取后的内容放置到$file_content变量中</p>
+<p>第7行：使用explode()函数将txt文本中的所有句子以换行符（\n）分割开编程数组（Array），并将数组放置到$sentences_array变量中。</p>
+<p>第9行：将数组显示到浏览器中</p>
+<p>以上代码运行结果如下：</p>
+<figure data-type="image" tabindex="2"><img src="https://nansey.github.io/post-images/1619498531143.png" alt="" loading="lazy"></figure>
+<p>需要特别注意：变成数组后，数组中的元素是从0开始排序。</p>
+<p><strong>第二步：循环遍历数组，将所有句子放置到一个变量中</strong></p>
+<p>我们的目标是将整个文件切分成几个小文件并导出，所以需要先了解如何把目标文件创建出来，因此需要先循环遍历数组：</p>
+<?php
+
+$file = "demo.txt";
+
+$file_content = file_get_contents($file);
+
+$sentences_array = explode("\n",$file_content);
+
+//var_dump($sentences_array);
+
+$num = count($sentences_array); 
+
+$exported_sentences = "";
+
+for($i = 0; $i < $num; $i++)
+{
+    $exported_sentences = $exported_sentences.$sentences_array[$i]."\n";
+
+    $handle = fopen("exported.txt",'w');  
+
+    fwrite($handle,$exported_sentences); 
+
+    fclose($handle); 
+}
+?>
+<p>第11行：统计一共有多少个句子</p>
+<p>第13行：创建一个空白的变量$exported_sentences存储需要导出的句子</p>
+<p>第15行：开启一个for循环，从0个句子开始，每循环一次后就自加1，直到全部句子都遍历完</p>
+<p>第17行：当开始第0次循环时，读取<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi><mi>e</mi><mi>n</mi><mi>t</mi><mi>e</mi><mi>n</mi><mi>c</mi><mi>e</mi><msub><mi>s</mi><mi>a</mi></msub><mi>r</mi><mi>r</mi><mi>a</mi><mi>y</mi><mi mathvariant="normal">数</mi><mi mathvariant="normal">组</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">第</mi><mn>0</mn><mi mathvariant="normal">个</mi><mi mathvariant="normal">元</mi><mi mathvariant="normal">素</mi><mi mathvariant="normal">（</mi></mrow><annotation encoding="application/x-tex">sentences_array数组的第0个元素（</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">s</span><span class="mord mathdefault">e</span><span class="mord mathdefault">n</span><span class="mord mathdefault">t</span><span class="mord mathdefault">e</span><span class="mord mathdefault">n</span><span class="mord mathdefault">c</span><span class="mord mathdefault">e</span><span class="mord"><span class="mord mathdefault">s</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">a</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mord cjk_fallback">数</span><span class="mord cjk_fallback">组</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">第</span><span class="mord">0</span><span class="mord cjk_fallback">个</span><span class="mord cjk_fallback">元</span><span class="mord cjk_fallback">素</span><span class="mord cjk_fallback">（</span></span></span></span>sentences_array[<span class='katex-error' title='ParseError: KaTeX parse error: Undefined control sequence: \n at position 21: …将该元素的内容连同一个换行符（\̲n̲）一起放到'>i]），并将该元素的内容连同一个换行符（\n）一起放到</span>exported_sentences变量中</p>
+<p>第19行：使用fopen()函数创建并打开一个空白的可写入txt文件：exported.txt</p>
+<p>第21行：将$exported_sentences变量中的句子写入到txt文件中</p>
+<p>第23行：关闭exported.txt文件</p>
+<p>以上代码运行完成后，根目录下会生成一个exported.txt文件：</p>
+<figure data-type="image" tabindex="3"><img src="https://nansey.github.io/post-images/1619498588710.png" alt="" loading="lazy"></figure>
+<p>打开后会看到所有句子：</p>
+<figure data-type="image" tabindex="4"><img src="https://nansey.github.io/post-images/1619498602927.png" alt="" loading="lazy"></figure>
+<p><strong>第三步：根据切分文件中包含的条目数定义导出文件的条件</strong></p>
+<p>我们通过上一步已经知道如何导出文件了，接下来就是思考要导出的文件中应该包含多少行句子。</p>
+<p>在我们的测试文件中一共有10个句子，我们希望导出的文件中包含3个句子，这就意味着在设置导出条件时，1-3是一组，4-6是一组，7-9是一组，10是一组。</p>
+<p>而在我们的之前创建的数组$exported_sentences中，所有句子是从0开始排序的，所以是：0-2一组，3-5是一组，6-8是一组，9是一组。</p>
+<p>再具体一点就是：如果我们希望每个文件中有3个句子，那么第一个切分的断点就是在2后面，也就是：2 = 3-1。每个断点之间的间隔是3。</p>
+<p>如果我们用变量<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>l</mi><mi>i</mi><mi>n</mi><mi>e</mi><mi>s</mi><mi mathvariant="normal">来</mi><mi mathvariant="normal">定</mi><mi mathvariant="normal">义</mi><mi mathvariant="normal">每</mi><mi mathvariant="normal">个</mi><mi mathvariant="normal">文</mi><mi mathvariant="normal">件</mi><mi mathvariant="normal">中</mi><mi mathvariant="normal">包</mi><mi mathvariant="normal">含</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">句</mi><mi mathvariant="normal">子</mi><mi mathvariant="normal">数</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">那</mi><mi mathvariant="normal">么</mi><mi mathvariant="normal">第</mi><mi mathvariant="normal">一</mi><mi mathvariant="normal">个</mi><mi mathvariant="normal">断</mi><mi mathvariant="normal">点</mi><mi mathvariant="normal">就</mi><mi mathvariant="normal">是</mi><mi mathvariant="normal">：</mi></mrow><annotation encoding="application/x-tex">lines来定义每个文件中包含的句子数，那么第一个断点就是：</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">i</span><span class="mord mathdefault">n</span><span class="mord mathdefault">e</span><span class="mord mathdefault">s</span><span class="mord cjk_fallback">来</span><span class="mord cjk_fallback">定</span><span class="mord cjk_fallback">义</span><span class="mord cjk_fallback">每</span><span class="mord cjk_fallback">个</span><span class="mord cjk_fallback">文</span><span class="mord cjk_fallback">件</span><span class="mord cjk_fallback">中</span><span class="mord cjk_fallback">包</span><span class="mord cjk_fallback">含</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">句</span><span class="mord cjk_fallback">子</span><span class="mord cjk_fallback">数</span><span class="mord cjk_fallback">，</span><span class="mord cjk_fallback">那</span><span class="mord cjk_fallback">么</span><span class="mord cjk_fallback">第</span><span class="mord cjk_fallback">一</span><span class="mord cjk_fallback">个</span><span class="mord cjk_fallback">断</span><span class="mord cjk_fallback">点</span><span class="mord cjk_fallback">就</span><span class="mord cjk_fallback">是</span><span class="mord cjk_fallback">：</span></span></span></span>lines - 1</p>
+<p>据此，我们可以添加一个新的循环来告知程序在何处产生断点：</p>
+<?php
+
+$file = "demo.txt";
+
+$file_content = file_get_contents($file);
+
+$sentences_array = explode("\n",$file_content);
+
+//var_dump($sentences_array);
+
+$num = count($sentences_array); 
+
+$exported_sentences = "";
+
+$lines = 3;
+
+for($i = 0; $i < $num; $i++)
+{
+    $exported_sentences = $exported_sentences.$sentences_array[$i]."\n";
+
+    for($j = $lines - 1 ;$j < $num; $j = $j + $lines)
+    {
+        if($i == $j)
+        {
+            $handle = fopen("exported.txt",'w');  
+
+            fwrite($handle,$exported_sentences); 
+
+            fclose($handle);
+        }
+
+    }
+}
+?>
+<p>第21行：创建一个新的for循环，从第一个断点开始，直到没有断点才结束</p>
+<p>第23行：当我们从第一个句子开始遍历时，通过$i == $j 这个语句来判断是否遍历到一个断点，如果到了一个断点，就导出文件。</p>
+<p>但是我们还不能现在就运行这段代码，因为从流程上来看，第一个文件导出后需要专门取一个名字，而不能就叫exported.txt，否则后面的文件就会覆盖旧的文件；而且第一个文件导出后，第一个文件所包含的句子就不能再导入到第二个文件中了，所以我们对代码进行如下修改：</p>
+<?php
+
+$file = "demo.txt";
+
+$file_content = file_get_contents($file);
+
+$sentences_array = explode("\n",$file_content);
+
+//var_dump($sentences_array);
+
+$num = count($sentences_array); 
+
+$exported_sentences = "";
+
+$lines = 3;
+
+for($i = 0; $i < $num; $i++)
+{
+    $exported_sentences = $exported_sentences.$sentences_array[$i]."\n";
+
+    $k = 1;
+
+    for($j = $lines - 1 ;$j < $num; $j = $j + $lines)
+    {
+
+        if($i == $j)
+        {
+            $handle = fopen($k.".txt",'w');  
+
+            fwrite($handle,$exported_sentences); 
+
+            fclose($handle);
+
+            $exported_sentences = "";
+        }
+
+        $k++;
+    }
+}
+?>
+<p>第21行：新增一个$k变量，规定第一个导出文件的标号为1</p>
+<p>第28行：规定第一个导出文件的名字为1.txt</p>
+<p>第34行：每个文件导出后将之前的内容从$exported_sentences中清空</p>
+<p>第37行：文件标号自加1，开始准备导出下一个文件</p>
+<p>以上代码执行完成后效果如下：</p>
+<figure data-type="image" tabindex="5"><img src="https://nansey.github.io/post-images/1619498692983.png" alt="" loading="lazy"></figure>
+<p>我们会发现在当前的文件夹只看到了3个文件，每个文件中有3句话，只有最后一句话没有导出来。</p>
+<p>之所以会出现这样的问题，在于上述代码的第23行。</p>
+<p>我们前面讲了每个断点的标号：</p>
+<p>0-2一组，3-5是一组，6-8是一组，9是一组。</p>
+<p>到第一个断点时，$j的值是2；</p>
+<p>到第二个断点时，$j的值是5；</p>
+<p>到第三个断点时，$j的值是8；</p>
+<p>按照这个推定，当第三个文件导出后，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>j</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">值</mi><mi mathvariant="normal">变</mi><mi mathvariant="normal">成</mi><mi mathvariant="normal">了</mi><mn>8</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>11</mn><mi mathvariant="normal">，</mi><mi mathvariant="normal">而</mi></mrow><annotation encoding="application/x-tex">j的值变成了8+3 = 11，而</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.85396em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.05724em;">j</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">值</span><span class="mord cjk_fallback">变</span><span class="mord cjk_fallback">成</span><span class="mord cjk_fallback">了</span><span class="mord">8</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">1</span><span class="mord cjk_fallback">，</span><span class="mord cjk_fallback">而</span></span></span></span>i的值是不可能变成11的，因为$i最大才会是9，因此第四个文件就不会导出了。</p>
+<p>此时<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi><mo>=</mo><mn>4</mn><mi mathvariant="normal">而</mi></mrow><annotation encoding="application/x-tex">k = 4 而</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mord cjk_fallback">而</span></span></span></span>j = 11，$eported_sentences已经装有最后几个句子，等待导出，我们只需要改进一下判断条件：</p>
+<?php
+
+$file = "demo.txt";
+
+$file_content = file_get_contents($file);
+
+$sentences_array = explode("\n",$file_content);
+
+//var_dump($sentences_array);
+
+$num = count($sentences_array); 
+
+$exported_sentences = "";
+
+$lines = 3;
+
+for($i = 0; $i < $lines * ceil($num/$lines); $i++)
+{
+    $exported_sentences = $exported_sentences.$sentences_array[$i]."\n";
+
+    $k = 1;
+
+    for($j = $lines - 1 ;$j < $num + $lines; $j = $j + $lines)
+    {
+        if($i <= $j)
+        {
+            $handle = fopen($k.".txt",'w');  
+
+            fwrite($handle,$exported_sentences); 
+
+            fclose($handle);
+
+            $exported_sentences = "";
+        }
+
+        $k++;
+    }
+}
+?>
+<p>第17行：将$i &lt; $num 修改为 $i &lt; <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>l</mi><mi>i</mi><mi>n</mi><mi>e</mi><mi>s</mi><mo>∗</mo><mi>c</mi><mi>e</mi><mi>i</mi><mi>l</mi><mo>(</mo></mrow><annotation encoding="application/x-tex">lines * ceil(</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">i</span><span class="mord mathdefault">n</span><span class="mord mathdefault">e</span><span class="mord mathdefault">s</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">c</span><span class="mord mathdefault">e</span><span class="mord mathdefault">i</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mopen">(</span></span></span></span>num/$lines)，之所以这么修改是因为：如果我们一共有10句话，那么前九句话被断点分割后，我们应该在第12句增加一个断点。虽然我们没有第12句，但我们可以使用ceil()函数先算出总共可以分成几个文件，比如ceil(11/3) = 4，所以应该有4个文件，最后一个断点就是3*4 = 12。</p>
+<p>第23行：将$j &lt; <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi><mi>u</mi><mi>m</mi><mi mathvariant="normal">修</mi><mi mathvariant="normal">改</mi><mi mathvariant="normal">成</mi></mrow><annotation encoding="application/x-tex">num 修改成</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span><span class="mord mathdefault">u</span><span class="mord mathdefault">m</span><span class="mord cjk_fallback">修</span><span class="mord cjk_fallback">改</span><span class="mord cjk_fallback">成</span></span></span></span>j &lt; $num + $lines，也就是说在上面的例子里终止条件改成了11 &lt; 10+3 。</p>
+<p>以此我们可以输出最后一个文件。</p>
+<p>现在我们成功完成了小工具的开发，总共不到20行。</p>
+<p>在最开始的例子中，我们一共有4700个句子，我们按照每400个句子进行切分，只需要将第15行代码改成：$lines = 400，运行效果如下：</p>
+<figure data-type="image" tabindex="6"><img src="https://nansey.github.io/post-images/1619498738155.png" alt="" loading="lazy"></figure>
+<p>以上就是使用PHP对txt文件进行按行分割的方法，接下来就可以将所有文件导入到CAT工具里准备做译后编辑了。</p>
+<p><strong>优化</strong></p>
+<p>为了给大家展示编程的有趣之处，我再给大家提供一个思路：</p>
+<p>PHP有个函数叫array_chunk()，它的作用是对数组进行切片，参加下面的代码：</p>
+<?php
+
+$file = "demo.txt";
+
+$file_content = file_get_contents($file);
+
+$sentences_array = explode("\n",$file_content);
+
+$exported_sentences = "";
+
+$lines = 3;
+
+$exported_files = array_chunk($sentences_array,$lines);
+
+print_r($exported_files);
+
+?>
+<p>运行结果如下：</p>
+<figure data-type="image" tabindex="7"><img src="https://nansey.github.io/post-images/1619498839367.png" alt="" loading="lazy"></figure>
+<p>可见通过这个函数就已经可以直接把文件分成我们想要的组。接下来就是遍历数组生成文件了：</p>
+<?php
+
+$file = "demo.txt";
+
+$file_content = file_get_contents($file);
+
+$sentences_array = explode("\n",$file_content);
+
+$exported_sentences = "";
+
+$lines = 3;
+
+$exported_files = array_chunk($sentences_array,$lines);
+
+foreach($exported_files as $key => $file)
+{
+    $key = $key + 1;
+
+    foreach($file as $line)
+    {
+        $exported_sentences = $exported_sentences.$line."\n";
+
+        $handle = fopen($key.".txt",'w');  
+            
+        fwrite($handle,$exported_sentences); 
+
+        fclose($handle);
+    }
+    $exported_sentences = "";
+}
+
+?>
+<p>简化后的代码不到15行，而且还可以继续简化。如果你聪明的话，还可以写出更简单的代码。</p>
+<p>显然这种方法要比之前的方法更好理解，而且更节约代码。我们把两种方法都提供给大家比较分析，大家可以从中窥见编程的好处。</p>
+<p>如果这种需求持续存在，还可以添加上传下载功能，放到网站上供更多人使用。</p>
+<p>（不过，如果在网上搜索“txt杀手”，你会看到一款更简单粗暴的工具，不用写一行代码也可以完成txt文件的按行数分割。）</p>
+<p>本篇<a href="https://mp.weixin.qq.com/s/vkNb675i5AdG1_yY2iSI7g">原文</a>首发于韩老师的微信公众号“<a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&amp;__biz=MzA5OTk4MDEzNw==&amp;scene=124&amp;uin=&amp;key=&amp;devicetype=Windows+10+x64&amp;version=6302018f&amp;lang=zh_CN&amp;a8scene=7&amp;fontgear=2">简言</a>”，原文标题为《如何将一个txt文件按行分割成多个小文件》。</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[巴黎高翻问卷调查 RSI]]></title>
+        <id>https://nansey.github.io/post/esit-survey-on-rsi/</id>
+        <link href="https://nansey.github.io/post/esit-survey-on-rsi/">
+        </link>
+        <updated>2021-04-18T11:07:13.000Z</updated>
+        <summary type="html"><![CDATA[<p>近日，巴黎高翻(<a href="http://www.univ-paris3.fr/bienvenue-sur-le-site-de-l-esit-63854.kjsp">ESIT</a>)启动了一项远程同传（<a href="https://www.ata-chronicle.online/cover-feature/remote-simultaneous-interpreting-the-upside-and-downside/">RSI</a>）相关研究，通过问卷形式搜集了来自7个地区19个国家946名职业译员的意见（样本涵盖私人市场、国际组织、欧洲机构和公共管理部门的企业译员和自由译员，其中78%的受访者还是口译专业协会的成员）。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>近日，巴黎高翻(<a href="http://www.univ-paris3.fr/bienvenue-sur-le-site-de-l-esit-63854.kjsp">ESIT</a>)启动了一项远程同传（<a href="https://www.ata-chronicle.online/cover-feature/remote-simultaneous-interpreting-the-upside-and-downside/">RSI</a>）相关研究，通过问卷形式搜集了来自7个地区19个国家946名职业译员的意见（样本涵盖私人市场、国际组织、欧洲机构和公共管理部门的企业译员和自由译员，其中78%的受访者还是口译专业协会的成员）。</p>
+<!-- more -->
+<p>问卷涵盖会议时长、客户来源、工作条件、工作表现、搭档合作等方面内容，以期反映疫情发生至今远程口译市场的变化趋势。详细的调查结果见<a href="https://sites.google.com/aiic.net/study-on-remote-simultaneous-i/home?fbclid=IwAR3N16Znn0iO41XQXwgGviMvllAgwCFo1FmeU4QOqZu7JASrCcXQdXT5Wz8">这里</a>。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[欧委会任命新的口译总干事]]></title>
+        <id>https://nansey.github.io/post/European-Commission-Appoints-New-Director-General-for-Interpretation/</id>
+        <link href="https://nansey.github.io/post/European-Commission-Appoints-New-Director-General-for-Interpretation/">
+        </link>
+        <updated>2021-04-18T10:50:08.000Z</updated>
+        <summary type="html"><![CDATA[<p><a href="https://twitter.com/calaveraruiz">Genoveva Ruiz Calavera</a> 已就任欧盟委员会口译总司(<a href="https://ec.europa.eu/info/departments/interpretation_en">DG SCIC</a>)总干事一职。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://twitter.com/calaveraruiz">Genoveva Ruiz Calavera</a> 已就任欧盟委员会口译总司(<a href="https://ec.europa.eu/info/departments/interpretation_en">DG SCIC</a>)总干事一职。</p>
+<!-- more -->
+<p>Genoveva Ruiz Calavera 于4月1日开始担任这一职务。去年9月总干事 <a href="https://ec.europa.eu/info/persons/director-general-florika-fink-hooijer_en">Florika Fink-Hooijer</a> 卸任后，欧盟委员会便开始寻找接替人选。由于在 COVID-19 大流行期间改用远程工作模式，合同口译员受到重创，Ruiz Calavera 希望改善他们的聘用情况。</p>
+]]></content>
+    </entry>
+</feed>

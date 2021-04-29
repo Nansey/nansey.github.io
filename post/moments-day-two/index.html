@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>韩林涛老师：译者编程知识30天×300字写作计划 | Day 2 | 翻译动态</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.0/css/all.min.css">
+<link rel="shortcut icon" href="https://nansey.github.io/favicon.ico?v=1619678099240">
+<link rel="stylesheet" href="https://nansey.github.io/styles/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="学编程和学外语一样，并不一定每天都会用到。你若不是程序员，编程不会是你持续做的事情。但当有需求时，花点时间写个小工具还是能解决一些问题的。
+
+昨天晚上给学生上课时我举了一个例子：
+你毕业后去了一家单位，资深翻译很多，但懂技术的人很少，大家不..." />
+    <meta name="keywords" content="CodeSlator" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://nansey.github.io">
+        <img src="https://nansey.github.io/images/avatar.png?v=1619678099240" class="site-logo">
+        <h1 class="site-title">翻译动态</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://nansey.github.io/post/resource" class="site-nav">
+            资源
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      全球翻译新闻速递
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://nansey.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">韩林涛老师：译者编程知识30天×300字写作计划 | Day 2</h2>
+            <div class="post-date">2021-04-15</div>
+            
+            <div class="post-content" v-pre>
+              <p>学编程和学外语一样，并不一定每天都会用到。你若不是程序员，编程不会是你持续做的事情。但当有需求时，花点时间写个小工具还是能解决一些问题的。</p>
+<!-- more -->
+<p>昨天晚上给学生上课时我举了一个例子：</p>
+<p>你毕业后去了一家单位，资深翻译很多，但懂技术的人很少，大家不愿意学习和安装翻译工具，但他们都会上网查资料。</p>
+<p>你其实可以去制作一个像 <a href="http://bicovid.org/">BiCovid.org</a> 那样的网站，先去对齐生成 tmx 格式文件，再去开发在线检索系统，然后把网址发给他们，他们说不定一发现以前翻译过的东西都可以立马查到了会对你刮目相看，而你不过是花了几天时间把一个小工具开发出来而已。</p>
+<p>有些人会说，为什么不去买现成的工具呢？</p>
+<p>我也许会反问：什么工具能实现？价格和语料安全呢？</p>
+<p>所以你看，有些工具还得自己会做，也许一共就做几天，但能用很长时间。</p>
+<p>当我们想通过学习编程来开发小工具时，我们会极具想象力，幻想着有一天自己也能做出别人点赞的工具。可现实是残酷的，一旦开始学习会发现每一步都非常艰难。</p>
+<p>我非常喜欢一种做事情的行动方式：MVP，英文全称是 <a href="https://en.wikipedia.org/wiki/Minimum_viable_product">Minimum Viable Product</a>，可以翻译<a href="https://zh.wikipedia.org/zh-cn/%E6%9C%80%E7%B0%A1%E5%8F%AF%E8%A1%8C%E7%94%A2%E5%93%81">最简可行产品</a>。其基本思路是：当你想开发一款产品时，不要一步到位，而是可以先做出一款最简单的产品，去找目标用户使用，验证你的想法，然后再根据他们的反馈来修正产品。</p>
+<p>我做很多事情都是这样的思路，学习编程也可以是这种思路。</p>
+<p>以本书的学习为例，若想一下子就能开发自己想要的工具肯定是不行的，所以本书中有好几个你可以做的MVP，最简单的就是个人术语库和翻译记忆库。</p>
+<p>所以我强烈建议大家把开发个人双语术语库或翻译记忆库当作是自己的第一款编程作品，做完后再注册一个自己的域名，将作品放到网上让身边的朋友使用。</p>
+<p>那一刻你会觉得自己做了一件很了不起的事情，但接下来你会有更多的需求，你会希望添加更多的功能，你会想让工具变得更美观实用，于是就会萌发学习更多知识的冲动，而在不断学习新知识的过程中，你又会重新认识自己之前所学的知识，如此往复，不断精进。</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://nansey.github.io/tag/codeslator/" class="tag">
+                    CodeSlator
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://nansey.github.io/post/logictech-release-translation-mouse/">
+                  <h3 class="post-title">
+                    罗技推出带翻译功能的鼠标
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
