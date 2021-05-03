@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nansey.github.io</id>
     <title>翻译动态</title>
-    <updated>2021-05-02T12:01:54.362Z</updated>
+    <updated>2021-05-03T13:01:10.010Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nansey.github.io"/>
     <link rel="self" href="https://nansey.github.io/atom.xml"/>
@@ -10,6 +10,93 @@
     <logo>https://nansey.github.io/images/avatar.png</logo>
     <icon>https://nansey.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 翻译动态</rights>
+    <entry>
+        <title type="html"><![CDATA[黄国平博士分享其博士学位论文]]></title>
+        <id>https://nansey.github.io/post/doctor-huang-guoping-release-his-phd-thesis/</id>
+        <link href="https://nansey.github.io/post/doctor-huang-guoping-release-his-phd-thesis/">
+        </link>
+        <updated>2021-05-03T12:41:32.000Z</updated>
+        <summary type="html"><![CDATA[<p>“我走了很远的路，吃了很多的苦，才将这份博士学位论文送到你的面前。二十二载求学路，一路风雨泥泞，许多不容易。”前段时间，<a href="https://www.thepaper.cn/newsDetail_forward_12265669">黄国平</a>博士（网名“<a href="https://weibo.com/u/1721793763">翻译驴</a>”）因论文《致谢》部分而在豆瓣、知乎、微博等多个网络平台意外走红，作者在文中回顾自己如何一路走出小山坳、和命运抗争的故事打动了大批网友。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>“我走了很远的路，吃了很多的苦，才将这份博士学位论文送到你的面前。二十二载求学路，一路风雨泥泞，许多不容易。”前段时间，<a href="https://www.thepaper.cn/newsDetail_forward_12265669">黄国平</a>博士（网名“<a href="https://weibo.com/u/1721793763">翻译驴</a>”）因论文《致谢》部分而在豆瓣、知乎、微博等多个网络平台意外走红，作者在文中回顾自己如何一路走出小山坳、和命运抗争的故事打动了大批网友。</p>
+<!-- more -->
+<p>公开资料显示，2017年从中国科学院大学毕业后，黄国平博士已赴腾讯就职，在该公司人工智能实验室“<a href="https://ai.tencent.com/">腾讯 AI Lab</a>”担任高级研究员。</p>
+<p>4月19日，黄博士通过深圳商报&amp;读创<a href="https://share.api.weibo.cn/share/219537190.html?weibo_id=4627646841359193">独家回应</a>，向各位网友致以诚挚的歉意和谢意。</p>
+<p>5月3日，黄博士再次通过其新浪微博<a href="https://weibo.com/u/1721793763">账号</a>和朋友圈分享了那篇题为《人机交互式机器翻译方法研究与实现》的论文全文（脱敏版），感兴趣的朋友可以在这里<a href="https://share.weiyun.com/OdB31JRm">下载</a>。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[南桥：对人工智能改进机器翻译的效果，我持乐观态度]]></title>
+        <id>https://nansey.github.io/post/Nanqiao-optimistic-on-machine-translation/</id>
+        <link href="https://nansey.github.io/post/Nanqiao-optimistic-on-machine-translation/">
+        </link>
+        <updated>2021-05-02T12:37:34.000Z</updated>
+        <summary type="html"><![CDATA[<p>在机器和人之间，最好的办法，是让机器做机器擅长的事，让人做人擅长的事情。人工智能对于翻译来说，是一种强大的赋能，而非狡诈的竞争。在文学翻译领域，受工匠思维的影响，作品被说成像机器翻译一度是见不得人的事。一句“机翻”的评论，能引发豆瓣上的一场一星运动的腥风血雨。好在此争论也没白费，好歹让人们更为合理地考虑机器翻译的角色与定位。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>在机器和人之间，最好的办法，是让机器做机器擅长的事，让人做人擅长的事情。人工智能对于翻译来说，是一种强大的赋能，而非狡诈的竞争。在文学翻译领域，受工匠思维的影响，作品被说成像机器翻译一度是见不得人的事。一句“机翻”的评论，能引发豆瓣上的一场一星运动的腥风血雨。好在此争论也没白费，好歹让人们更为合理地考虑机器翻译的角色与定位。</p>
+<!-- more -->
+<p>人和机器翻译谁优谁劣是个伪命题。机器不是有情感的主体。机器没有和人类较劲的必要，人类也没有与机器较劲的必要。能利用机器翻译提高自己的效率和效果，才是明智的做法。（<a href="https://www.infzm.com/contents/204904">来源</a>）</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[谷歌Pixel手机原生支持截屏翻译]]></title>
+        <id>https://nansey.github.io/post/Google-pixel-supports-screenshot-translation/</id>
+        <link href="https://nansey.github.io/post/Google-pixel-supports-screenshot-translation/">
+        </link>
+        <updated>2021-05-02T12:36:47.000Z</updated>
+        <summary type="html"><![CDATA[<p>据外媒 XDA <a href="https://www.xda-developers.com/android-12-app-ui-translation/">报道</a>，当用户使用 Pixel 手机进行截屏时，如果检测到图片中包含外文，系统就会在手机屏幕底部显示一个翻译按钮，用户点击该按钮就可以进行翻译。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>据外媒 XDA <a href="https://www.xda-developers.com/android-12-app-ui-translation/">报道</a>，当用户使用 Pixel 手机进行截屏时，如果检测到图片中包含外文，系统就会在手机屏幕底部显示一个翻译按钮，用户点击该按钮就可以进行翻译。</p>
+<!-- more -->
+<p>IT之家了解到，该功能也不是十分完美，有时候图片里有英文也会显示翻译为英文，不过整体处于可用状态。该功能已向搭载 Android 11 的 Pixel 手机推出。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 19]]></title>
+        <id>https://nansey.github.io/post/moments-day-nineteen/</id>
+        <link href="https://nansey.github.io/post/moments-day-nineteen/">
+        </link>
+        <updated>2021-05-02T12:06:55.000Z</updated>
+        <summary type="html"><![CDATA[<p>学<a href="https://zh.wikipedia.org/wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80">编程语言</a>和学<a href="https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80">自然语言</a>有很多相似的地方，其中一个就是与新词汇打交道的方法。我经常会回想自己学法语学日语学西班牙语的经历，虽然都是浅尝辄止，没有深入学下去，但回想起来总是能想到一些深深引入脑海的词汇。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>学<a href="https://zh.wikipedia.org/wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80">编程语言</a>和学<a href="https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80">自然语言</a>有很多相似的地方，其中一个就是与新词汇打交道的方法。我经常会回想自己学法语学日语学西班牙语的经历，虽然都是浅尝辄止，没有深入学下去，但回想起来总是能想到一些深深引入脑海的词汇。</p>
+<!-- more -->
+<p>比如在学法语的时候学Je suis，我就非要去想“je”为什么是我，suis为什么是“是”，但有一天老师给我讲，Je suis就是I am的意思，我就一下子觉得自己搞清楚了，但现在想想，我真搞明白之前自己问的问题了吗？Je为什么是我？结果一查词源，发现Je源自ego，也就是自我。我觉得自己的问题解决了，但又发现自己搞不清楚汉语里的“我”是怎么来的，同样是去查词源，发现“我”竟然是对称的，是两个“戈”组成的，而且不是白话文运动后才有的，最早在甲骨文里就有这个字了，但因为这个字本意是一种兵器，用来杀人，所以人们并没有用它来称自己，但在古文中还是有人会用它来称自己，比如“仰天大笑出门去，我辈岂是蓬蒿人”。</p>
+<p>说这些感觉扯远了，但并没有，因为学习的过程本身就是大脑里的神经元建立联系的过程，我们把不知道的知识点和自己已经知道的知识点关联起来，即便有时候依然做不到刨根问底，但关联到自己已知的知识后我们也会一下子平添一些自信。</p>
+<p>学编程的过程就是要把自己不懂的东西和自己已经懂的东西关联到一起，越是不懂越要想办法去关联，一点点将碎片拼接到自己的脑图上，尤其是过一段时间再去回顾自己之前学过的不懂的知识点，就会一下子开悟。</p>
+<p>为此，我继续倡议读者们好好利用读者群，与人交流的过程本身就是一个相互启发的过程，聊的越多你的知识关联就越密切，有些不懂的知识点你可能依然不懂半懂，但至少印象更加深刻了！</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[阿伯丁大学和纸托邦将举办华语翻译节系列活动]]></title>
+        <id>https://nansey.github.io/post/University-of-Aberdeen-Paper-republic-host-chinese-translation-festival/</id>
+        <link href="https://nansey.github.io/post/University-of-Aberdeen-Paper-republic-host-chinese-translation-festival/">
+        </link>
+        <updated>2021-05-01T12:26:11.000Z</updated>
+        <summary type="html"><![CDATA[<p>由英国阿伯丁大学孔子学院主办，<a href="https://paper-republic.org/">纸托邦</a>策划组织的<a href="https://www.abdn.ac.uk/confucius/festival-of-translation/">华语翻译节</a>系列活动将于6月7日-7月3日间通过在线讲座与工作坊的形式举办。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>由英国阿伯丁大学孔子学院主办，<a href="https://paper-republic.org/">纸托邦</a>策划组织的<a href="https://www.abdn.ac.uk/confucius/festival-of-translation/">华语翻译节</a>系列活动将于6月7日-7月3日间通过在线讲座与工作坊的形式举办。</p>
+<!-- more -->
+<p>将有多位译者参与，所涵盖主题多样：学术翻译、女性主义作家翻译、儿童文学翻译……<br>
+5月30日前可购票参与。讲座免费，但需通过Eventbrite进行注册。</p>
+<p>工作坊每场30英镑（学生20英镑），报名参加全部六场的可享受折扣（150英镑/99英镑）。可通过<a href="https://www.store.abdn.ac.uk/short-courses/confucius-institute/confucius-institute/chinese-translation-festival">线上商店</a>预订。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《英语世界》杯”翻译大赛开赛]]></title>
+        <id>https://nansey.github.io/post/English-world-translation-contest-kick-off/</id>
+        <link href="https://nansey.github.io/post/English-world-translation-contest-kick-off/">
+        </link>
+        <updated>2021-05-01T12:20:44.000Z</updated>
+        <summary type="html"><![CDATA[<p>由北京师范大学冠名的第十二届“《<a href="http://www.yingyushijie.com/">英语世界</a>》杯”翻译大赛于近日开赛。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>由北京师范大学冠名的第十二届“《<a href="http://www.yingyushijie.com/">英语世界</a>》杯”翻译大赛于近日开赛。</p>
+<!-- more -->
+<p>大赛启事及原文已于《英语世界》公众号<a href="https://mp.weixin.qq.com/s/0FKt1iQm-CEVWOkc9MKBjQ">公布</a>。2021年的翻译大赛包含“英译汉”和“汉译英”两个组别。大赛初评交给合办院校的老师。复评和终评将延续历届传统从全国各地邀请知名翻译专家进行评审。</p>
+<p>赛事由<a href="http://www.tac-online.org.cn/">中国翻译协会</a>社会科学翻译委员会、中国外文局<a href="http://www.catticenter.com/xmgljs">CATTI 项目管理中心</a>、中国<a href="http://www.cacsec.com/">英汉语比较研究会</a>英汉翻译研究学科委员会、<a href="http://www.zjsfyxh.com/">浙江省翻译协会</a>、<a href="http://www.hnsti.cn/web/fyxh/">河南省翻译协会</a>、<a href="http://www.sdfyxh.com/">山东省翻译协会</a>、<a href="http://www.taos.org.cn/">四川省翻译协会</a>、<a href="http://www.tagd.org.cn/">广东省翻译协会</a>等单位协办。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 18]]></title>
         <id>https://nansey.github.io/post/moments-day-eighteen/</id>
@@ -27,6 +114,34 @@
 <p>假期里大家估计没有在看这本书，但这本书却让我们在不同的时间经过同一个地方，谈起同一件事，汇聚成同一个故事。</p>
 <p>❤</p>
 <figure data-type="image" tabindex="1"><img src="https://nansey.github.io/post-images/1619952965294.jpg" alt="" loading="lazy"></figure>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第十七届全国机器翻译大会机器翻译评测开始报名]]></title>
+        <id>https://nansey.github.io/post/ccmt-2021-open-for-registration/</id>
+        <link href="https://nansey.github.io/post/ccmt-2021-open-for-registration/">
+        </link>
+        <updated>2021-04-30T12:26:58.000Z</updated>
+        <summary type="html"><![CDATA[<p>据@中国中文信息学会 <a href="https://mp.weixin.qq.com/s/nKzMFF32-VJJJRIj_l43hw">消息</a>，第十七届全国机器翻译大会（CCMT 2021）将于2021年8月在青海西宁举行。CCMT旨在为国内外机器翻译界同行提供一个交互平台，加强国内外同行的学术交流，召集专家学者针对机器翻译的理论方法、应用技术和评测活动等若干关键问题进行深入的研讨。根据惯例，本次会议将继续组织统一的机器翻译评测。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>据@中国中文信息学会 <a href="https://mp.weixin.qq.com/s/nKzMFF32-VJJJRIj_l43hw">消息</a>，第十七届全国机器翻译大会（CCMT 2021）将于2021年8月在青海西宁举行。CCMT旨在为国内外机器翻译界同行提供一个交互平台，加强国内外同行的学术交流，召集专家学者针对机器翻译的理论方法、应用技术和评测活动等若干关键问题进行深入的研讨。根据惯例，本次会议将继续组织统一的机器翻译评测。</p>
+<!-- more -->
+<p>本届评测在传统翻译评测任务的基础上增加了来源于真实应用需求的两大任务：低资源<a href="https://zh.wikipedia.org/wiki/%E6%9C%BA%E5%99%A8%E7%BF%BB%E8%AF%91">机器翻译</a>和自动<a href="https://zh.wikipedia.org/wiki/%E8%AF%91%E5%90%8E%E7%BC%96%E8%BE%91">译后编辑</a>任务。这些都是<a href="https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86">自然语言处理</a>和人工智能领域极具挑战性的重要前沿课题，其研究对于进一步深入机器翻译应用具有重要意义。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[澳门理工为澳门 CATTI 考生提供免费培训]]></title>
+        <id>https://nansey.github.io/post/Ipm-provide-free-training-for-macau-catti-examinee/</id>
+        <link href="https://nansey.github.io/post/Ipm-provide-free-training-for-macau-catti-examinee/">
+        </link>
+        <updated>2021-04-30T12:23:35.000Z</updated>
+        <summary type="html"><![CDATA[<p>全国翻译专业资格考试（<a href="https://www.catticenter.com/ksbmrk">CATTI</a>）落户<a href="https://www.ipm.edu.mo/">澳门理工学院</a>，本澳首次CATTI中葡、中英考试将于6月19日及20日在澳门理工学院进行。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>全国翻译专业资格考试（<a href="https://www.catticenter.com/ksbmrk">CATTI</a>）落户<a href="https://www.ipm.edu.mo/">澳门理工学院</a>，本澳首次CATTI中葡、中英考试将于6月19日及20日在澳门理工学院进行。</p>
+<!-- more -->
+<p>据@CATTI中心 <a href="https://mp.weixin.qq.com/s/xyop_Pj177gru2wT7IzXnA">消息</a>，为让考生能更有效地准备此次考试，澳门理工学院语言及翻译高等学校将为考生分别于6月2日及6月5日提供培训，费用全免，有兴趣者可于5月1日至5月15日登入澳理工＂<a href="https://www.ipm.edu.mo/eslt/zh/catti.php">语言培训及测试</a>＂网页＂<a href="https://www.ipm.edu.mo/eslt/zh/catti_application.php">对外培训</a>＂一栏，选择其中一场进行登记。</p>
+<p>CATTI考试澳门考区（澳门理工学院考场）现正接受报名，5月8日截止报名。</p>
 ]]></content>
     </entry>
     <entry>
@@ -40,550 +155,6 @@
         <content type="html"><![CDATA[<p>4月29日，中国译协行业报告、行业标准发布仪式暨译讲堂专题讲座在北京举行，<a href="http://www.cipg.org.cn/">中国外文局</a>副局长兼总编辑高岸明、<a href="https://www.cnis.ac.cn/pcindex/">中国标准化研究院</a>副院长李爱仙出席发布仪式并致辞。</p>
 <!-- more -->
 <p>中国外文局当代中国与世界研究院院长于运全、中国外文局国际合作部主任、<a href="http://www.tac-online.org.cn/">中国翻译协会</a>常务理事、常务副秘书长姜永刚、<a href="http://www.transn.com/cn/">传神语联网</a>网络科技股份有限公司总裁、中国翻译协会副会长何恩培分别发布《2020中国语言服务行业发展报告》（<a href="https://mp.weixin.qq.com/s/zE1niXWOmS2UGZ96Exv6jw">速览</a>）、《司法翻译服务规范》及《口笔译服务计价指南》。发布仪式由当代中国与世界研究院副院长、中国译协副秘书长杨平主持。来自中国外文局、中国标准化研究院、相关发布文件审定和起草专家、中国翻译协会分支机构代表参加仪式。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 17]]></title>
-        <id>https://nansey.github.io/post/moments-day-seventeen/</id>
-        <link href="https://nansey.github.io/post/moments-day-seventeen/">
-        </link>
-        <updated>2021-04-30T10:45:01.000Z</updated>
-        <summary type="html"><![CDATA[<p>今天一位读者在电脑上安装了MAMP Pro后发现软件中默认的撰写代码的位置和书里不一样，几经波折后找到了具体位置，结果文件又无法访问。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>今天一位读者在电脑上安装了MAMP Pro后发现软件中默认的撰写代码的位置和书里不一样，几经波折后找到了具体位置，结果文件又无法访问。</p>
-<!-- more -->
-<p>我是这样引导TA找到解决方案的：</p>
-<p>第一步：前往General标签，看看那里的Document root显示的位置什么，如图1。可见，我的电脑上是htdocs。</p>
-<p>第二步：前往Databases标签，点击最底下的橙色标签，看看能否打开，如图2。</p>
-<p>如果打不开，就去点击最右上角的开关键，如图3；如果打得开，就去看打开之后的网址是什么，看看localhost后面是否有一串数字，比如：localhost:8888，如果有，那你以后在访问自己的网页时，也不要忘记在localhost后面加上这个数字。</p>
-<p>这个数字是什么呢？请看下面这段文字：</p>
-<p>之前帮读者解决问题时发现有一个书中没有讲的知识点：<a href="https://zh.wikipedia.org/wiki/%E9%80%9A%E8%A8%8A%E5%9F%A0">端口</a>(Port）</p>
-<p>其实这个知识点很有趣。先说个更有意思的：比如你们家现在有了一块儿地，上面要盖房子，首先要决定大门朝哪边，一般会朝哪儿呢？</p>
-<p>中国因为在北半球，到了冬天最怕的就是“北风”，所以门不能超北边，否则冷风一下子就吹了进来，因此大门习惯朝难，这就是“坐北朝南”。</p>
-<p>不过现在我们习惯上会用另外一种说法，就是让阳光从南边晒进来，因为太阳东升西落，东南西北四个方向里，太阳最好的时候是在东和西之间，也就是“南”，因此家里的阳台、客厅、主卧的方向要朝南。</p>
-<p>上面这个例子就是想说，门和窗户就是进你们家的通道（Port）。当我们说从你们家的主要通道进入时，也许默认就是从南边进去。</p>
-<p>在一台连接了网线可访问互联网的电脑上，这台电脑不仅可以从外界获取数据，也可以提供数据给外界，提供数据的这个动作就是提供服务，所以我们会将这台电脑称为“<a href="https://zh.wikipedia.org/wiki/%E6%9C%8D%E5%8A%A1%E5%99%A8">服务器</a>”。这台服务器上不仅可以提供网页浏览服务，也可以提供文件存储服务，也可以提供电子邮件发送服务。</p>
-<p>在我们的教材中，我们往往会让大家这样访问网址：localhost/html</p>
-<p>在这里localhost就是提供各种服务的服务器的地址，而html就是这个服务器里的一个文件夹的名字。</p>
-<p>之所以我们能够通过这个方式访问到网页，是因为我们省略掉了一些内容：</p>
-<p>http://localhost:80/html/index.html</p>
-<p>其中：http://就是我们遵循的http协议</p>
-<p>80就是服务器提供网页访问服务的默认端口</p>
-<p>index.html就是我们访问html这个文件夹时默认访问的文件名。</p>
-<p>而这里的80就像是我们前面说的那个“南”一样，从创始人到普通用户，大家都默认了80就是服务器上默认的网页访问服务入口的编号，所以往往就不写了。</p>
-<p>但是，当你在自己电脑上访问网址时收到这样的提示：</p>
-<p>浏览器不能连接到服务器</p>
-<p>一个原因是服务器的地址错了，或者文件夹的地址错了，或者文件的地址错了。</p>
-<p>另一个原因就是：端口（Port）错了。</p>
-<p>当所有人的正门都开在南边的时候，你们偏偏开在西边，那别人到你家来问你从哪儿进，你说：啊，从正门进就行了</p>
-<p>结果人家默认从南门进，就进不来了。你这才告诉他：不好意思啊，端口改成西门了。所以这个时候网址就要改成：</p>
-<p>localhost:西门/html</p>
-<p>我们将真正的端口放到服务器的地址后面，加上冒号，然后加上端口的代码。</p>
-<p>显然我们平时访问网址时不可能用中文来做端口名，而是用数字，所以正确的端口代码是什么，我们就要换成什么数字，比如：</p>
-<p>localhot:8888/html</p>
-<p>我们前面也讲了，一台服务器不可能只提供一种服务，所以往往不同的服务会分配不同的端口号。假如某个端口号被占用了，已经有服务了，你还想用这个端口来提供另一种服务，那自然新的服务就无法安装成功，你就用不了了。就只能想办法停掉之前的那个端口提供的服务，再安装新的。</p>
-<p>常见的端口号有：</p>
-<p>FTP文件传输：20、21<br>
-SMTP邮件发送服务：25<br>
-POP3邮件发送服务：110<br>
-普通的超文本传输服务（HTTP）：80<br>
-加密的超文本传输服务（HTTP）：443<br>
-普通的超文本传输服务测试端口：8080</p>
-<p>以后大家再看到这些数字就不会不知道来源了。</p>
-<figure data-type="image" tabindex="1"><img src="https://nansey.github.io/post-images/1619952396993.jpg" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="2"><img src="https://nansey.github.io/post-images/1619952409707.jpg" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="3"><img src="https://nansey.github.io/post-images/1619952416187.jpg" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第四季全国翻译技术巡回讲座开始报名]]></title>
-        <id>https://nansey.github.io/post/tmxmall-translation-tech-tour-registration-open/</id>
-        <link href="https://nansey.github.io/post/tmxmall-translation-tech-tour-registration-open/">
-        </link>
-        <updated>2021-04-29T11:33:37.000Z</updated>
-        <summary type="html"><![CDATA[<p>据 <a href="https://www.tmxmall.com/">Tmxmall</a> 官方消息， 2021一者科技高校行第四季全国翻译技术巡回讲座开始报名。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>据 <a href="https://www.tmxmall.com/">Tmxmall</a> 官方消息， 2021一者科技高校行第四季全国翻译技术巡回讲座开始报名。</p>
-<!-- more -->
-<p>报名时间：2021年4月30日至5月15日。宣讲时间：2021年5月10日至7月上旬。活动对象为所有对翻译技术感兴趣的高校。宣讲主题包括<a href="https://zh.wikipedia.org/zh/%E9%9B%BB%E8%85%A6%E8%BC%94%E5%8A%A9%E7%BF%BB%E8%AD%AF">计算机辅助翻译</a>、语料与术语管理、机器翻译与<a href="https://zh.wikipedia.org/zh-hans/%E8%AF%91%E5%90%8E%E7%BC%96%E8%BE%91">译后编辑</a>、<a href="https://www.trados.com/cn/solutions/software-localization/">本地化</a>技术、<a href="https://www.wordbee.com/project-management/">翻译项目管理</a>等。</p>
-<p>报名方式及相关信息可参考<a href="https://mp.weixin.qq.com/s?__biz=MzA4MDI0MDQ3OA==&amp;mid=2654988228&amp;idx=1&amp;sn=10caa9a6b1ae639c273aa5bf3c3bd5dd&amp;chksm=846c0df5b31b84e3f1f7697c00d4e6deb425fa7a47002ae430b7a00d88b1bf146f12ffed1e8d&amp;scene=0&amp;xtrack=1&amp;clicktime=1619955006&amp;ascene=1&amp;devicetype=iOS14.5&amp;version=1800042c&amp;nettype=WIFI&amp;abtest_cookie=AAACAA%3D%3D&amp;lang=zh_CN&amp;fontScale=100&amp;exportkey=AiZv3LVruyRTfq6VlrQg0BM%3D&amp;pass_ticket=5SX%2Fzpjle5Ag%2FYtePgeia0WxclYM%2BXNigiLqBXXLS6BzDZI9t0%2B6jV7k78627baP&amp;wx_header=1">这篇推送</a>。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 16]]></title>
-        <id>https://nansey.github.io/post/moments-day-sixteen/</id>
-        <link href="https://nansey.github.io/post/moments-day-sixteen/">
-        </link>
-        <updated>2021-04-29T09:51:01.000Z</updated>
-        <summary type="html"><![CDATA[<p>在《<a href="https://fanyi.news/post/moments-day-fifteen/">如何基于SRX将英文文本切分成句（一）</a>》中我们介绍了什么是SRX以及基于SRX进行文章断句的原理。在这篇帖子中我们将重点探讨如何用程序来实现英文文本的切分。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>在《<a href="https://fanyi.news/post/moments-day-fifteen/">如何基于SRX将英文文本切分成句（一）</a>》中我们介绍了什么是SRX以及基于SRX进行文章断句的原理。在这篇帖子中我们将重点探讨如何用程序来实现英文文本的切分。</p>
-<!-- more -->
-<p><strong>准备工作</strong></p>
-<p>本文将基于PHP来开发文本切分断句工具，所以需要提前启动编程环境XAMPP、PHPStudy或MAMP Pro，在过去的文章已有详细介绍。</p>
-<p>编程环境启动后，在根目录下创建一个空白文件夹，命名为textsplit，并在其中新建index.php文件，用于撰写代码，如下图：</p>
-<figure data-type="image" tabindex="1"><img src="https://nansey.github.io/post-images/1619950140956.png" alt="" loading="lazy"></figure>
-<p><strong>一、PHP的正则表达式相关函数在断句中的基本应用</strong></p>
-<p>在PHP中有诸多内置的正则表达式相关函数，在文本切分方面有重要作用。</p>
-<p>我们选择两句话作为测试用例：</p>
-<pre><code>Welcome Dr. Liu and Dr. Lu to BLCU. It's our pleasure.
-</code></pre>
-<p>在这段话中共有两句话，对断句造成主要影响的就是“Dr.”。</p>
-<p><strong>1）preg_match()</strong></p>
-<p>我们首先看preg_match()函数的作用：</p>
-<pre><code>&lt;?php
-$text = &quot;Welcome Dr. Liu and Dr. Lu to BLCU. It's our pleasure.&quot;;
-
-echo preg_match(&quot;/Dr\./&quot;,$text,$matches);
-
-echo &quot;&lt;br&gt;&quot;;
-
-var_dump($matches);
-?&gt;
-</code></pre>
-<p>代码运行结果为：</p>
-<pre><code>1
-array(1) {
-  [0]=&gt;
-  string(3) &quot;Dr.&quot;
-}
-</code></pre>
-<p>在这个测试中我们发现，虽然文本中出现了两次“Dr.”，但$matches变量中只出现了一次“Dr.”，这与preg_match()函数的特性有关。</p>
-<p>在上例中，preg_match()函数中共有三个参数，分别是：</p>
-<p>&quot;/Dr./&quot;：Dr.是一个正则表达式，用于匹配“Dr.”，在preg_match()函数中我们需要用两个“/”将正则表达式包裹。</p>
-<p>$text：这个参数是我们要匹配的变量。</p>
-<p>$matches：这个参数是一个数组，用于存储正则表达式匹配到的第一个结果，所以使用var_dump()函数去读取其内容时会发现该数组中只有一个元素，元素中的内容是：“Dr.”。</p>
-<p>整个函数运行完成后会返回0或1，如果返回1就表明所用的正则表达式匹配到了结果。</p>
-<p>由此可见，我们可以用preg_match()函数来判断某个正则表达式能否在文本中匹配到内容，而不关心匹配到了多少内容：</p>
-<pre><code>&lt;?php
-$text = &quot;Welcome Dr. Liu and Dr. Lu to BLCU. It's our pleasure.&quot;;
-
-if(preg_match(&quot;/Dr\./&quot;,$text,$matches))
-{
-    echo &quot;Match found&quot;;
-}else{
-    echo &quot;Match not found&quot;;
-}
-?&gt;
-</code></pre>
-<p>以上代码运行的结果就是：Match found。</p>
-<p><strong>2） preg_match_all()</strong></p>
-<p>我们再来看preg_match_all()函数：</p>
-<pre><code>&lt;?php
-$text = &quot;Welcome Dr. Liu and Dr. Lu to BLCU. It's our pleasure.&quot;;
-
-echo preg_match_all(&quot;/Dr\./&quot;,$text,$matches);
-
-echo &quot;&lt;br&gt;&quot;;
-
-var_dump($matches);
-?&gt;
-</code></pre>
-<p>代码运行结果为：</p>
-<pre><code>2
-array(1) {
-  [0]=&gt;
-  array(2) {
-    [0]=&gt;
-    string(3) &quot;Dr.&quot;
-    [1]=&gt;
-    string(3) &quot;Dr.&quot;
-  }
-}
-</code></pre>
-<p>preg_match_all()接收的参数与preg_match()一样，但输出的结果并不一样。整个函数输出的是：正则表达式总共匹配到了多少结果，而所有的结果则以数组的形式存储在$matches变量中。</p>
-<p>相比两个函数，对断句更有帮助的是实际上是preg_match()，因为我们在使用正则表达式确定断点时，实际上是先去判断有没有断点，而不是有多少断点。</p>
-<p>那么判断到有断点时应该怎么办呢？</p>
-<p><strong>3）preg_replace()</strong></p>
-<p>preg_replace()函数的作用是借助正则表达式进行文本的替换，如下：</p>
-<pre><code>&lt;?php
-$text = &quot;Welcome Dr. Liu and Dr. Lu to BLCU. It's our pleasure.&quot;;
-
-if(preg_match(&quot;/Dr\./&quot;,$text,$matches))
-{
-    echo preg_replace(&quot;/(Dr\.)/&quot;,&quot;$1\n&quot;,$text);
-}
-?&gt;
-</code></pre>
-<p>以上代码运行结果为：</p>
-<pre><code>Welcome Dr.
- Liu and Dr.
- Lu to BLCU. It's our pleasure.
-</code></pre>
-<p>看到这个结果后，你可能会想究竟发生了什么才会使得两个“Dr.”后面都出现了换行。显然这不是我们想看到的结果，因为我们希望在“BLCU.”后面换行，而不是“Dr.”后面。</p>
-<p>确实如此，但我们通过这个例子可以知道preg_replace()函数起到了替换的作用，在第6行代码中，preg_replace()函数接受了三个参数，分别是：</p>
-<p>&quot;/(Dr.)/&quot;：这是一个正则表达式，我们用圆括号()将正则表达式“Dr.”包裹住，目的是将其视为一个整体，而这个整体可以用“$1”来表示。</p>
-<p>&quot;$1\n&quot;：这是用于替换的表达式，$1表示的就是前面的正则表达式匹配到的结果，\n是一个换行符，连在一起的效果就是：在Dr.后面加一个换行符。</p>
-<p>$text：正则表达式要匹配的目标文本。</p>
-<p>整个preg_replace()函数运行后输出的是一个字符串，这个字符串就是完成了替换操作的字符串。</p>
-<p>即便我们知道了原理，但其实也并没有解决断句的问题，所以我们还需要再次调整代码：</p>
-<pre><code>&lt;?php
-$text = &quot;Welcome Dr. Liu and Dr. Lu to BLCU. It's our pleasure.&quot;;
-
-$result = preg_replace(&quot;/\./&quot;,&quot;.\n&quot;,$text);
-
-$result = preg_replace(&quot;/(Dr)(\.)(\s)/&quot;,&quot;$1$2&quot;,$result);
-
-$final = explode(&quot;\n&quot;,$result);
-
-foreach($final as $f)
-{
-    echo $f.&quot;&lt;br&gt;&quot;;
-}
-?&gt;
-</code></pre>
-<p>以上代码输出的结果是：</p>
-<pre><code>Welcome Dr. Liu and Dr. Lu to BLCU.
-It's our pleasure.
-</code></pre>
-<p>如下图所示：</p>
-<figure data-type="image" tabindex="2"><img src="https://nansey.github.io/post-images/1619950608122.png" alt="" loading="lazy"></figure>
-<p>似乎我们的代码更复杂了，但至少结果是符合预期的。</p>
-<p>第4行代码是：</p>
-<pre><code>$result = preg_replace(&quot;/\./&quot;,&quot;.\n&quot;,$text);
-</code></pre>
-<p>这里的&quot;/./&quot;匹配的是所有的句号，注意，是所有的句号。&quot;.\n&quot;表示将所有的句号替换成一个“.”加上一个换行符。</p>
-<p>这一步完成后，即便是“Dr.”里的句号也会替换成一个句号加上一个换行符。</p>
-<p>所以第6行代码的作用就是：纠偏</p>
-<pre><code>$result = preg_replace(&quot;/(Dr)(\.)(\s)/&quot;,&quot;$1$2&quot;,$result);
-</code></pre>
-<p>&quot;/(Dr)(.)(\s)/&quot;匹配的是：Dr、句号、一个空白字符，我们用圆括号分别将它们三者包裹起来，可以用$1、$2、$3分别表示。</p>
-<p>因为在第4行中我们在Dr.后面新增了一个换行符，所以这里的&quot;(\s)&quot;实际上匹配到的就是这个换行符，也就是$3。</p>
-<p>我们在替换时只用了$1$2，这就表明我们保留了“Dr.”，但没有保留后面的换行符，这就间接将之前第4行添加的换行符给去掉了。</p>
-<pre><code>有读者看到这里可能会疑惑：\s不是表示的空格吗，怎么这里又能表示换行符了？ 
-这是因为在正则表达式中，\s 是匹配所有空白符，包括换行，而不仅仅是空格。
-参考：https://www.runoob.com/regexp/regexp-syntax.html
-</code></pre>
-<p>第6行代码运行完成后，实际上断句也没有完成，因为这个时候我们只是在“BLCU.”后面和“pleasure.”后面还保留了两个换行符“\n”。</p>
-<p>因此我们使用了一个explode()函数，这个函数可以基于某个特定的符号将文本切分成数组，所以第8行代码就起到了这样的作用。</p>
-<p>如果用var_dump()函数将$final变量呈现出来，内容如下：</p>
-<pre><code>array(3) {
-  [0]=&gt;
-  string(35) &quot;Welcome Dr. Liu and Dr. Lu to BLCU.&quot;
-  [1]=&gt;
-  string(19) &quot; It's our pleasure.&quot;
-  [2]=&gt;
-  string(0) &quot;&quot;
-}
-</code></pre>
-<p>这个时候用一个foreach循环就能把两个句子分别读取出来，进而完成了断句操作。</p>
-<p>以上就是PHP中我们常用到的用于应用正则表达式的函数。</p>
-<p><strong>二、从“.srx”文件中读取正则表达式断句规则</strong></p>
-<p>如果一篇英文文本中没有那么多干扰断句的标点符号，那就不存在SRX标准了，但事实上英文文本中有非常多的断句干扰，所以本地化专家们整理了一整套的断句规则，覆盖多种语言。</p>
-<p>目前在网上能够找到许多断句规则，大家平时可能以为像Trados、memoQ这种主流的计算机辅助翻译工具中能够直接下载到这些规则，但仔细去看才发现他们要么是将规则内嵌到了工具中，要么是使用了自己的特定格式的断句规则文件，所以我们在网上找到了开源计算机辅助翻译工具OmegaT的断句规则，链接如下：</p>
-<p><a href="https://github.com/omegat-org/omegat/blob/master/src/org/omegat/core/segmentation/defaultRules.srx">https://github.com/omegat-org/omegat/blob/master/src/org/omegat/core/segmentation/defaultRules.srx</a></p>
-<figure data-type="image" tabindex="3"><img src="https://nansey.github.io/post-images/1619950863651.png" alt="" loading="lazy"></figure>
-<p>其中从3800行开始是针对英文的断句规则：</p>
-<figure data-type="image" tabindex="4"><img src="https://nansey.github.io/post-images/1619950883174.png" alt="" loading="lazy"></figure>
-<p>如果我们希望基于“.srx”文件来断句，那么就需要将这些断句规则读取出来。考虑到“.srx”文件是基于XML的，所以我们使用了simplexml_load_file()函数，如下：</p>
-<pre><code>&lt;?php
-$xml = simplexml_load_file(&quot;defaultRules.srx&quot;);
-
-$english_rules = $xml-&gt;body-&gt;languagerules-&gt;languagerule[3]-&gt;rule;
-
-echo &quot;&lt;table border='1'&gt;&lt;th&gt;BeforeBreak&lt;/th&gt;&lt;th&gt;AfterBreak&lt;/th&gt;&quot;;
-
-foreach($english_rules as $rule)
-{
-    echo &quot;&lt;tr&gt;&lt;td&gt;&quot;.$rule-&gt;beforebreak.&quot;&lt;/td&gt;&lt;td&gt;&quot;.$rule-&gt;afterbreak.&quot;&lt;/td&gt;&lt;/tr&gt;&quot;;
-}
-
-echo &quot;&lt;/table&gt;&quot;;
-?&gt;
-</code></pre>
-<p>运行效果如下：</p>
-<figure data-type="image" tabindex="5"><img src="https://nansey.github.io/post-images/1619950957765.png" alt="" loading="lazy"></figure>
-<p>如果之前仔细阅读过《<a href="https://mp.weixin.qq.com/s?__biz=MzA5OTk4MDEzNw==&amp;mid=2650689404&amp;idx=1&amp;sn=efe681ba67140670ff2c98a5016c5e0f&amp;chksm=88f0e97abf87606c85f795aa216721023d6b16e6dc5e885fd3e4fed7babfbe915dcb82093200&amp;scene=21#wechat_redirect">译者编程入门指南</a>》中“.tmx”格式文件读取的方法，这里就不难理解我们是如何将全部正则表达式读取出来的了，所以在本帖中就不再详细介绍。</p>
-<p>我们现在既然已经将所有的用于英文断句的正则表达式找到，那么拿到一个文本后就可以考虑用这些表达式来协助我们断句。</p>
-<p><strong>三、使用“.srx”中的正则表达式将英文文本切分成句</strong></p>
-<p>为了演示方便，我们依然使用之前的测试例句：</p>
-<pre><code>&lt;?php
-
-$text = &quot;Welcome Dr. Liu and Dr. Lu to BLCU. It's our pleasure.&quot;;
-
-$result = preg_replace(&quot;/\./&quot;,&quot;.\n&quot;,$text);
-
-$xml = simplexml_load_file(&quot;defaultRules.srx&quot;);
-
-$english_rules = $xml-&gt;body-&gt;languagerules-&gt;languagerule[3]-&gt;rule;
-
-foreach($english_rules as $rule)
-{
-    $before = $rule-&gt;beforebreak;
-
-    $after = $rule-&gt;afterbreak;
-
-    $result = preg_replace(&quot;/(&quot;.$before.&quot;)(\s)(&quot;.$after.&quot;)/&quot;,&quot;$1$3&quot;,$result); 
-}
-
-$final = explode(&quot;\n&quot;,$result);
-
-foreach($final as $f)
-{
-    echo $f.&quot;&lt;br&gt;&quot;;
-}
-?&gt;
-</code></pre>
-<p>以上代码的运行结果如下：</p>
-<figure data-type="image" tabindex="6"><img src="https://nansey.github.io/post-images/1619951027444.png" alt="" loading="lazy"></figure>
-<p>可见，我们将两部分代码组合后，依然可以对这段文本进行断句。</p>
-<p>这段代码中我们可能会比较疑惑的是第13到17行。这里我们选取的策略是：</p>
-<p>将“.srx”文件中断点前规则和断点后规则组合到一起让preg_replace()函数去处理，如果找到了误增的换行符，就把这个换行符去掉，这样就不会在断点处切分了。大家要特别注意我们在“.srx”文件中提取到的断句规则的“break”属性值都是“no”，这意味着我们在上面的例子中选择的正则表达式断句规则都是告诉程序不要切分句子的。</p>
-<p><strong>问题</strong></p>
-<p>通过以上代码的分析，我们知道了如何基于SRX将英文文本切分成句，但本文只是介绍的基本原理，在实际使用中还是有很多问题，比如这个句子：</p>
-<pre><code>The U.K. Prime Minister, Mr. Blair, was seen out with his family today.
-</code></pre>
-<p>断句结果为：</p>
-<figure data-type="image" tabindex="7"><img src="https://nansey.github.io/post-images/1619951077120.png" alt="" loading="lazy"></figure>
-<p>聪明的你可以想想这个问题是如何产生的，以及如何解决这个问题。</p>
-<p>本文原文《<a href="https://mp.weixin.qq.com/s?__biz=MzA5OTk4MDEzNw==&amp;mid=2650689772&amp;idx=1&amp;sn=b8711955a0b720bdb6bca02e441e9f52&amp;chksm=88f0f6eabf877ffca6b1910c377ac3c0a3128a2344d6a5b7e5fd6c6fef646bf44a7086b2b752&amp;mpshare=1&amp;scene=2&amp;srcid=04282pYckY8VoL16lLMftaWa&amp;sharer_sharetime=1619573804121&amp;sharer_shareid=0a14fac040b4fff98b33f8c55d5224a5&amp;from=timeline&amp;isappinstalled=0&amp;clicktime=1619948316&amp;enterid=1619948316&amp;ascene=45&amp;devicetype=iOS14.5&amp;version=1800042c&amp;nettype=WIFI&amp;abtest_cookie=AAACAA%3D%3D&amp;lang=zh_CN&amp;fontScale=100&amp;exportkey=Ah%2BW7hTuSZo48eTSGIFY45I%3D&amp;pass_ticket=5SX%2Fzpjle5Ag%2FYtePgeia0WxclYM%2BXNigiLqBXXLS6BzDZI9t0%2B6jV7k78627baP&amp;wx_header=1">如何基于SRX将英文文本切分成句（二）</a>》发表于韩老师的公众号《简言》。</p>
-<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[本地化行业的未来]]></title>
-        <id>https://nansey.github.io/post/the-future-of-localization/</id>
-        <link href="https://nansey.github.io/post/the-future-of-localization/">
-        </link>
-        <updated>2021-04-28T11:09:07.000Z</updated>
-        <summary type="html"><![CDATA[<p>什么是增强翻译？它为何如此重要？增强翻译是对<a href="https://www.lionbridge.com/zh-hans/blog/translation-localization/the-future-of-language-technology-the-future-of-machine-translation/">机器生成的翻译</a>进行更正和增强，而非翻译源内容。随着人工智能 (AI) 的应用越来越广泛和本地化行业的发展，Lionbridge 高层希望增强翻译能够在翻译人员工作中占据主导地位。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>什么是增强翻译？它为何如此重要？增强翻译是对<a href="https://www.lionbridge.com/zh-hans/blog/translation-localization/the-future-of-language-technology-the-future-of-machine-translation/">机器生成的翻译</a>进行更正和增强，而非翻译源内容。随着人工智能 (AI) 的应用越来越广泛和本地化行业的发展，Lionbridge 高层希望增强翻译能够在翻译人员工作中占据主导地位。</p>
-<!-- more -->
-<p>Lionbridge 的主张管理高级总监 <a href="https://www.linkedin.com/in/kajetan/?originalSubdomain=pl">Kajetan Malinowski</a> 和首席营销官 <a href="https://www.linkedin.com/in/jpunishill/">Jaime Punishill</a> 于 Multilingual 撰写<a href="https://www.lionbridge.com/content/dam/lionbridge/the-future-of-the-localization-industry-(multilingual)/Lionbridge-Multilingual-Magazine-2021.pdf">文章</a>，分享 Lionbridge 关于本地化行业的未来的见解，以及如何充分利用<a href="https://fanyi.news/tag/0tmJLlP8tH/">本地化</a>。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 15]]></title>
-        <id>https://nansey.github.io/post/moments-day-fifteen/</id>
-        <link href="https://nansey.github.io/post/moments-day-fifteen/">
-        </link>
-        <updated>2021-04-28T07:01:35.000Z</updated>
-        <summary type="html"><![CDATA[<p>在之前的帖子中我们介绍过读懂翻译记忆库文件（<a href="https://en.wikipedia.org/wiki/Translation_Memory_eXchange">TMX</a>）所需的 <a href="https://en.wikipedia.org/wiki/XML">XML</a> 和 <a href="https://zh.wikipedia.org/wiki/%E6%96%87%E6%A1%A3%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89">DTD</a> 基础知识和使用 <a href="https://www.tmxmall.com/">Tmxmall</a> 的文档解析 <a href="https://www.mulesoft.com/resources/api/what-is-an-api">API</a> 来进行多种类型文档的断句，以及如何基于 TMX 来制作翻译记忆库（如何制作一个简易的大会报告双语检索工具）。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>在之前的帖子中我们介绍过读懂翻译记忆库文件（<a href="https://en.wikipedia.org/wiki/Translation_Memory_eXchange">TMX</a>）所需的 <a href="https://en.wikipedia.org/wiki/XML">XML</a> 和 <a href="https://zh.wikipedia.org/wiki/%E6%96%87%E6%A1%A3%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89">DTD</a> 基础知识和使用 <a href="https://www.tmxmall.com/">Tmxmall</a> 的文档解析 <a href="https://www.mulesoft.com/resources/api/what-is-an-api">API</a> 来进行多种类型文档的断句，以及如何基于 TMX 来制作翻译记忆库（如何制作一个简易的大会报告双语检索工具）。</p>
-<!-- more -->
-<p>同样是基于 XML 技术的 SRX 却一直没有介绍过，其全称是“<a href="https://en.wikipedia.org/wiki/Segmentation_Rules_eXchange">Segmentation  Rules eXchange</a>”，可译为“断句规则交换”。</p>
-<p>简单来说就是：开发计算机辅助翻译工具的厂商约定都按照 SRX 标准来存储和读取文本断句规则，这些断句规则存储在“.srx”格式的文件中。</p>
-<p>有了断句规则，我们就可以轻松的将一篇文章切分成一个个的句段（Segment），而计算机辅助翻译工具最喜欢的就是这种类型的待译原文呈现形式。</p>
-<p>写这篇文章的目的就是为大家介绍如何基于 SRX 将英文文本切分成一个个的句子。</p>
-<p>一、“.srx”格式的文件长啥样？</p>
-<p>请看下面这个示例：</p>
-<pre><code class="language-&lt;?xml">&lt;srx version=&quot;2.0&quot; 
-  xmlns=&quot;http://www.lisa.org/srx20&quot;
-  xsi:schemaLocation=&quot;http://www.lisa.org/srx20 srx20.xsd&quot;
-  xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
-    &lt;header segmentsubflows=&quot;yes&quot; cascade=&quot;yes&quot;&gt;
-        &lt;formathandle type=&quot;start&quot; include=&quot;no&quot;/&gt;
-        &lt;formathandle type=&quot;end&quot; include=&quot;yes&quot;/&gt;
-        &lt;formathandle type=&quot;isolated&quot; include=&quot;yes&quot;/&gt;
-    &lt;/header&gt;
-    &lt;body&gt;
-        &lt;languagerules&gt;
-            &lt;languagerule languagerulename=&quot;Default&quot;&gt;
-                &lt;!-- Common rules for most languages --&gt;
-                &lt;rule break=&quot;no&quot;&gt;
-                    &lt;beforebreak&gt;^\s*[0-9]+\.&lt;/beforebreak&gt;
-                    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
-                &lt;/rule&gt;
-                &lt;rule break=&quot;yes&quot;&gt;
-                    &lt;afterbreak&gt;\n&lt;/afterbreak&gt;
-                &lt;/rule&gt;
-                &lt;rule break=&quot;yes&quot;&gt;
-                    &lt;beforebreak&gt;[\.\?!]+&lt;/beforebreak&gt;
-                    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
-                &lt;/rule&gt;
-            &lt;/languagerule&gt;
-            &lt;languagerule languagerulename=&quot;English&quot;&gt;
-                &lt;!-- Some English abbreviations --&gt;
-                &lt;rule break=&quot;no&quot;&gt;
-                    &lt;beforebreak&gt;\s[Ee][Tt][Cc]\.&lt;/beforebreak&gt;
-                    &lt;afterbreak&gt;\s[a-z]&lt;/afterbreak&gt;
-                &lt;/rule&gt;
-                &lt;rule break=&quot;no&quot;&gt;
-                    &lt;beforebreak&gt;\sMr\.&lt;/beforebreak&gt;
-                    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
-                &lt;/rule&gt;
-                &lt;rule break=&quot;no&quot;&gt;
-                    &lt;beforebreak&gt;\sU\.K\.&lt;/beforebreak&gt;
-                    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
-                &lt;/rule&gt;
-            &lt;/languagerule&gt;
-            &lt;languagerule languagerulename=&quot;French&quot;&gt;
-                &lt;!-- Some French abbreviations --&gt;
-                &lt;rule break=&quot;no&quot;&gt;
-                    &lt;beforebreak&gt;\s[Mm]lle\.&lt;/beforebreak&gt;
-                    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
-                &lt;/rule&gt;
-                &lt;rule break=&quot;no&quot;&gt;
-                    &lt;beforebreak&gt;\s[Mm]lles\.&lt;/beforebreak&gt;
-                    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
-                &lt;/rule&gt;
-                &lt;rule break=&quot;no&quot;&gt;
-                    &lt;beforebreak&gt;\s[Mm]me\.&lt;/beforebreak&gt;
-                    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
-                &lt;/rule&gt;
-                &lt;rule break=&quot;no&quot;&gt;
-                    &lt;beforebreak&gt;\s[Mm]mes\.&lt;/beforebreak&gt;
-                    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
-                &lt;/rule&gt;
-            &lt;/languagerule&gt;
-            &lt;languagerule languagerulename=&quot;Japanese&quot;&gt;
-                &lt;!-- Rules for breaking on Japanese punctuation
-                
-                \xff61: Halfwidth ideographic full stop
-                \x3002: Ideographic full stop
-                \xff0e: Fullwidth full stop
-                \xff1f: Fullwidth question mark
-                \xff01: Fullwidth exclamation mark
-                --&gt;
-                &lt;rule break=&quot;yes&quot;&gt;
-                    &lt;beforebreak&gt;[\xff61\x3002\xff0e\xff1f\xff01]+&lt;/beforebreak&gt;
-                    &lt;afterbreak&gt;&lt;/afterbreak&gt;
-                &lt;/rule&gt;
-            &lt;/languagerule&gt;
-        &lt;/languagerules&gt;
-        &lt;maprules&gt;
-            &lt;!-- List exceptions first --&gt;
-            &lt;languagemap languagepattern=&quot;[Ee][Nn].*&quot; languagerulename=&quot;English&quot;/&gt;
-            &lt;languagemap languagepattern=&quot;[Ff][Rr].*&quot; languagerulename=&quot;French&quot;/&gt;
-            &lt;!-- Japanese breaking rules --&gt;
-            &lt;languagemap languagepattern=&quot;[Jj][Aa].*&quot; languagerulename=&quot;Japanese&quot;/&gt;
-            &lt;!-- Common breaking rules --&gt;
-            &lt;languagemap languagepattern=&quot;.*&quot; languagerulename=&quot;Default&quot;/&gt;
-        &lt;/maprules&gt;
-    &lt;/body&gt;
-&lt;/srx&gt;
-</code></pre>
-<p>来源：https://www.gala-global.org/srx-20-april-7-2008</p>
-<p>如果你之前看过我录制的 XML 基础视频，看到这个样子的文件肯定就不陌生了，如果你没有看过而且不知道什么是 XML，那么就可以关掉这个页面，先去看这篇帖子：读懂翻译记忆库文件（TMX）所需的 XML 和 DTD 基础知识。</p>
-<p>二、SRX 文件是如何存储断句规则的？</p>
-<p>要想知道 SRX 文件是如何存储断句规则的，除了需要有 XML 基础知识外，更重要的是要掌握正则表达式的基础，我也同样录过一系列的视频：面向文科生的正则表达式基础视频教程。很抱歉，你可能又要关掉这个页面，去补一下正则表达式的基础知识了。</p>
-<p>在 SRX 文件中，你会看到三个非常重要的元素：<rule>元素、<beforebreak>元素和<afterbreak>元素。它们以这样的形式一同出现：</p>
-<pre><code>&lt;rule break=&quot;yes&quot;&gt;
-    &lt;beforebreak&gt;[\.\?!]+&lt;/beforebreak&gt;
-    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
-&lt;/rule&gt;
-</code></pre>
-<p>在上面的 XML 代码中，一个<rule>元素中包含了一条断句规则，这个断句规则分为两部分，首先用<beforebreak>元素定义了“断点”前是什么，然后用<afterbreak>元素定义了“断点”后是什么。</p>
-<p>大家需要特别注意“断点”这个概念，以下面这两个句子为例：</p>
-<p>Good morning! Welcome to BLCU.</p>
-<p>如果我们希望将这段话切分成两句话，我们肯定会选择将其分为“Good morning! ”和“Welcome to BLCU.”</p>
-<p>所有要从惊叹号后面进行断句：</p>
-<p>Good morning! | Welcome to BLCU.</p>
-<p>上面红色的位置就是所谓的“断点”，对应的英文即“Break”。如果我们想让计算机来断句，那么就得告诉计算机断点前是什么，断点后是什么。在上面的例子中，断点前是个惊叹号，断点后是一个空格。</p>
-<p>如果我们想用正则表达式来表示惊叹号，直接写“!”就可以。但除了惊叹号之外，我们也可以用问号“?”、句号“.”，而且有时一个句子后面会有好多种情况，比如：</p>
-<p>Hi!<br>
-What?!<br>
-Yes!<br>
-Thanks.<br>
-No!!!</p>
-<p>所以我们用这样一个正则表达式就可以覆盖以上几种情况：[.?!]+</p>
-<p>. 表示的是 .<br>
-? 表示的是 ?<br>
-! 表示的是 !<br>
-[] 表示的是 集合</p>
-<ul>
-<li>表示的是 前面的表达式出现一次或多次</li>
-</ul>
-<p>正是[]+ 这个正则表达式组合使得我们可以匹配多个符号同时出现的情况。</p>
-<p>运行效果如下图：</p>
-<figure data-type="image" tabindex="1"><img src="https://nansey.github.io/post-images/1619680188916.png" alt="" loading="lazy"></figure>
-<p>至于空格，则可以使用正则表达式“\s”来表示。</p>
-<p>最后需要再看的就是<rule>元素的“break”属性值，如果这个值是“yes”就表明要在这个断点将句子断开，如果是“no”就表明不断开。</p>
-<p>了解上面这个断句规则的实现原理后，再来看这两段 XML 代码你就更了解断句规则是如何存储的了：</p>
-<pre><code>&lt;rule break=&quot;yes&quot;&gt;
-    &lt;beforebreak&gt;[\.\?!]+&lt;/beforebreak&gt;
-    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
-&lt;/rule&gt;
-</code></pre>
-<pre><code>&lt;rule break=&quot;no&quot;&gt;
-    &lt;beforebreak&gt;\sMr\.&lt;/beforebreak&gt;
-    &lt;afterbreak&gt;\s&lt;/afterbreak&gt;
-&lt;/rule&gt;
-</code></pre>
-<p>最初提出 SRX 标准的本地化专家们考虑到了非常多的断句规则，涉及不同的断句场景，涉及不同的语言，涉及断句规则如何扩充，涉及断句规则如何应用。SRX 标准早在2004年便正式使用，现在通行的是2008年的第二个版本，发起者均是本地化行业标准协会（<a href="https://en.wikipedia.org/wiki/Localization_Industry_Standards_Association">LISA</a>, Localization Industry Stardards Association）。LISA 推动了本地化行业非常重要的几个标准：TMX、TBX、SRX。但在2011年2月，该组织因资不抵债而关闭。如今全球化与本地化协会（<a href="https://www.gala-global.org/">GALA</a>, Globalization and Localization Association）的官网上还可以看到这些标准的全文，这也是我们了解本地化行业标准的主要渠道。</p>
-<p>三、如何通过代码来实现断句？</p>
-<p>如果我们想用代码来实现断句，自然需要先知道原理。我们在这一系列文章中将依然以PHP作为实现断句的编程语言。</p>
-<p>因为 SRX 中断句实现的主要路径是正则表达式，所以我们会介绍 PHP 中与正则表达式操作相关的函数：preg_replace()、preg_match()、preg_match_all()、explode()。</p>
-<p>因为 SRX 是基于 XML 的，所以我会带着大家回顾之前的帖子中讲过的 XML 读取函数simplexml_load_file()。</p>
-<p>配合 PHP 的数组知识、循环知识，我们就能够实现断句。</p>
-<p>在后面的帖子中我们继续为大家介绍。</p>
-<p>本文原文《<a href="https://mp.weixin.qq.com/s/9gDYvaLN0rA0OHgBP1uqCA">如何基于SRX将英文文本切分成句（一）</a>》发表于韩老师的公众号《简言》。</p>
-<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 14]]></title>
-        <id>https://nansey.github.io/post/moments-day-fourteen/</id>
-        <link href="https://nansey.github.io/post/moments-day-fourteen/">
-        </link>
-        <updated>2021-04-27T05:37:22.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>什么是ParaTrans？</strong></p>
-<p><a href="http://paratrans.vip/">ParaTrans</a>是一个可以同时对比多个机器翻译译文的在线工具，在之前的文章中已有详细介绍：《<a href="https://mp.weixin.qq.com/s?__biz=MzA5OTk4MDEzNw==&amp;mid=2650688422&amp;idx=1&amp;sn=ab7089fb99c9b7b94b80cafea5b95e58&amp;chksm=88f0eda0bf8764b65d6773372aa91013b45748d1473938e2ae81993426b5f75a5b89eccef973&amp;scene=21#wechat_redirect">ParaTrans 2.0：百度、有道、搜狗、谷歌四款机器翻译服务大PK！</a>》、《<a href="https://mp.weixin.qq.com/s?__biz=MzA5OTk4MDEzNw==&amp;mid=2650689042&amp;idx=1&amp;sn=a0c08e776db8818ae1811af1540411ad&amp;chksm=88f0e814bf8761020a58d4df40d4f857923ef27172e8143b6d39722de8f3169ea626bcda9d8b&amp;scene=21#wechat_redirect">ParaTrans升级：上传一个文档，同时获得四个机器翻译结果</a>》。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p><strong>什么是ParaTrans？</strong></p>
-<p><a href="http://paratrans.vip/">ParaTrans</a>是一个可以同时对比多个机器翻译译文的在线工具，在之前的文章中已有详细介绍：《<a href="https://mp.weixin.qq.com/s?__biz=MzA5OTk4MDEzNw==&amp;mid=2650688422&amp;idx=1&amp;sn=ab7089fb99c9b7b94b80cafea5b95e58&amp;chksm=88f0eda0bf8764b65d6773372aa91013b45748d1473938e2ae81993426b5f75a5b89eccef973&amp;scene=21#wechat_redirect">ParaTrans 2.0：百度、有道、搜狗、谷歌四款机器翻译服务大PK！</a>》、《<a href="https://mp.weixin.qq.com/s?__biz=MzA5OTk4MDEzNw==&amp;mid=2650689042&amp;idx=1&amp;sn=a0c08e776db8818ae1811af1540411ad&amp;chksm=88f0e814bf8761020a58d4df40d4f857923ef27172e8143b6d39722de8f3169ea626bcda9d8b&amp;scene=21#wechat_redirect">ParaTrans升级：上传一个文档，同时获得四个机器翻译结果</a>》。</p>
-<!-- more -->
-<p>效果图如下：</p>
-<figure data-type="image" tabindex="1"><img src="https://nansey.github.io/post-images/1619502190325.png" alt="" loading="lazy"></figure>
-<p><strong>为什么要更换域名？</strong></p>
-<p>ParaTrans是给学生授课过程中为教学演示而开发的工具，其开发原理也在《<a href="https://book.douban.com/subject/35156980/">译者编程入门指南</a>》一书中有详细介绍。最早开发该工具时仅仅将其作为<a href="http://translation.education/paratrans">附属网站</a>放到<a href="http://translation.education/">个人域名</a>下，名字非常长，不方便记忆，更换域名后用户将更容易在手机端、电脑端访问：<a href="http://paratrans.vip">http://paratrans.vip</a></p>
-<p><strong>“新网站”有哪些新增功能？</strong></p>
-<p>更换域名后原网站的所有用户均可继续使用之前的用户名密码登录，并不影响正常使用。</p>
-<p>由于ParaTrans访问量较大，所使用的<a href="https://fanyi.sogou.com/">搜狗翻译</a>API、<a href="http://fanyi.youdao.com/">有道翻译</a>API、<a href="https://translate.google.com/">谷歌翻译</a>API均由我个人付费购买，有时每月会花费数百元。为了平衡收支，新用户将拥有1000字的免费流量，超过免费流量后将按照10元/10000字标准收费。</p>
-<p>新域名启用后网站将新增“ParaMT流量券”兑换功能，用户可以前往微店购买流量券，购买后会在手机上收到兑换券，凭该兑换券可在网站的“兑换”页面兑换流量：</p>
-<figure data-type="image" tabindex="2"><img src="https://nansey.github.io/post-images/1619502483549.png" alt="" loading="lazy"></figure>
-<p><strong>想要获取更多机器翻译引擎结果怎么办？</strong></p>
-<p>一直有用户希望我添加更多机器翻译引擎，我会找时间继续添加，但目前对我来说，现在的几款已经够用了，所以后期会根据心情再添加。</p>
-<p>大家如果等不及的话可以使用这款国人研发的神器：<a href="https://gt4t.net/">GT4T</a></p>
-<p>猜猜下面谁是开发者：</p>
-<figure data-type="image" tabindex="3"><img src="https://nansey.github.io/post-images/1619502610052.png" alt="" loading="lazy"></figure>
-<p>本文原文《<a href="https://mp.weixin.qq.com/s/vy93F6jJjs2Ox5iGzJ5FIw">ParaTrans启用新域名：ParaTrans.vip</a>》发表于韩老师的公众号《简言》。</p>
-<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[YiCAT 接入火山翻译引擎]]></title>
-        <id>https://nansey.github.io/post/yicat-integrates-Volctrans/</id>
-        <link href="https://nansey.github.io/post/yicat-integrates-Volctrans/">
-        </link>
-        <updated>2021-04-26T11:24:05.000Z</updated>
-        <summary type="html"><![CDATA[<p>据 Tmxmall 公众号<a href="https://mp.weixin.qq.com/s/lB1wGzwMUgEuVNdcGAAtzw">消息</a>，由字节跳动计算机研究科学家、工程师、产品经理、产品运营和语言专家组成的团队研发的火山翻译（<a href="https://translate.volcengine.cn/">Volctrans</a>）引擎入驻<a href="https://www.tmxmall.com/">一者科技</a>机器翻译矩阵，可在 <a href="https://www.yicat.vip/">YiCAT</a> 中直接调用。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>据 Tmxmall 公众号<a href="https://mp.weixin.qq.com/s/lB1wGzwMUgEuVNdcGAAtzw">消息</a>，由字节跳动计算机研究科学家、工程师、产品经理、产品运营和语言专家组成的团队研发的火山翻译（<a href="https://translate.volcengine.cn/">Volctrans</a>）引擎入驻<a href="https://www.tmxmall.com/">一者科技</a>机器翻译矩阵，可在 <a href="https://www.yicat.vip/">YiCAT</a> 中直接调用。</p>
-<!-- more -->
-<p>火山翻译（Volctrans）基于其自主研发的机器学习技术，已积累百亿多种语言语料。在2020国际机器翻译大赛中，火山翻译以显著优势在「中文-英语」语向翻译项目上拿下了<a href="https://www.163.com/tech/article/FSOISLTA00099A7M.html">冠军</a>，同时还拿下了「德语-英语」、「德语-法语」、「英语-高棉语」和「英语-普什图语」语向机器翻译项目的冠军。火山翻译目前支持超过50个语种、2500个语对之间的互译。本次YiCAT中接入的是其中37种语言。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 13]]></title>
-        <id>https://nansey.github.io/post/moments-day-thirteen/</id>
-        <link href="https://nansey.github.io/post/moments-day-thirteen/">
-        </link>
-        <updated>2021-04-26T05:30:30.000Z</updated>
-        <summary type="html"><![CDATA[<p>学生发来一个<a href="https://blog.csdn.net/weixin_42737761/article/details/95046852">网页</a>，说看不懂。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>学生发来一个<a href="https://blog.csdn.net/weixin_42737761/article/details/95046852">网页</a>，说看不懂。</p>
-<!-- more -->
-<p>我问哪儿看不懂，TA说第一句话就看不懂：“当我们需要判断一个变量是否已声明但值为空的时候......”</p>
-<p>我发现原来TA不知道什么叫“声明”。</p>
-<p>我们以前讲过，变量是个容器，里面可以放东西。但这个容器哪儿来的，为什么可以放东西呢？</p>
-<p>咱们举个直观的例子：</p>
-<p>你家需要一个箱子来装书，但你现在手里没有箱子，所以你只能先打开京东下单一个箱子，但这个时候你依然没有箱子，需要等到箱子到了之后你才能把书放进去存着。</p>
-<p>上面这个过程中，下单买箱子的过程叫“声明”，箱子到了之后才叫“定义”。当你付了钱买箱子后，实际上只是给家里人声明：那个啥，我买了个装书的箱子哈。此时你家并没有容箱之地。</p>
-<p>只有箱子到了，书放进去了，我们才会给它安排一个确定的存放地址。</p>
-<p>对应到计算机里，当我们声明一个变量时，计算机并没有为其分配内存，只有到定义了变量的内容后才会分配。</p>
-<p>这位同学就是没有搞清楚什么叫声明才会糊涂：</p>
-<p>判断一个变量是否已声明但值为空，就是去判断我们是不是在代码说写了一个变量，但里面其实是空的。</p>
-<p>比如你希望程序把你的名字显示在浏览器中：</p>
-<p>echo $name;</p>
-<p>那这个name变量是不是空的呢?</p>
-<p>我们用empty函数来试一下就可以了。</p>
-<p>TA发给我的帖子就是在解释什么是所谓的empty。</p>
-<p>这个同学的问题非常有普遍性，因为困扰TA的实际上是一个TA习以为常的术语，而TA又没有发现这个术语的本意，于是就按照自己的理解去解读，却怎么也搞不懂。</p>
-<p>这种知识点需要拿出来问，自己琢磨半天也徒劳。</p>
-<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
 ]]></content>
     </entry>
 </feed>
