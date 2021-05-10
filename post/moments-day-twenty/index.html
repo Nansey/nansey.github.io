@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>韩林涛老师：译者编程知识30天×300字写作计划 | Day 20 | 翻译动态</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.0/css/all.min.css">
+<link rel="shortcut icon" href="https://nansey.github.io/favicon.ico?v=1620658252566">
+<link rel="stylesheet" href="https://nansey.github.io/styles/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="之前一直在分享PHP的代码，今天有一位小朋友问我，能不能用通俗易懂的方法解释一下Python的一些晦涩难懂的语法。TA说别人都说Python最好学，但真正学起来也发现看不懂的地方超级多，越学越沮丧。
+
+TA问的是：with... as......" />
+    <meta name="keywords" content="CodeSlator" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://nansey.github.io">
+        <img src="https://nansey.github.io/images/avatar.png?v=1620658252566" class="site-logo">
+        <h1 class="site-title">翻译动态</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://nansey.github.io/post/resource" class="site-nav">
+            资源
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="https://nansey.github.io/post/editors" class="site-nav">
+            团队
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      全球翻译新闻速递
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://nansey.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">韩林涛老师：译者编程知识30天×300字写作计划 | Day 20</h2>
+            <div class="post-date">2021-05-03</div>
+            
+            <div class="post-content" v-pre>
+              <p>之前一直在分享PHP的代码，今天有一位小朋友问我，能不能用通俗易懂的方法解释一下Python的一些晦涩难懂的语法。TA说别人都说Python最好学，但真正学起来也发现看不懂的地方超级多，越学越沮丧。</p>
+<!-- more -->
+<p>TA问的是：with... as...</p>
+<p>如：</p>
+<p>with open(&quot;demo.txt&quot;) as file:<br>
+data = file.read()`</p>
+<p>这段代码的作用就是读取demo.txt文件中的数据，然后关掉demo.txt文件。</p>
+<p>这就是这位小朋友不懂的地方了，TA说整个语句只看到了open，没有看到close啊。</p>
+<p>确实如此。如果TA想看到TA希望看到的，就是这样的：</p>
+<p>file = open(&quot;demo.txt&quot;)<br>
+data = file.read()<br>
+file.close()</p>
+<p>这下子是不是就很自然，你打开了一个文件，并把这个文件放到file变量中，然后用read()函数读取文件中的内容，把内容放到data变量中，然后再使用close()函数关掉file变量，也就是关掉文件。</p>
+<p>这个时候你就想问：为啥要关掉文件？</p>
+<p>你可能看代码并不觉得为什么要关掉文件，但是你在自己电脑操作文件时，是不是要把不用的文件关掉？</p>
+<p>那既然要关掉文件，那为什么with ... as...语句中看不到close()函数呢？</p>
+<p>答案就是：怕你忘了写close()函数，所以当你决定要读取一个文件时，with... as...语句就记着要给你关掉那个文件。</p>
+<p>要知道，读文件时还不能保证文件一定能成功读取呢，万一读错了怎么办？是不是还要写段代码说明读错了之后的处理办法？</p>
+<p>这些也都被with... as...语句给包含进去了。</p>
+<p>我找了一段英文解释：with statement in Python is used in exception handling to make the code cleaner and much more readable.</p>
+<p>来源：<a href="https://www.geeksforgeeks.org/with-statement-in-python/">https://www.geeksforgeeks.org/with-statement-in-python/</a></p>
+<p>有时候会发现英文一句话就把事情解释清楚了。</p>
+<p>不过我给这位小朋友解释完之后TA说还不懂，主要是不懂with... as..这种用法。</p>
+<p>这个问题就把我难住了，我自己倒这没有想过这里的with是个什么意思，如果去查牛津词典，发现with的意思有：</p>
+<p>和...在一起<br>
+与...同一方向<br>
+（时间）随着，同时<br>
+有<br>
+穿着，戴着<br>
+用；借助<br>
+反对，对立<br>
+由...处理<br>
+对，对于<br>
+用...的服务<br>
+由于<br>
+受...影响<br>
+与..分离</p>
+<p>我仔细看了一下，觉得如果真要从这些用法里找一个硬套的话，就是随着，同时（along with）</p>
+<p>with open(&quot;demo.txt&quot;) as file的意思就是：</p>
+<p>打开demo.tx文件的同时，将其命名为file。</p>
+<p>这样确实很牵强，但我给TA讲了之后，TA立刻说，这下明白了。</p>
+<p>我自己反而很疑惑，自己差点给整蒙了，因为我之前确实没有想过这个with是啥意思。</p>
+<p>这个答疑的体验很有趣，分享给大家。</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://nansey.github.io/tag/codeslator/" class="tag">
+                    CodeSlator
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://nansey.github.io/post/doctor-huang-guoping-release-his-phd-thesis/">
+                  <h3 class="post-title">
+                    黄国平博士分享其博士学位论文
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>

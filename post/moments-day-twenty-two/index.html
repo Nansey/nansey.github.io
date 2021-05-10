@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>韩林涛老师：译者编程知识30天×300字写作计划 | Day 22 | 翻译动态</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.0/css/all.min.css">
+<link rel="shortcut icon" href="https://nansey.github.io/favicon.ico?v=1620658252566">
+<link rel="stylesheet" href="https://nansey.github.io/styles/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="在今天下午的课程中，我开始给研一的同学讲解如何使用 PHP 来读取 Excel 中的数据，并分享了三篇我之前写过的帖子：
+
+https://mp.weixin.qq.com/s/vb1dG9QLxnHcISjEb4Tw_w
+https://..." />
+    <meta name="keywords" content="CodeSlator" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://nansey.github.io">
+        <img src="https://nansey.github.io/images/avatar.png?v=1620658252566" class="site-logo">
+        <h1 class="site-title">翻译动态</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://nansey.github.io/post/resource" class="site-nav">
+            资源
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="https://nansey.github.io/post/editors" class="site-nav">
+            团队
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      全球翻译新闻速递
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://nansey.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">韩林涛老师：译者编程知识30天×300字写作计划 | Day 22</h2>
+            <div class="post-date">2021-05-05</div>
+            
+            <div class="post-content" v-pre>
+              <p>在今天下午的课程中，我开始给研一的同学讲解如何使用 PHP 来读取 Excel 中的数据，并分享了三篇我之前写过的帖子：</p>
+<!-- more -->
+<p><a href="https://mp.weixin.qq.com/s/vb1dG9QLxnHcISjEb4Tw_w">https://mp.weixin.qq.com/s/vb1dG9QLxnHcISjEb4Tw_w</a></p>
+<p><a href="https://mp.weixin.qq.com/s/WaZj1q7k3W6gHhlgcAVhTQ">https://mp.weixin.qq.com/s/WaZj1q7k3W6gHhlgcAVhTQ</a></p>
+<p><a href="https://mp.weixin.qq.com/s/KGaKY1IDgVLhiySidlfUrg">https://mp.weixin.qq.com/s/KGaKY1IDgVLhiySidlfUrg</a></p>
+<p>给他们布置的作业是：</p>
+<p>将你们班同学的名字分别键入到一个 Excel 表格中不同的数据表中，然后写一段代码将他们的名字一次性显示出来到一个页面上。</p>
+<p>紧接着我从两个知识点讲起：什么是 for 循环，以及如何用 PHP 读取 Excel 中的内容。</p>
+<p>这两个知识点都是《<a href="https://book.douban.com/subject/35156980/">译者编程入门指南</a>》这本书里讲过的，但并没有在课堂上给同学们专门讲过。</p>
+<p>在课堂过程中，虽然只有不到两个小时的时间，但是大部分同学都能够根据课上所讲的内容来实现 Excel 表格中数据的读取，尤其是他们知道如何用两个 for 循环来分别将 Excel 表格中行和列中的数据循环读取出来。</p>
+<p>大家也遇到了一些小问题，比如插件下载之后，没有弄清楚插件的位置和 index.php 的位置；数组的基本知识还有些糊涂，尤其是多维数组。</p>
+<p>但这都不是难事，能够读取 Excel 是译者学编程道路上非常重要的一个节点，因为它让同学们知道了如何使用别人开发的插件、如何用代码和文件互动、如何使用循环读取文件中的内容，如何将文件内容转换为数组，这些都是初学者比较难懂的内容。</p>
+<p>但这个功能学会之后我们就可以来处理许多 Excel 文件了，至少从多个 Excel 文件中读取数据并整合到一起就变得不再那么麻烦。</p>
+<p>我自己特别喜欢用 Python 和 PHP 这些编程语言来处理 Excel 表格中的数据，尤其是喜欢那种使用代码操控数据的感觉。虽然许多的功能在 Excel 中也可以实现，但亲自写一段代码和读取数据和计算数据会让人感到很兴奋。</p>
+<p>我们学校不同部门经常让我们提交许多 Excel 格式的文件，然后这些部门的工作人员又自己手动的打开 Excel 和合并 Excel 中的数据，倘若他们知道可以自己用代码来批量处理，他们的工作量就能够大幅度降低。</p>
+<p>以后大家到了工作岗位肯定会遇到这样的问题，掌握了 Excel 的读取方法后，你们肯定会感谢自己当年学了编程。</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://nansey.github.io/tag/codeslator/" class="tag">
+                    CodeSlator
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://nansey.github.io/post/machine-translation-left-unaddressed-by-eu/">
+                  <h3 class="post-title">
+                    管天管地管空气的欧盟会管制机器翻译吗？
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>

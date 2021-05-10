@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>韩林涛老师：译者编程知识30天×300字写作计划 | Day 23 | 翻译动态</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.0/css/all.min.css">
+<link rel="shortcut icon" href="https://nansey.github.io/favicon.ico?v=1620658252566">
+<link rel="stylesheet" href="https://nansey.github.io/styles/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="初学编程一定要牢记的一个标点符号：中括号
+
+在这周的课上给学生展示了一种从数组中读取数据的方法：
+在Excel表格中，左上角第一个单元格的序号是：A1，但是当我们把所在的Excel工作表转换成数组后，它的位置就变成了0,0。
+如果我们用$s..." />
+    <meta name="keywords" content="CodeSlator" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://nansey.github.io">
+        <img src="https://nansey.github.io/images/avatar.png?v=1620658252566" class="site-logo">
+        <h1 class="site-title">翻译动态</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://nansey.github.io/post/resource" class="site-nav">
+            资源
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="https://nansey.github.io/post/editors" class="site-nav">
+            团队
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      全球翻译新闻速递
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://nansey.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">韩林涛老师：译者编程知识30天×300字写作计划 | Day 23</h2>
+            <div class="post-date">2021-05-06</div>
+            
+            <div class="post-content" v-pre>
+              <p>初学编程一定要牢记的一个标点符号：中括号</p>
+<!-- more -->
+<p>在这周的课上给学生展示了一种从数组中读取数据的方法：</p>
+<p>在Excel表格中，左上角第一个单元格的序号是：A1，但是当我们把所在的Excel工作表转换成数组后，它的位置就变成了0,0。</p>
+<p>如果我们用$sheet这个变量来给表示整张工作表，那么要想获取A1中的数据，就可以这么表示：</p>
+<p>$sheet[0][0]</p>
+<p>这种获取数组的方法一开始会让许多同学很疑惑，不知道为什么这样来表示。</p>
+<p>这是因为同学们不了解PHP中的数组类型。在PHP中有三种数组类型，分别是：索引数组、关联数组和多维数组。</p>
+<p>分别是什么意思呢？</p>
+<p>比如你想创建一个数组来存三条术语，分别是：China、USA和Russia，那就可以直接这样：</p>
+<p>$terms = array(&quot;China&quot;, &quot;USA&quot;, &quot;Russia&quot;)；</p>
+<p>这种数组为啥叫索引数组呢，原因是我们自动为三条术语赋予了索引（Index），这里的索引就是编号，他们的编号分别是：0,1和2。</p>
+<p>如果希望把China打印出来，就是用：echo $terms[0]</p>
+<p>而关联数组则是在数组中指明我们的术语的某个属性，比如：</p>
+<p>$terms = array(<br>
+&quot;China&quot; =&gt; &quot;中国&quot;,<br>
+&quot;USA&quot; =&gt; &quot;美国&quot;,<br>
+&quot;Russia&quot; =&gt; &quot;俄罗斯&quot;<br>
+);</p>
+<p>如果想把中国打印出来，就是用： echo $terms[&quot;China&quot;]</p>
+<p>我们把一条术语的英文和中文关联起来，通过China就能获取到中国，这里的China是“键”(Key)，这里的中国就是“值”(Value)，它们合在一起就是键值对。</p>
+<p>多维数组的话就要复杂一些，这也是初学者经常搞不明白的地方，但你可以理解为是数组里面套数组，如：</p>
+<p>$terms = array(</p>
+<p>0 =&gt; array(</p>
+<pre><code>0 =&gt; &quot;China&quot;,
+1 =&gt; &quot;中国&quot;
+</code></pre>
+<p>),</p>
+<p>1 =&gt; array(</p>
+<pre><code>0 =&gt; &quot;USA&quot;,
+1 =&gt; &quot;美国&quot;
+</code></pre>
+<p>),</p>
+<p>2 =&gt; array(</p>
+<pre><code>0 =&gt; &quot;Russia&quot;,
+1 =&gt; &quot;俄罗斯&quot;
+</code></pre>
+<p>)</p>
+<p>);</p>
+<p>从上面这段代码中可以看到，在$terms这个数组中一共有三个数组元素，他们的编号分别是0,1,2。</p>
+<p>在0里面又有一个数组，这个数组中也包含两个元素，编号分别是0和1。</p>
+<p>这就是所谓的数组里面包含数组。</p>
+<p>如果想把数组中的某个值取出来，就可以连用两个中括号，如：echo $terms[0][0]，这时候出来的就是China，如果改成echo $terms[0][1]，出来的就是中国。</p>
+<p>如果想把所有内容都读取出来就得用循环了。</p>
+<p>数组的魅力在于我们可以把自己想存储的数据放到数组中规整的保存起来，使用的时候是需要用循环来读取就可以了，非常高效。所以初学编程的小朋友们一定要搞清楚什么是数组。</p>
+<p>---- 分割线 ----</p>
+<p>如果有小朋友学过Python，会知道Python中有好几种数据类型，比如元组、字典、列表。</p>
+<p>其中列表是这样定义的：</p>
+<p>terms = [&quot;China&quot;, &quot;USA&quot;, &quot;Russia&quot;]</p>
+<p>如果想把China读取出来则是用：print(terms[0])</p>
+<p>你看，是不是这个时候再去看这个中括号就很熟悉了？而且Python代码整体上要更简洁一些。</p>
+<p>Python中的字典则很像PHP的关联数组，比如：</p>
+<p>terms = {<br>
+'China': '中国',<br>
+'USA': &quot;美国&quot;,<br>
+'Russia': '俄罗斯'}</p>
+<p>要打印中国的话就这样写：print(terms['China'])</p>
+<p>用的也是中括号。</p>
+<p>至于元组，则也是用中括号来读取元素，比如：</p>
+<p>terms = (&quot;China&quot;, &quot;USA&quot;, &quot;Russia&quot;)</p>
+<p>print(terms[0])</p>
+<p>通过上面的两种编程语言的对比，相信大家对中括号的使用更加熟悉了。这个标点符号太重要了，一定要牢记！</p>
+<p>附赠几个标点符号的英文读法</p>
+<p>圆括号、小括号：Parentheses, Round Brackets<br>
+方括号、中括号：Brackets, Square Brackets<br>
+花括号、大括号：Braces, Curly Brackets</p>
+<p>希望这些能够加深大家对几种括号的理解。</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://nansey.github.io/tag/codeslator/" class="tag">
+                    CodeSlator
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://nansey.github.io/post/moments-day-twenty-two/">
+                  <h3 class="post-title">
+                    韩林涛老师：译者编程知识30天×300字写作计划 | Day 22
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
