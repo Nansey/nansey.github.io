@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>韩林涛老师：译者编程知识30天×300字写作计划 | Day 24 | 翻译动态</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.0/css/all.min.css">
+<link rel="shortcut icon" href="https://nansey.github.io/favicon.ico?v=1620745156213">
+<link rel="stylesheet" href="https://nansey.github.io/styles/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="今天分享一个自己花了一年才找到的代码Bug：
+
+大概是2018年的时候我做了一个网站，叫“翻译技术教学与研究资源库”，将核心期刊中我搜集到的与翻译技术教学和研究相关的论文收集到一起，方便我自己写论文时检索查询。地址是这个：
+http://t..." />
+    <meta name="keywords" content="CodeSlator" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://nansey.github.io">
+        <img src="https://nansey.github.io/images/avatar.png?v=1620745156213" class="site-logo">
+        <h1 class="site-title">翻译动态</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://nansey.github.io/post/resource" class="site-nav">
+            资源
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="https://nansey.github.io/post/editors" class="site-nav">
+            团队
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      全球翻译新闻速递
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://nansey.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">韩林涛老师：译者编程知识30天×300字写作计划 | Day 24</h2>
+            <div class="post-date">2021-05-07</div>
+            
+            <div class="post-content" v-pre>
+              <p>今天分享一个自己花了一年才找到的代码Bug：</p>
+<!-- more -->
+<p>大概是2018年的时候我做了一个网站，叫“翻译技术教学与研究资源库”，将核心期刊中我搜集到的与翻译技术教学和研究相关的论文收集到一起，方便我自己写论文时检索查询。地址是这个：</p>
+<p><a href="http://translation.education/knowledge">http://translation.education/knowledge</a></p>
+<p>但是去年某个时候这个网站突然就不能查询了，网站还可以打开，但所有的数据都找不到了。我赶忙联系客服，告诉他我的数据都不见了，客服回复我说数据都还在（这件事情也让我知道原来虚拟机服务提供商竟然是可以看到我的网站里的所有数据的，真是一件可怕的事情）。</p>
+<p>虽然客服说我的数据还在，但是我的代码并没有改动过，所以我认为不是代码的问题，只是我的数据因为某种原因而消失的，搞得我一度非常沮丧，因为这个网站中有我收录的几百篇论文，我还为了方便查找论文专门开发了自动录入论文信息的功能和论文上传下载的功能。</p>
+<p>最近我准备将2020年各个核心期刊的翻译技术类文章再全部梳理一遍，连同之前自己备份的数据重新上传一遍，计划投入100个小时完成此事。但是我还是想再试一试，看看是不是代码的问题。</p>
+<p>结果我将代码下载下来仔细一看，原来是代码中少了一个&quot;I&quot;：</p>
+<p>MYSQLI_ASSOC，我写成了MYSQL_ASSOC。</p>
+<p>大家如果看教材的话，会知道这是教材中的一个小知识点。以前PHP支持使用MySQL函数来操作数据库，但后来升级后改成了MySQLi，这里的i就是improved的意思，但不光这里需要添加一个i，许多代码都要添加这个i。</p>
+<p>我就是因为在写代码时没有添加，导致虚拟机供应商升级了他们的服务后我的代码运行失败。</p>
+<p>也就是说，在他们升级前，我不加i也没有关系，但是升级后系统对PHP代码的要求更严格了，我自己又没有顾及到这点，就出现长达一年的网站不能使用的情况。</p>
+<p>好在现在我发现了这个错误，并及时修正了bug，现在网站又可以正常访问了，我也可以继续去查询这些论文了。</p>
+<p>通过这件事情，我学到了很多......很多......</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://nansey.github.io/tag/codeslator/" class="tag">
+                    CodeSlator
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://nansey.github.io/post/jilin-foreign-affair-office-host-translation-training/">
+                  <h3 class="post-title">
+                    吉林省外办举办“外事翻译培训班”
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
