@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nansey.github.io</id>
     <title>翻译动态</title>
-    <updated>2021-05-12T15:36:31.060Z</updated>
+    <updated>2021-05-12T15:43:54.665Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nansey.github.io"/>
     <link rel="self" href="https://nansey.github.io/atom.xml"/>
@@ -51,6 +51,29 @@
 <p>2017年，中文版译者陈英翻译的四部曲首部《<a href="https://book.douban.com/subject/26878124/">我的天才女友</a>》面世，好评如潮。2018年冬，HBO上线第一部改编的系列电视剧《我的天才女友》，开播不久便入选《<a href="https://time.com/">时代</a>》周刊年度十大剧集，豆瓣评分9.3。</p>
 <p>书火了，剧的第三部让许多观众翘首以盼——随着书的火爆，译者陈英也被卷入时代的潮汐中，“<a href="https://book.douban.com/series/36002">那不勒斯四部曲</a>”吸引了一大拨读者，陈英继而经常受邀参加讲座，主题多围绕译作、<a href="https://zh.wikipedia.org/zh-hans/%E5%9F%83%E7%90%B3%E5%A8%9C%C2%B7%E8%B2%BB%E8%98%AD%E7%89%B9">费兰特</a>、意大利女性写作。</p>
 <p>1999年，陈英本科毕业。待过一段时间的旅行社，又去了华为做技术翻译，三年后重归校园，考上了北外的研究生。三月份，她刚刚成为第六届单向街书店文学奖「年度文学翻译」得主。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 25]]></title>
+        <id>https://nansey.github.io/post/moments-day-twenty-five/</id>
+        <link href="https://nansey.github.io/post/moments-day-twenty-five/">
+        </link>
+        <updated>2021-05-08T15:38:59.000Z</updated>
+        <summary type="html"><![CDATA[<p>今天的分享与编程无关，但是应该对不少朋友也有帮助：</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>今天的分享与编程无关，但是应该对不少朋友也有帮助：</p>
+<!-- more -->
+<p>我同事的孩子用PPT做了一个小作业，里面有图文还有声音，每页PPT里小朋友都沛了旁白，整个PPT都有背景音，小学生能做成这样实在是非常惊艳了。</p>
+<p>但是TA遇到一个问题：将PPT导出成视频的时候背景音声音很大，而且每页PPT之间的切换很不自然，TA想找一个方法能把PPT导出成视频，还能够按照自己希望的顺序呈现动画和每页PPT之间的过度。</p>
+<p>遇到这种情况，我首先想到的就是录屏，把PPT设置成播放状态，然后开始录屏，自己手动播放PPT，录屏结束后再导出。</p>
+<p>但是目前Mac和Windows上什么软件能做到这一点呢？</p>
+<p>现在大家比较常用的录屏工具很多，比如<a href="https://obsproject.com/zh-tw">OBS Studio</a>、<a href="https://www.ieway.cn/evcapture.html">EV录屏</a>等等。但是这些或多或少都有一个问题，其中最核心的问题就是对于电脑自带音频的录制。</p>
+<p>对于一个PPT录制来说，最重要的就是要录制其自带的声音，如果一个录屏软件不支持电脑自带音频录制，那这位小朋友的想法就无法实现。</p>
+<p>另一个核心问题是：PPT播放前和结束播放的时候都有一段人操作电脑的记录，如果直接录屏就导出，肯定会看到这些操作，影响视频的效果，所以这个录屏软件必须能够编辑录屏，否则还得导出后再导入到一个视频剪辑工具里去编辑，再导出的时候视频质量肯定会受影响。</p>
+<p>于是，我最终选择了使用<a href="https://screencast-o-matic.com/">screencast-o-matic</a>，这是我最喜欢用的录屏工具，无论是Mac还是Windows都可以高质量录制电脑内部的声音，而且录屏非常清晰，录制完成后还可以剪辑视频，剪辑完成后再导出，导出的视频不但清晰而且也不大，非常适合在微信里分享。</p>
+<p>最后小朋友用这个工具愉快的将PPT录成了视频，分享到了班级的群里。</p>
+<p>以上这段内容不仅仅是一个工具的推荐，也是一个解决方案形成的过程，不仅适用于小朋友的作业场景，以后工作中我们都会用上。</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
 ]]></content>
     </entry>
     <entry>
@@ -212,19 +235,6 @@
 <!-- more -->
 <p>全新上线的 <a href="https://woolaroo-project.appspot.com/intro/about">Woolaroo</a> 应用是一个开源的照片翻译平台，由 <a href="https://cloud.google.com/">Google Cloud</a> 提供支持，使用机器学习和<a href="https://tensorflow.juejin.im/tutorials/image_recognition.html">图像识别</a>方式对照片进行翻译。该应用使用 <a href="https://cloud.google.com/vision">Google Cloud Vision API</a>，当用户拍摄照片之后，它会返回所支持母语中的单词，以及它在濒危语言中的发音。</p>
 <p>谷歌解释说：“Woolaroo 的创建理念是，通过参与和语境，学习语言的效果会大大增强。通过在环境中看到一个物体，它更容易保留信息，然后在对话中更自然地使用它”。目前，该应用程序支持 10 种濒危语言，包括卡拉布里亚希腊语、路易斯安那克里奥尔语、毛利语和意第绪语。(<a href="https://www.cnbeta.com/articles/tech/1124125.htm">来源</a>)</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[YouTube 测试字幕自动翻译]]></title>
-        <id>https://nansey.github.io/post/youtube-test-subtitle-auto-translation/</id>
-        <link href="https://nansey.github.io/post/youtube-test-subtitle-auto-translation/">
-        </link>
-        <updated>2021-05-06T14:22:28.000Z</updated>
-        <summary type="html"><![CDATA[<p>据 <a href="https://www.androidpolice.com/2021/05/04/youtubes-new-translation-experiment-lets-you-browse-titles-in-your-native-tongue/">Android Police</a> 发现，YouTube 现在多了一个翻译功能，可自动把英语视频的标题、描述和字幕翻成特定外文，目前看到的有葡萄牙语和土耳其语。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>据 <a href="https://www.androidpolice.com/2021/05/04/youtubes-new-translation-experiment-lets-you-browse-titles-in-your-native-tongue/">Android Police</a> 发现，YouTube 现在多了一个翻译功能，可自动把英语视频的标题、描述和字幕翻成特定外文，目前看到的有葡萄牙语和土耳其语。</p>
-<!-- more -->
-<p>据使用者反馈，翻译会出现在网页版、桌面版和移动版的 app，但未知纳入测试的使用者数目。翻译品质如何同样未知。（<a href="https://cn.engadget.com/youtube-testing-automatic-translations-native-language-070024586.html">来源</a>）</p>
 ]]></content>
     </entry>
 </feed>
