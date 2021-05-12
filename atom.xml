@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nansey.github.io</id>
     <title>翻译动态</title>
-    <updated>2021-05-11T15:09:38.202Z</updated>
+    <updated>2021-05-12T15:30:21.306Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nansey.github.io"/>
     <link rel="self" href="https://nansey.github.io/atom.xml"/>
@@ -10,6 +10,34 @@
     <logo>https://nansey.github.io/images/avatar.png</logo>
     <icon>https://nansey.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 翻译动态</rights>
+    <entry>
+        <title type="html"><![CDATA[国际译联致信北约拯救阿富汗译员]]></title>
+        <id>https://nansey.github.io/post/fit-europe-urge-nato-save-afghanistan-interpreters/</id>
+        <link href="https://nansey.github.io/post/fit-europe-urge-nato-save-afghanistan-interpreters/">
+        </link>
+        <updated>2021-05-11T15:16:01.000Z</updated>
+        <summary type="html"><![CDATA[<p>国际翻译家联盟（<a href="https://www.fit-ift.org/">Fédération Internationale des Traducteurs</a>）欧洲中心（@FIT_Europe）<a href="https://pbs.twimg.com/media/E1CeanzXIAo9wGM?format=jpg&amp;name=4096x4096">致信</a>北约秘书长<a href="https://twitter.com/jensstoltenberg">@jensstoltenberg</a> 先生。国际译联在 Twitter 上<a href="https://twitter.com/FIT_Europe/status/1391787106326941701">表示</a>，“已经没有多少时间来拯救那些曾为北约领导的部队提供重要服务的阿富汗译员们。因此，我们请求您敦促<a href="https://www.nato.int/">北约</a>盟国在全面撤军之前实施可操作的计划，重新安置他们。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>国际翻译家联盟（<a href="https://www.fit-ift.org/">Fédération Internationale des Traducteurs</a>）欧洲中心（@FIT_Europe）<a href="https://pbs.twimg.com/media/E1CeanzXIAo9wGM?format=jpg&amp;name=4096x4096">致信</a>北约秘书长<a href="https://twitter.com/jensstoltenberg">@jensstoltenberg</a> 先生。国际译联在 Twitter 上<a href="https://twitter.com/FIT_Europe/status/1391787106326941701">表示</a>，“已经没有多少时间来拯救那些曾为北约领导的部队提供重要服务的阿富汗译员们。因此，我们请求您敦促<a href="https://www.nato.int/">北约</a>盟国在全面撤军之前实施可操作的计划，重新安置他们。</p>
+<!-- more -->
+<p>往期报道：《<a href="https://fanyi.news/post/Afghanistan-interpreters-left-behind-by-us-army/">被美军遗弃的阿富汗译员们</a>》</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《穆斯林的葬礼》土耳其语版上市]]></title>
+        <id>https://nansey.github.io/post/muslim-funeral-turkey-version-on-sale/</id>
+        <link href="https://nansey.github.io/post/muslim-funeral-turkey-version-on-sale/">
+        </link>
+        <updated>2021-05-11T14:36:48.000Z</updated>
+        <summary type="html"><![CDATA[<p>近日，中国文化译研网（<a href="http://www.cctss.org/">CCTSS</a>）资深会员、土耳其汉学家吉来（<a href="https://www.mei.edu/profile/giray-fidan">Giray Fidan</a>）翻译的土耳其语版《<a href="https://m.douban.com/book/subject/1082334/">穆斯林的葬礼</a>》在土耳其出版发行。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>近日，中国文化译研网（<a href="http://www.cctss.org/">CCTSS</a>）资深会员、土耳其汉学家吉来（<a href="https://www.mei.edu/profile/giray-fidan">Giray Fidan</a>）翻译的土耳其语版《<a href="https://m.douban.com/book/subject/1082334/">穆斯林的葬礼</a>》在土耳其出版发行。</p>
+<!-- more -->
+<p>吉来谈到，最初了解到这本书是来自他塞尔维亚汉学家朋友安娜的介绍，《穆斯林的葬礼》一书所描述的爱情故事中涵盖的女性意识深深启发了他，于是他决定翻译这本书。</p>
+<p>吉来（Giray Fidan），土耳其翻译家，汉学家, 土耳其 AHBV 大学（<a href="https://hacibayram.edu.tr/">Ankara Haci Bayram Veli University</a>）教授。从事中土关系研究，致力于向土耳其介绍中国。他翻译出版的《<a href="https://m.douban.com/book/subject/1949420/">孙子兵法</a>》是首个从汉语文言文直接翻译成土耳其语的译本。</p>
+<p>翻译媒体“译·世界”最近<a href="http://www.yeeworld.com/article/info/aid/13232.html">采访</a>了这位80后汉学家兼土耳其语译者。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[陈英：一个译者的隐匿与在场]]></title>
         <id>https://nansey.github.io/post/chen-ying-hiding-presence-of-a-translator/</id>
@@ -173,6 +201,20 @@
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[谷歌推出 Woolaroo 保护濒危语言]]></title>
+        <id>https://nansey.github.io/post/google-develop-woolaroo-to-protect-endangered-languages/</id>
+        <link href="https://nansey.github.io/post/google-develop-woolaroo-to-protect-endangered-languages/">
+        </link>
+        <updated>2021-05-06T14:25:58.000Z</updated>
+        <summary type="html"><![CDATA[<p>目前地球上拥有数千种不同的语言，但其中相当数量的语言正面临着消失的危险。目前在使用的 7000 多种本土语言中，大约有 3000 种处于危险状态中，平均每 14 天就有一种语言灭绝。为此，<a href="https://artsandculture.google.com/">Google Arts &amp; Culture</a> 正在采取行动，帮助保护这些濒危语言。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>目前地球上拥有数千种不同的语言，但其中相当数量的语言正面临着消失的危险。目前在使用的 7000 多种本土语言中，大约有 3000 种处于危险状态中，平均每 14 天就有一种语言灭绝。为此，<a href="https://artsandculture.google.com/">Google Arts &amp; Culture</a> 正在采取行动，帮助保护这些濒危语言。</p>
+<!-- more -->
+<p>全新上线的 <a href="https://woolaroo-project.appspot.com/intro/about">Woolaroo</a> 应用是一个开源的照片翻译平台，由 <a href="https://cloud.google.com/">Google Cloud</a> 提供支持，使用机器学习和<a href="https://tensorflow.juejin.im/tutorials/image_recognition.html">图像识别</a>方式对照片进行翻译。该应用使用 <a href="https://cloud.google.com/vision">Google Cloud Vision API</a>，当用户拍摄照片之后，它会返回所支持母语中的单词，以及它在濒危语言中的发音。</p>
+<p>谷歌解释说：“Woolaroo 的创建理念是，通过参与和语境，学习语言的效果会大大增强。通过在环境中看到一个物体，它更容易保留信息，然后在对话中更自然地使用它”。目前，该应用程序支持 10 种濒危语言，包括卡拉布里亚希腊语、路易斯安那克里奥尔语、毛利语和意第绪语。(<a href="https://www.cnbeta.com/articles/tech/1124125.htm">来源</a>)</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[YouTube 测试字幕自动翻译]]></title>
         <id>https://nansey.github.io/post/youtube-test-subtitle-auto-translation/</id>
         <link href="https://nansey.github.io/post/youtube-test-subtitle-auto-translation/">
@@ -183,61 +225,6 @@
         <content type="html"><![CDATA[<p>据 <a href="https://www.androidpolice.com/2021/05/04/youtubes-new-translation-experiment-lets-you-browse-titles-in-your-native-tongue/">Android Police</a> 发现，YouTube 现在多了一个翻译功能，可自动把英语视频的标题、描述和字幕翻成特定外文，目前看到的有葡萄牙语和土耳其语。</p>
 <!-- more -->
 <p>据使用者反馈，翻译会出现在网页版、桌面版和移动版的 app，但未知纳入测试的使用者数目。翻译品质如何同样未知。（<a href="https://cn.engadget.com/youtube-testing-automatic-translations-native-language-070024586.html">来源</a>）</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[比尔·盖茨出轨36岁华人女翻译？]]></title>
-        <id>https://nansey.github.io/post/bill-gates-divorce-affair-chinese-interpreter/</id>
-        <link href="https://nansey.github.io/post/bill-gates-divorce-affair-chinese-interpreter/">
-        </link>
-        <updated>2021-05-06T14:10:23.000Z</updated>
-        <summary type="html"><![CDATA[<p>在世界各大媒体都在关注<a href="https://www.bbc.com/news/world-us-canada-56975466">盖茨离婚</a>后的亿万家产将被如何分割时，社交媒体有消息称，这位前全球首富可能是移情了华人女翻译。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>在世界各大媒体都在关注<a href="https://www.bbc.com/news/world-us-canada-56975466">盖茨离婚</a>后的亿万家产将被如何分割时，社交媒体有消息称，这位前全球首富可能是移情了华人女翻译。</p>
-<!-- more -->
-<p>但事件又迅速反转，5月5日下午，这位华人女翻译转发其前同事李东雷公众号“东雷老评”的辟谣文章《<a href="https://mp.weixin.qq.com/s/fDSXmhF6zZGKmJro--kRhA">盖茨离婚，有鬼造谣中伤一个无辜的华人女孩</a>》很快就辟了谣，明确表示“<a href="https://share.api.weibo.cn/share/221425823.html?weibo_id=4633497521622349">无瓜，勿cue。</a>”消息迅速登上新浪微博热搜。然而，这事不仅在中文世界流传，甚至美国主流媒体福克斯新闻也闻风而动，发文 <a href="https://www.foxbusiness.com/lifestyle/zhe-shelly-wang-who-is-bill-gates-interpreter">Zhe 'Shelly' Wang: Who is Bill Gates' interpreter?</a></p>
-<p>公开资料显示，<a href="https://weibo.com/u/2265974820">王喆</a>是<a href="https://www.gatesfoundation.org/">比尔和梅琳达·盖茨基金会</a>的翻译。她微博上的个人认证信息显示其出生于1985年。根据她在领英上的<a href="https://www.linkedin.com/in/zhe-shelly-wang-26422b3b">个人资料</a>，她自2015年3月以来一直在该机构工作，同时还为多个机构担任翻译。从2011年到2013年，她在<a href="https://www.middlebury.edu/institute/zh/zhuan-ye-jian-jie">蒙特雷国际研究学院</a>学习会议口译。在领英介绍中，她能说至少六种语言，包括中文、英语、西班牙语、法语、德语和日语，精通粤语、普通话和英语。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[韩林涛老师：译者编程知识30天×300字写作计划 | Day 22]]></title>
-        <id>https://nansey.github.io/post/moments-day-twenty-two/</id>
-        <link href="https://nansey.github.io/post/moments-day-twenty-two/">
-        </link>
-        <updated>2021-05-05T14:43:13.000Z</updated>
-        <summary type="html"><![CDATA[<p>在今天下午的课程中，我开始给研一的同学讲解如何使用 PHP 来读取 Excel 中的数据，并分享了三篇我之前写过的帖子：</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>在今天下午的课程中，我开始给研一的同学讲解如何使用 PHP 来读取 Excel 中的数据，并分享了三篇我之前写过的帖子：</p>
-<!-- more -->
-<p><a href="https://mp.weixin.qq.com/s/vb1dG9QLxnHcISjEb4Tw_w">https://mp.weixin.qq.com/s/vb1dG9QLxnHcISjEb4Tw_w</a></p>
-<p><a href="https://mp.weixin.qq.com/s/WaZj1q7k3W6gHhlgcAVhTQ">https://mp.weixin.qq.com/s/WaZj1q7k3W6gHhlgcAVhTQ</a></p>
-<p><a href="https://mp.weixin.qq.com/s/KGaKY1IDgVLhiySidlfUrg">https://mp.weixin.qq.com/s/KGaKY1IDgVLhiySidlfUrg</a></p>
-<p>给他们布置的作业是：</p>
-<p>将你们班同学的名字分别键入到一个 Excel 表格中不同的数据表中，然后写一段代码将他们的名字一次性显示出来到一个页面上。</p>
-<p>紧接着我从两个知识点讲起：什么是 for 循环，以及如何用 PHP 读取 Excel 中的内容。</p>
-<p>这两个知识点都是《<a href="https://book.douban.com/subject/35156980/">译者编程入门指南</a>》这本书里讲过的，但并没有在课堂上给同学们专门讲过。</p>
-<p>在课堂过程中，虽然只有不到两个小时的时间，但是大部分同学都能够根据课上所讲的内容来实现 Excel 表格中数据的读取，尤其是他们知道如何用两个 for 循环来分别将 Excel 表格中行和列中的数据循环读取出来。</p>
-<p>大家也遇到了一些小问题，比如插件下载之后，没有弄清楚插件的位置和 index.php 的位置；数组的基本知识还有些糊涂，尤其是多维数组。</p>
-<p>但这都不是难事，能够读取 Excel 是译者学编程道路上非常重要的一个节点，因为它让同学们知道了如何使用别人开发的插件、如何用代码和文件互动、如何使用循环读取文件中的内容，如何将文件内容转换为数组，这些都是初学者比较难懂的内容。</p>
-<p>但这个功能学会之后我们就可以来处理许多 Excel 文件了，至少从多个 Excel 文件中读取数据并整合到一起就变得不再那么麻烦。</p>
-<p>我自己特别喜欢用 Python 和 PHP 这些编程语言来处理 Excel 表格中的数据，尤其是喜欢那种使用代码操控数据的感觉。虽然许多的功能在 Excel 中也可以实现，但亲自写一段代码和读取数据和计算数据会让人感到很兴奋。</p>
-<p>我们学校不同部门经常让我们提交许多 Excel 格式的文件，然后这些部门的工作人员又自己手动的打开 Excel 和合并 Excel 中的数据，倘若他们知道可以自己用代码来批量处理，他们的工作量就能够大幅度降低。</p>
-<p>以后大家到了工作岗位肯定会遇到这样的问题，掌握了 Excel 的读取方法后，你们肯定会感谢自己当年学了编程。</p>
-<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[哈金：美国人为什么不喜欢读翻译作品]]></title>
-        <id>https://nansey.github.io/post/why-american-dislike-translated-works/</id>
-        <link href="https://nansey.github.io/post/why-american-dislike-translated-works/">
-        </link>
-        <updated>2021-05-05T14:39:52.000Z</updated>
-        <summary type="html"><![CDATA[<p>在欧洲，我经常听到各国的作家抱怨美国出版界太保守，使他们的书很难进入北美市场。我的印象是美国图书市场的大小与欧洲各国图书市场加在一起差不多，所以对欧洲作家来说，如果能进入北美书市就等于开辟了另一片大陆，收入和生活就有了更多的保障。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>在欧洲，我经常听到各国的作家抱怨美国出版界太保守，使他们的书很难进入北美市场。我的印象是美国图书市场的大小与欧洲各国图书市场加在一起差不多，所以对欧洲作家来说，如果能进入北美书市就等于开辟了另一片大陆，收入和生活就有了更多的保障。</p>
-<!-- more -->
-<p>这一点在加拿大的作家们身上表现得尤为明显。加国的书市属于大英联邦的系统，加拿大出版的书不能在美国卖，这样美国就自然地把大多数加拿大作家拒之门外。</p>
-<p>由于美国的图书市场巨大，美国作家们似乎并不太在乎国外市场，只要能在国内有稳定的读者群，他们就可以生存下去。同样，美国的读者对翻译过来的作品不是非常感兴趣。这并非全是由于保守，心理上闭关自垒。（<a href="http://view.inews.qq.com/k/20210505A05YNL00">来源</a>）</p>
 ]]></content>
     </entry>
 </feed>
