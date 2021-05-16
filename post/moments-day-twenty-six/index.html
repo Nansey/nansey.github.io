@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>韩林涛老师：译者编程知识30天×300字写作计划 | Day 26 | 翻译动态</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.0/css/all.min.css">
+<link rel="shortcut icon" href="https://nansey.github.io/favicon.ico?v=1621177601064">
+<link rel="stylesheet" href="https://nansey.github.io/styles/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="便捷的邮件群发解决方案：SendCloud
+
+SendCloud是一款国内企业推出的邮件、短信群发平台，其国际版个人可注册使用。
+最近我们办院庆，我负责的研讨会预计有150人参加，涉及到的通知非常多，如果纯靠志愿者去联络非常麻烦，所以我们开..." />
+    <meta name="keywords" content="CodeSlator" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://nansey.github.io">
+        <img src="https://nansey.github.io/images/avatar.png?v=1621177601064" class="site-logo">
+        <h1 class="site-title">翻译动态</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://nansey.github.io/post/resource" class="site-nav">
+            资源
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="https://nansey.github.io/post/editors" class="site-nav">
+            团队
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      全球翻译新闻速递
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://nansey.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">韩林涛老师：译者编程知识30天×300字写作计划 | Day 26</h2>
+            <div class="post-date">2021-05-09</div>
+            
+            <div class="post-content" v-pre>
+              <p>便捷的邮件群发解决方案：<a href="https://www.sendcloud.com/">SendCloud</a></p>
+<!-- more -->
+<p>SendCloud是一款国内企业推出的邮件、短信群发平台，其国际版个人可注册使用。</p>
+<p>最近我们办院庆，我负责的研讨会预计有150人参加，涉及到的通知非常多，如果纯靠志愿者去联络非常麻烦，所以我们开发了一个会议信息管理平台，用于统计参会人员的个人信息，尤其是办理进校许可相关的个人关键数据。</p>
+<p>以前我们可能会使用<a href="http://mikecrm.com/">麦客表单</a>这样的工具，但这次不太一样。麦客表单仅能使用一次，如果需要参会人员更新某些信息或者新提供一些信息，则要重新统计，参会人员会重复填写很多信息，非常不便。</p>
+<p>会议管理工具本质上就是一个<a href="https://zh.wikipedia.org/zh-tw/%E5%86%85%E5%AE%B9%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F">内容管理系统</a>，参会人员的信息统一存储和管理。</p>
+<p>涉及到群发邮件的操作大致流程是这样的：</p>
+<p>第一步：参会人员依然是通过麦客表单注册，我们下载后将其邮箱和默认密码导入到会议管理系统中（《<a href="http://translation.education/coding/">译者编程入门指南</a>》中介绍过导入Excel表格数据的方法）</p>
+<p>第二步：前往SendCloud，将会议管理平台的域名注册到其中，并验证其确实是用户自有的域名（这个时候个人注册的独立域名就方便很多了，如果是学校官方域名，这一步就过不去了，因为需要到域名服务商的网站后台添加许多特有的信息才能通过验证）</p>
+<p>第三步：注册API，一般有两种API，群发API和触发API，群发API就是用户群发邮件的，触发API就是用户执行了某种操作然后触发某个邮件发送操作。</p>
+<p>第四步：创建群发邮件列表，这个时候将所有用户的邮件添加到这个列表中，并设置一个单独的邮件列表地址。</p>
+<p>第五步：撰写PHP代码，将API信息和群发邮件列表信息加入其中，并设置邮件的标题、正文、发送人、收件人等，如下：</p>
+<p>$url = &quot;<a href="http://api2.sendcloud.net/api/mail/send">http://api2.sendcloud.net/api/mail/send</a>&quot;;</p>
+<pre><code>$data = array(
+	&quot;apiUser&quot; =&gt; &quot;***&quot;,
+	&quot;apiKey&quot; =&gt;&quot;***&quot;,
+	&quot;from&quot; =&gt;&quot;***@blcu.edu.cn&quot;,
+	'useAddressList' =&gt; 'true',
+	&quot;to&quot; =&gt; &quot;***@maillist.sendcloud.org&quot;,
+	&quot;subject&quot; =&gt; $title,
+	&quot;html&quot; =&gt; $emailcontent,
+	&quot;fromName&quot; =&gt; &quot;***&quot;
+);
+
+
+$curl = curl_init();
+
+curl_setopt($curl, CURLOPT_URL, $url);
+
+curl_setopt($curl, CURLOPT_POST, 1);
+
+curl_setopt($curl, CURLOPT_HEADER, 0); 
+
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+
+curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
+
+$output = curl_exec($curl);
+
+curl_close($curl);	
+</code></pre>
+<p>就这样，一个群发邮件流程就基本完成了，再写一个form表单来自定义邮件的内容和其他信息，执行上述代码，邮件就发出去了。SendCloud后台可以监控邮件发送的状态，包括对方是否打开邮件。</p>
+<p>当对方收到邮件后，根据提示回到我们的会议信息管理软件，上传个人信息即可。</p>
+<p>如果有最新通知，再发送邮件提醒；如果需要对方更新某些信息，也可以在会议系统里添加相应的表格字段，对方登录平台再更新。</p>
+<p><em>作者：韩林涛，北京语言大学高级翻译学院教师，《译者编程入门指南》作者</em></p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://nansey.github.io/tag/codeslator/" class="tag">
+                    CodeSlator
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://nansey.github.io/post/Twitter-Seeks-Speakers-of-Yoruba-Hausa/">
+                  <h3 class="post-title">
+                    推特寻找会讲约鲁巴语、豪萨语等语言的人
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
