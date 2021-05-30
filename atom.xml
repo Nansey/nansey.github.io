@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nansey.github.io</id>
     <title>翻译动态</title>
-    <updated>2021-05-27T14:22:45.433Z</updated>
+    <updated>2021-05-30T12:05:29.601Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nansey.github.io"/>
     <link rel="self" href="https://nansey.github.io/atom.xml"/>
@@ -11,133 +11,138 @@
     <icon>https://nansey.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 翻译动态</rights>
     <entry>
-        <title type="html"><![CDATA[Slator 发布2021年语言行业市场报告]]></title>
-        <id>https://nansey.github.io/post/Slator-2021-Language-Industry-Market-Report/</id>
-        <link href="https://nansey.github.io/post/Slator-2021-Language-Industry-Market-Report/">
+        <title type="html"><![CDATA[何伟即将结束川大教职离开中国]]></title>
+        <id>https://nansey.github.io/post/Peter-hessler-statement-on-termination-of-teaching-in-sichuan-university/</id>
+        <link href="https://nansey.github.io/post/Peter-hessler-statement-on-termination-of-teaching-in-sichuan-university/">
         </link>
-        <updated>2021-05-15T12:37:58.000Z</updated>
-        <summary type="html"><![CDATA[<p>Slator <a href="https://slator.com/data-research/slator-2021-language-industry-market-report/">发布</a>2021年语言行业市场报告，全面分析了全球语言服务和技术行业——根据Slator的数据，该行业规模在2020年达到238亿美元，尽管上半年市场乱象频出，但仍保持稳定增长。</p>
+        <updated>2021-05-30T11:58:26.000Z</updated>
+        <summary type="html"><![CDATA[<p>今日，何伟（<a href="https://www.peterhessler.net/">Peter Hessler</a>）委托其中国助理<a href="https://www.douban.com/people/13781367/">何雨珈</a>（《<a href="https://book.douban.com/subject/30183051/">鱼翅与花椒</a>》的译者）发表声明：暂时离开，享受在川大的教学经历和成都度过的时光希望以后再回来。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>Slator <a href="https://slator.com/data-research/slator-2021-language-industry-market-report/">发布</a>2021年语言行业市场报告，全面分析了全球语言服务和技术行业——根据Slator的数据，该行业规模在2020年达到238亿美元，尽管上半年市场乱象频出，但仍保持稳定增长。</p>
+        <content type="html"><![CDATA[<p>今日，何伟（<a href="https://www.peterhessler.net/">Peter Hessler</a>）委托其中国助理<a href="https://www.douban.com/people/13781367/">何雨珈</a>（《<a href="https://book.douban.com/subject/30183051/">鱼翅与花椒</a>》的译者）发表声明：暂时离开，享受在川大的教学经历和成都度过的时光希望以后再回来。</p>
 <!-- more -->
-<p>报告将整个语言行业按终端客户行业划分为10个垂直领域，并按2020年的百分比和美元增长列出了增长最快的垂直行业。此外，Slator 还为市场分析引入了两个新的框架。首先，市场被划分为8个地理区域，呈现每个区域的市场规模，并按市场规模列出前10个国家。其次，通过市场驱动因素的视角对各行业进行分析，确定翻译和本地化支出背后的9个买方意图。</p>
+<p>但在该委托声明发出去不久，即遭到了豆瓣不明原因的删除。「翻译动态」（<a href="https://fanyi.news/">fanyi.news</a>）在获得何雨珈的转载授权后，在此发表何伟的声明原文（英文）：</p>
+<blockquote>
+<p>Recently somebody posted a quote from me on Douban, regarding the end of my teaching position here at Sichuan University. I want to note that this quote was from a private correspondence and was not intended as a public statement.</p>
+<p>But the information is accurate: I had hoped to continue teaching at the Sichuan University-Pittsburgh Institute, but I was not offered a contract for the coming academic year. As a result, I will return to Colorado with my family after the current semester, because our visas expire this summer.</p>
+<p>I want to emphasize that I have greatly enjoyed being back in the classroom after more than twenty years. I have been impressed with my students at Sichuan University, and I have also been fortunate to work with great instructors and staff at the Sichuan University-Pittsburgh Institute. Our family has also greatly appreciated the support and kindness of the administration and teachers at the Chengdu elementary school where our daughters have studied for the past two years. We hope to return to China in the future. Regardless, we will have very fond memories of Chengdu and of our experiences here.</p>
+</blockquote>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[葡萄牙外交官推动葡语在联合国的地位]]></title>
-        <id>https://nansey.github.io/post/Portuguese-Diplomat-Pushes-for-Official-Language-Status-at-United-Nations/</id>
-        <link href="https://nansey.github.io/post/Portuguese-Diplomat-Pushes-for-Official-Language-Status-at-United-Nations/">
+        <title type="html"><![CDATA[第37届中译法研讨会在京举行]]></title>
+        <id>https://nansey.github.io/post/blcu-37th-translation-seminar-held-in-beijing/</id>
+        <link href="https://nansey.github.io/post/blcu-37th-translation-seminar-held-in-beijing/">
         </link>
-        <updated>2021-05-14T11:22:26.000Z</updated>
-        <summary type="html"><![CDATA[<p>葡萄牙外交部长 <a href="https://www.portugal.gov.pt/en/gc22/ministries/foreign-affairs">Augusto Santos Silva</a> 在一次新闻<a href="https://www.heraldnews.com/story/news/local/ojornal/2021/04/26/portugal-wants-portuguese-official-un-language-but-theres-long-road-ahead-says-minister/7386764002/">发布会</a>上表示，他计划倡导联合国（UN）将葡萄牙语采纳为其官方语言。Santos Silva 在发布会上讨论了5月5日<a href="https://en.unesco.org/commemorations/portuguese-language-day">世界葡萄牙语日</a>的计划。作为世界上使用最广泛的十种语言之一，葡萄牙语也是一些联合国组织的工作语言，如<a href="https://en.unesco.org/">联合国教科文组织</a>。不过，葡语要在联合国取得官方地位，还有很长的路要走。</p>
+        <updated>2021-05-30T11:33:37.000Z</updated>
+        <summary type="html"><![CDATA[<p>据中国翻译协会<a href="https://mp.weixin.qq.com/s/m8QeFu4AhlpcDvUrtx3OWA">消息</a>，由<a href="http://www.tac-online.org.cn/">中国翻译协会</a>对外传播翻译委员会主办、<a href="https://www.blcu.edu.cn/">北京语言大学</a>承办的第37届中译法研讨会于2021年5月21日在京举行。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>葡萄牙外交部长 <a href="https://www.portugal.gov.pt/en/gc22/ministries/foreign-affairs">Augusto Santos Silva</a> 在一次新闻<a href="https://www.heraldnews.com/story/news/local/ojornal/2021/04/26/portugal-wants-portuguese-official-un-language-but-theres-long-road-ahead-says-minister/7386764002/">发布会</a>上表示，他计划倡导联合国（UN）将葡萄牙语采纳为其官方语言。Santos Silva 在发布会上讨论了5月5日<a href="https://en.unesco.org/commemorations/portuguese-language-day">世界葡萄牙语日</a>的计划。作为世界上使用最广泛的十种语言之一，葡萄牙语也是一些联合国组织的工作语言，如<a href="https://en.unesco.org/">联合国教科文组织</a>。不过，葡语要在联合国取得官方地位，还有很长的路要走。</p>
+        <content type="html"><![CDATA[<p>据中国翻译协会<a href="https://mp.weixin.qq.com/s/m8QeFu4AhlpcDvUrtx3OWA">消息</a>，由<a href="http://www.tac-online.org.cn/">中国翻译协会</a>对外传播翻译委员会主办、<a href="https://www.blcu.edu.cn/">北京语言大学</a>承办的第37届中译法研讨会于2021年5月21日在京举行。</p>
+<!-- more -->
+<p>来自外交部、教育部、自然资源部、中央党史和文献研究院、新华社、中央广播电视总台、外文出版社、中国网、今日中国杂志社、当代中国与世界研究院、商务印书馆、外语教学与研究出版社、中国西藏网、北京外国语大学、外交学院、北京语言大学、北京第二外国语学院、首都师范大学、上海对外经贸大学等国家部委、企事业单位、高等院校的20家单位的40余名代表参加了研讨会。</p>
+<p>第38届中译法研讨会将于2021年下半年举行，由外文出版社承办。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美议员推动教育多样化]]></title>
+        <id>https://nansey.github.io/post/Diversity-Act-Introduced-to-Improve-Education-Accessibility/</id>
+        <link href="https://nansey.github.io/post/Diversity-Act-Introduced-to-Improve-Education-Accessibility/">
+        </link>
+        <updated>2021-05-29T11:56:50.000Z</updated>
+        <summary type="html"><![CDATA[<p>目前，承诺在高需求领域（如双语教育）任教的本科生和研究生有可能获得高达4000美元的<a href="https://studentaid.gov/understand-aid/types/grants/teach">TEACH资助金</a>资格，该项目激励学生从事教育事业。为了提高该领域的多样性，并为未来的教师提供更有力的激励，参议员Cory Booker（D-NJ）、众议员Jesús García（D-IL）和Jahana Hayes（D-CT）提出了多样化法案（<a href="https://www.congress.gov/bill/116th-congress/house-bill/5350?s=1&amp;r=3">DIVERSIFY Act</a>），该法案将把最高资助金额提高到8000美元。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>目前，承诺在高需求领域（如双语教育）任教的本科生和研究生有可能获得高达4000美元的<a href="https://studentaid.gov/understand-aid/types/grants/teach">TEACH资助金</a>资格，该项目激励学生从事教育事业。为了提高该领域的多样性，并为未来的教师提供更有力的激励，参议员Cory Booker（D-NJ）、众议员Jesús García（D-IL）和Jahana Hayes（D-CT）提出了多样化法案（<a href="https://www.congress.gov/bill/116th-congress/house-bill/5350?s=1&amp;r=3">DIVERSIFY Act</a>），该法案将把最高资助金额提高到8000美元。</p>
 <!-- more -->
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[当医生被要求兼任医疗翻译]]></title>
-        <id>https://nansey.github.io/post/when-doctors-double-as-medical-interpreters/</id>
-        <link href="https://nansey.github.io/post/when-doctors-double-as-medical-interpreters/">
+        <title type="html"><![CDATA[第五届世界中葡翻译大赛]]></title>
+        <id>https://nansey.github.io/post/Fifth-Chinese-Portuguese-translation-contest/</id>
+        <link href="https://nansey.github.io/post/Fifth-Chinese-Portuguese-translation-contest/">
         </link>
-        <updated>2021-05-14T11:09:20.000Z</updated>
-        <summary type="html"><![CDATA[<p>今年早些时候发表在 Sage Journals 上的一项人类学<a href="https://journals.sagepub.com/doi/abs/10.1177/0891243220979655">研究</a>表明，美国的医院可能对讲西班牙语的医生提出了额外要求。</p>
+        <updated>2021-05-29T11:39:34.000Z</updated>
+        <summary type="html"><![CDATA[<p>由澳门特别行政区政府社会文化司司长办公室、语言大数据联盟（<a href="http://www.lbdalliance.com/">LBDA</a>）和葡萄牙理工高等院校协调委员会（<a href="https://ccisp.pt/en/home/">CCISP</a>）支持，澳门特别行政区政府教育及青年发展局和澳门理工学院合办的 “<a href="https://www.gov.mo/zh-hans/news/365709/">第五届世界中葡翻译大赛</a>” 正接受报名，报名日期于6月10日截止。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>今年早些时候发表在 Sage Journals 上的一项人类学<a href="https://journals.sagepub.com/doi/abs/10.1177/0891243220979655">研究</a>表明，美国的医院可能对讲西班牙语的医生提出了额外要求。</p>
+        <content type="html"><![CDATA[<p>由澳门特别行政区政府社会文化司司长办公室、语言大数据联盟（<a href="http://www.lbdalliance.com/">LBDA</a>）和葡萄牙理工高等院校协调委员会（<a href="https://ccisp.pt/en/home/">CCISP</a>）支持，澳门特别行政区政府教育及青年发展局和澳门理工学院合办的 “<a href="https://www.gov.mo/zh-hans/news/365709/">第五届世界中葡翻译大赛</a>” 正接受报名，报名日期于6月10日截止。</p>
 <!-- more -->
-<p>该研究是由加州大学<a href="https://en.wikipedia.org/wiki/University_of_California,_Irvine">欧文分校</a>奇卡诺/拉丁裔研究系的两名研究员撰写和调查，详细介绍了南加州48名拉丁裔医生的经历，其中许多人在其职业生涯的某个阶段被要求在工作场所兼任医疗翻译。研究人员特别强调了在拉丁裔医生被要求为讲西班牙语的病人进行口译和翻译的经历中其性别所扮演的角色。</p>
+<p>作为全世界范围内规范最大、参赛者最多的中葡翻译赛事，自2017年起大赛已连续举办四届，共吸引了近600支队伍，千余名师生参赛，已成为全世界中葡翻译界的一大盛事。</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[国际期刊《口笔译研究》创刊]]></title>
-        <id>https://nansey.github.io/post/Journal-of-Translation-Studies-established/</id>
-        <link href="https://nansey.github.io/post/Journal-of-Translation-Studies-established/">
+        <title type="html"><![CDATA[United Language Group和Veeva Vault建立伙伴关系]]></title>
+        <id>https://nansey.github.io/post/United-Language-Group-and-Veeva-Vault-Announce-Partnership/</id>
+        <link href="https://nansey.github.io/post/United-Language-Group-and-Veeva-Vault-Announce-Partnership/">
         </link>
-        <updated>2021-05-13T14:46:13.000Z</updated>
-        <summary type="html"><![CDATA[<p>据<a href="http://www.giit.shisu.edu.cn/">上海外国语大学高级翻译学院</a><a href="https://mp.weixin.qq.com/s/1fnI-2PR9xXrgu15-ByAgg">官方消息</a>，由上海外国语大学与 <a href="https://www.peterlang.com/">Peter Lang</a> 国际学术出版集团合作推出的 Journal of Translation Studies (JTS)《口笔译研究》创刊仪式暨学术研讨会于2021年5月10日在上海外国语大学虹口校区逸夫会堂和 ZOOM 平台同步举行。</p>
+        <updated>2021-05-28T11:55:38.000Z</updated>
+        <summary type="html"><![CDATA[<p>国际语言服务提供商（LSP）<a href="unitedlanguagegroup.com">United Language Group</a>本周<a href="https://www.unitedlanguagegroup.com/veeva-vault">宣布</a>，它将利用<a href="https://www.veeva.com/">Veeva Vault</a>的<a href="https://www.veeva.com/cn/products/enterprise-content-management/">内容管理云平台</a>（该平台能够精简推广内容审批流程，实现快速、高效内容分发 从源头确保各个渠道内容的真实一致性）。总部位于明尼阿波利斯的United Language Group提供笔译和口译服务，并将利用Veeva Vault的系统更有效地为客户进行本地化和内容翻译。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>据<a href="http://www.giit.shisu.edu.cn/">上海外国语大学高级翻译学院</a><a href="https://mp.weixin.qq.com/s/1fnI-2PR9xXrgu15-ByAgg">官方消息</a>，由上海外国语大学与 <a href="https://www.peterlang.com/">Peter Lang</a> 国际学术出版集团合作推出的 Journal of Translation Studies (JTS)《口笔译研究》创刊仪式暨学术研讨会于2021年5月10日在上海外国语大学虹口校区逸夫会堂和 ZOOM 平台同步举行。</p>
+        <content type="html"><![CDATA[<p>国际语言服务提供商（LSP）<a href="unitedlanguagegroup.com">United Language Group</a>本周<a href="https://www.unitedlanguagegroup.com/veeva-vault">宣布</a>，它将利用<a href="https://www.veeva.com/">Veeva Vault</a>的<a href="https://www.veeva.com/cn/products/enterprise-content-management/">内容管理云平台</a>（该平台能够精简推广内容审批流程，实现快速、高效内容分发 从源头确保各个渠道内容的真实一致性）。总部位于明尼阿波利斯的United Language Group提供笔译和口译服务，并将利用Veeva Vault的系统更有效地为客户进行本地化和内容翻译。</p>
 <!-- more -->
-<p>来自国内外知名高校的多名专家、校内领导、翻译界人士共同见证了《口笔译研究》国际期刊的创刊仪式。</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[美国医疗系统中的语言障碍]]></title>
-        <id>https://nansey.github.io/post/addressing-language-barriers-in-the-healthcare-system/</id>
-        <link href="https://nansey.github.io/post/addressing-language-barriers-in-the-healthcare-system/">
+        <title type="html"><![CDATA[Facebook开发出更方便的语音识别系统]]></title>
+        <id>https://nansey.github.io/post/facebook-develop-wav2vec/</id>
+        <link href="https://nansey.github.io/post/facebook-develop-wav2vec/">
         </link>
-        <updated>2021-05-13T10:49:31.000Z</updated>
-        <summary type="html"><![CDATA[<p>持续的COVID-19大流行无疑揭示了美国医疗系统中的语言问题——英语水平有限（limited English proficiency）的人往往被抛之脑后，与那些英语水平好的人相比，前者的健康状况更糟糕。从<a href="https://multilingual.com/google-translate-causes-vaccine-mishap/">差劲的公共健康交流</a>到医院<a href="https://multilingual.com/when-doctors-double-as-medical-interpreters/">翻译的匮乏</a>——虽然它们已经存在了很长时间——但新冠大流行病显然加剧了这些问题。</p>
+        <updated>2021-05-28T11:54:18.000Z</updated>
+        <summary type="html"><![CDATA[<p>Facebook的研究人员开发了一种不需要转录的音频数据来识别语音的人工智能（AI）系统——这意味着该<a href="https://zh.wikipedia.org/zh/%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB">语音识别</a>系统可以单独在未配对的文本和音频数据上进行训练。在最近宣布<a href="https://arxiv.org/abs/1904.05862">wav2vec</a>-Unsupervised的<a href="https://ai.facebook.com/blog/wav2vec-unsupervised-speech-recognition-without-supervision">博文</a>中，Facebook声称，开发该软件是为了让<a href="https://zh.wikipedia.org/wiki/%E4%BB%96%E5%8A%A0%E7%A5%BF%E8%AA%9E">他加禄语</a>、斯瓦希里语和<a href="https://zh.wikipedia.org/zh-hans/%E9%9E%91%E9%9D%BC%E4%BA%BA">鞑靼</a>语等语言更容易进行语音识别，这些语言缺乏像英语和阿拉伯语等其他研究较多的语言那样的大量录音和转录数据库。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>持续的COVID-19大流行无疑揭示了美国医疗系统中的语言问题——英语水平有限（limited English proficiency）的人往往被抛之脑后，与那些英语水平好的人相比，前者的健康状况更糟糕。从<a href="https://multilingual.com/google-translate-causes-vaccine-mishap/">差劲的公共健康交流</a>到医院<a href="https://multilingual.com/when-doctors-double-as-medical-interpreters/">翻译的匮乏</a>——虽然它们已经存在了很长时间——但新冠大流行病显然加剧了这些问题。</p>
+        <content type="html"><![CDATA[<p>Facebook的研究人员开发了一种不需要转录的音频数据来识别语音的人工智能（AI）系统——这意味着该<a href="https://zh.wikipedia.org/zh/%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB">语音识别</a>系统可以单独在未配对的文本和音频数据上进行训练。在最近宣布<a href="https://arxiv.org/abs/1904.05862">wav2vec</a>-Unsupervised的<a href="https://ai.facebook.com/blog/wav2vec-unsupervised-speech-recognition-without-supervision">博文</a>中，Facebook声称，开发该软件是为了让<a href="https://zh.wikipedia.org/wiki/%E4%BB%96%E5%8A%A0%E7%A5%BF%E8%AA%9E">他加禄语</a>、斯瓦希里语和<a href="https://zh.wikipedia.org/zh-hans/%E9%9E%91%E9%9D%BC%E4%BA%BA">鞑靼</a>语等语言更容易进行语音识别，这些语言缺乏像英语和阿拉伯语等其他研究较多的语言那样的大量录音和转录数据库。</p>
 <!-- more -->
-<p>最近由马萨诸塞州布莱根妇女医院（<a href="https://www.brighamandwomens.org/">Brigham and Women’s Hospital</a>）的两位医生撰写的《科学美国人》社论对页版（op-ed）<a href="https://www.scientificamerican.com/article/our-health-system-is-failing-patients-with-limited-english/?utm_content=165988629&amp;utm_medium=social&amp;utm_source=linkedin&amp;hss_channel=lcp-2728948">文章</a>进一步探讨了这些问题，强调了美国医院迫切需要提供更好的语言服务。</p>
-<p><em>译者注：关于翻译对医疗健康的重要性可参考「翻译动态」之前的报道《<a href="https://fanyi.news/post/New-Medical-Interpreter-Law-Proposed/">堪萨斯州西语教授就医疗翻译建议立法</a>》《<a href="https://fanyi.news/post/LEP-patients-death-higher/">研究显示英语能力有限患者COVID-19死亡概率更高</a>》、《<a href="https://fanyi.news/post/Language-barrier-blocks-Latinos-from-vaccines/">语言阻碍在英拉丁裔人群接种新冠疫苗</a>》、《<a href="https://fanyi.news/post/new-research-on-hospital-interpreter-use/">研究揭示专业翻译与患者健康之间关系</a>》、《<a href="https://fanyi.news/post/NY-lawmakers-pitch-bill-requiring-translations/">纽约州立法者要求州政府提供翻译</a>》、《<a href="https://fanyi.news/post/coronavirus-warnings-lost-failure-translate-in-uganda/">疫情中东非小镇上的语言困境</a>》、《<a href="https://fanyi.news/post/vdh-translation-not-necessary/">弗吉尼亚州卫生部官网现错误机译</a>》 。</em></p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[第十届全国口译大赛即将开赛]]></title>
-        <id>https://nansey.github.io/post/tenth-national-interpretation-contest-kick-off/</id>
-        <link href="https://nansey.github.io/post/tenth-national-interpretation-contest-kick-off/">
+        <title type="html"><![CDATA[讣告：历史学家、翻译家何兆武逝世]]></title>
+        <id>https://nansey.github.io/post/obituary-he-zhaowu/</id>
+        <link href="https://nansey.github.io/post/obituary-he-zhaowu/">
         </link>
-        <updated>2021-05-13T09:07:40.000Z</updated>
-        <summary type="html"><![CDATA[<p>据@中国翻译协会 公众号消息，<a href="http://www.tac-online.org.cn/">中国翻译协会</a>将于2021年3月至2021年10月举办第十届全国口译大赛（英语）。大赛由<a href="http://www.cipg.org.cn/">中国外文局</a>指导，由中国翻译协会语言服务行业创业创新中心和<a href="https://www.tiit.com.cn/">北京甲申同文翻译有限公司</a>承办，由中国翻译协会口译委员会协办。</p>
+        <updated>2021-05-28T11:36:04.000Z</updated>
+        <summary type="html"><![CDATA[<p>5月28日，<a href="https://www.thepaper.cn/newsDetail_forward_12891222">澎湃新闻</a>记者从清华大学获悉，历史学家、翻译家、清华大学教授<a href="https://zh.wikipedia.org/zh-hans/%E4%BD%95%E5%85%86%E6%AD%A6">何兆武</a>5月28日上午在北京逝世。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>据@中国翻译协会 公众号消息，<a href="http://www.tac-online.org.cn/">中国翻译协会</a>将于2021年3月至2021年10月举办第十届全国口译大赛（英语）。大赛由<a href="http://www.cipg.org.cn/">中国外文局</a>指导，由中国翻译协会语言服务行业创业创新中心和<a href="https://www.tiit.com.cn/">北京甲申同文翻译有限公司</a>承办，由中国翻译协会口译委员会协办。</p>
+        <content type="html"><![CDATA[<p>5月28日，<a href="https://www.thepaper.cn/newsDetail_forward_12891222">澎湃新闻</a>记者从清华大学获悉，历史学家、翻译家、清华大学教授<a href="https://zh.wikipedia.org/zh-hans/%E4%BD%95%E5%85%86%E6%AD%A6">何兆武</a>5月28日上午在北京逝世。</p>
 <!-- more -->
-<p>大赛的详细细则和报名方式请参考中国译协的<a href="https://mp.weixin.qq.com/s/U8exFBmHJmPKw_uGLW3ChA">这篇推送</a>。</p>
+<p>公开资料显示，何兆武，历史学家、翻译家，1921年生于北京（祖籍湖南），1939年考入西南联大，先后就读于土木、历史、哲学、外文系。何兆武1956年至1986年任中国社会科学院历史研究所助理研究员、研究员，1986年后任清华大学思想文化研究所教授，历史研究著作有《<a href="https://book.douban.com/subject/2151268/">中国思想发展史</a>》等，译著代表作有罗素的《<a href="https://book.douban.com/subject/1008189/">西方哲学史</a>》、卢梭的《<a href="https://book.douban.com/subject/1277981/">社会契约论</a>》等。</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Lionbridge：口译的未来]]></title>
-        <id>https://nansey.github.io/post/lionbridge-interpretation-future/</id>
-        <link href="https://nansey.github.io/post/lionbridge-interpretation-future/">
+        <title type="html"><![CDATA[黄国平博士公开 TranSmart 技术报告]]></title>
+        <id>https://nansey.github.io/post/Huang-guoping-release-transmart-technical-report/</id>
+        <link href="https://nansey.github.io/post/Huang-guoping-release-transmart-technical-report/">
         </link>
-        <updated>2021-05-12T14:59:07.000Z</updated>
-        <summary type="html"><![CDATA[<p>随着全世界的数字化程度不断提升，需要采用口译服务，来确保客户无论身处何地、使用何种语言，都能够建立联系。选择哪种口译服务类型取决于想要接触的客户数量以及要开展的对话类型。可能需要电话口译 (<a href="https://www.lionbridge.com/content-transformation-services/interpretation-services/">OPI</a>) 与其交流，又或者需要选择远程同声传译 (<a href="https://www.interprefy.com/resources/blog/how-does-remote-simultaneous-interpretation-work">RSI</a>)。</p>
+        <updated>2021-05-28T11:19:05.000Z</updated>
+        <summary type="html"><![CDATA[<p>5月28日，<a href="https://www.thepaper.cn/newsDetail_forward_12265669">黄国平</a>博士通过其社交媒体账号分享了TranSmart技术报告：<a href="https://arxiv.org/abs/2105.13072">TranSmart: A Practical Interactive Machine Translation System</a>。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>随着全世界的数字化程度不断提升，需要采用口译服务，来确保客户无论身处何地、使用何种语言，都能够建立联系。选择哪种口译服务类型取决于想要接触的客户数量以及要开展的对话类型。可能需要电话口译 (<a href="https://www.lionbridge.com/content-transformation-services/interpretation-services/">OPI</a>) 与其交流，又或者需要选择远程同声传译 (<a href="https://www.interprefy.com/resources/blog/how-does-remote-simultaneous-interpretation-work">RSI</a>)。</p>
+        <content type="html"><![CDATA[<p>5月28日，<a href="https://www.thepaper.cn/newsDetail_forward_12265669">黄国平</a>博士通过其社交媒体账号分享了TranSmart技术报告：<a href="https://arxiv.org/abs/2105.13072">TranSmart: A Practical Interactive Machine Translation System</a>。</p>
 <!-- more -->
-<p>口译的未来如何？<a href="https://www.lionbridge.com/">Lionbridge</a> 咨询了其电话口译销售总监 <a href="https://www.linkedin.com/in/susan-gryder-b819138">Susan Gryder</a> 和联盟全球主管 <a href="https://www.linkedin.com/in/jerry-wish-60a08733">Jerry Wish</a>。采访原文的中文版发表在<a href="https://mp.weixin.qq.com/s/sz9wScv5jU-9BqQarP3xsw">这里</a>。</p>
+<p>该技术报告介绍了人机交互翻译系统<a href="https://transmart.qq.com/index">TranSmart</a>如何在翻译质量和效率之间进行权衡。与市场上公开的<a href="https://en.wikipedia.org/wiki/Interactive_machine_translation">交互式翻译系统</a>相比，TranSmart支持三个关键功能：词级自动完成（word-level <a href="https://en.wikipedia.org/wiki/Autocomplete">autocompletion</a>）、句级自动完成（sentence-level autocompletion）和翻译记忆（<a href="https://en.wikipedia.org/wiki/Translation_memory">translation memory</a>）。通过词级和句级自动完成，TranSmart允许用户以自己的方式交互式翻译单词，而非严格的从左到右的方式。此外，TranSmart可通过使用历史翻译句子作为其记忆来避免类似翻译错误。报告呈现了TranSmart的主要功能、实现这些功能的算法、如何使用<a href="https://wj.qq.com/s/2856735/b097/">TranSmart的API</a>，以及一些关键功能的评估结果。</p>
+<p>黄国平博士，网名“<a href="https://weibo.com/u/1721793763">翻译驴</a>”，前段时间因论文《致谢》部分而在豆瓣、知乎、微博等多个网络平台<a href="https://www.thepaper.cn/newsDetail_forward_12265669">意外走红</a>。<a href="https://fanyi.news/post/doctor-huang-guoping-release-his-phd-thesis/">5月3日</a>，黄博士曾通过其微博账号和朋友圈分享了《人机交互式机器翻译方法研究与实现》的论文全文（<a href="https://share.weiyun.com/OdB31JRm">脱敏版</a>）。</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[第四届译后编辑大赛开幕]]></title>
-        <id>https://nansey.github.io/post/fourth-mtpe-contest-kick-off/</id>
-        <link href="https://nansey.github.io/post/fourth-mtpe-contest-kick-off/">
+        <title type="html"><![CDATA[提供语音和视频通话实时翻译的iTourTranslator]]></title>
+        <id>https://nansey.github.io/post/iTourTranslator-Provides-Real-Time-Translation-of-Voice-and-Video-Calls/</id>
+        <link href="https://nansey.github.io/post/iTourTranslator-Provides-Real-Time-Translation-of-Voice-and-Video-Calls/">
         </link>
-        <updated>2021-05-12T13:41:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>2021年5月10日，由<a href="https://cnti.gdufs.edu.cn/">全国翻译专业学位研究生教育指导委员会</a>指导，同济大学外国语学院和<a href="http://www.shfyzz.cn/">上海市科技翻译学会</a>联合主办的“<a href="https://translate.volcengine.cn/">火山翻译</a>·第四届全国机器翻译译后编辑大赛”在火山引擎企业直播平台举行了开幕仪式。</p>
+        <updated>2021-05-27T11:53:26.000Z</updated>
+        <summary type="html"><![CDATA[<p>一款新的翻译应用程序<a href="https://apps.apple.com/cn/app/id1460633648">iTourTranslator</a>（亲爱的翻译官）允许用户通过手机、固话或视频通话轻松进行两种不同语言的交流。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>2021年5月10日，由<a href="https://cnti.gdufs.edu.cn/">全国翻译专业学位研究生教育指导委员会</a>指导，同济大学外国语学院和<a href="http://www.shfyzz.cn/">上海市科技翻译学会</a>联合主办的“<a href="https://translate.volcengine.cn/">火山翻译</a>·第四届全国机器翻译译后编辑大赛”在火山引擎企业直播平台举行了开幕仪式。</p>
+        <content type="html"><![CDATA[<p>一款新的翻译应用程序<a href="https://apps.apple.com/cn/app/id1460633648">iTourTranslator</a>（亲爱的翻译官）允许用户通过手机、固话或视频通话轻松进行两种不同语言的交流。</p>
 <!-- more -->
-<p>开幕仪式上，<a href="http://www.tac-online.org.cn/">中国译协</a>副会长兼秘书长黄友义、<a href="http://corpus.shisu.edu.cn/">上海外国语大学语料库研究院</a>院长胡开宝、同济大学外国语学院院长吴赟发表了致辞讲话，<a href="https://www.tmxmall.com/">上海一者信息科技有限公司</a>总经理张井、<a href="https://sfl.tongji.edu.cn/9257/list.htm">同济大学MTI</a>中心主任李梅等嘉宾共同出席，发表了赛事介绍、机器翻译译后编辑探讨等主旨演讲。火山翻译产品经理刘坚出席了开幕式，并带来了《外语人视角看机器翻译》的主题分享。</p>
+<p>当你用亲爱的翻译官APP去拨打国外电话时，通话将被实时翻译。对方可以是固定电话、手机或者其他通话设备。在通话过程中你可以讲中文也可以讲外语，对方讲的外语将在本方APP上实时显示双语字幕。接听电话也可以实现实时翻译。但是首先你需要在APP中购买一个美国的电话号码，当外国朋友拨打你的该号码时你的APP将被实时调起，电话接通后，通话将会被实时翻译。</p>
+<p>该App的更多功能可参考其<a href="https://www.itourtranslator.com/">官网</a>的产品介绍。</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Big Language Solutions 收购 Language Link]]></title>
-        <id>https://nansey.github.io/post/big-language-solutions-acquires-language-link/</id>
-        <link href="https://nansey.github.io/post/big-language-solutions-acquires-language-link/">
+        <title type="html"><![CDATA[北语国际语言服务研究院专家委员会成立]]></title>
+        <id>https://nansey.github.io/post/International-Language-Service-Institute-Expert-Committee-Established/</id>
+        <link href="https://nansey.github.io/post/International-Language-Service-Institute-Expert-Committee-Established/">
         </link>
-        <updated>2021-05-12T12:24:38.000Z</updated>
-        <summary type="html"><![CDATA[<p><a href="https://biglanguage.com/">Big Language Solutions</a>（BIG）已收购 <a href="https://www.language.link/">Language Link</a>——这是 BIG 执行<a href="https://slator.com/ma-and-funding/brink-is-back-with-big-language-solutions-buys-protranslating/">收购和建设战略</a>的一笔最新交易，也是继2020年9月<a href="https://slator.com/ma-and-funding/big-gets-bigger-acquires-us-healthcare-specialist-isi/">收购美国医保专家 ISI</a> 和2019年6月<a href="https://slator.com/tag/Protranslating/">收购语言服务提供商 Protranslating</a> 之后的又一次收购。</p>
+        <updated>2021-05-27T11:40:19.000Z</updated>
+        <summary type="html"><![CDATA[<p>2021年5月21日，在<a href="https://www.blcu.edu.cn/">北京语言大学</a>高级翻译学院成立十周年之际，由北京语言大学外国语学部高级翻译学院、国际语言服务研究院、<a href="http://stimooc.blcu.edu.cn/course/22">中外语言服务人才培养基地</a>、MTI教育中心联合主办的“十四五”翻译与语言服务学科发展高端论坛在北京语言大学召开。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://biglanguage.com/">Big Language Solutions</a>（BIG）已收购 <a href="https://www.language.link/">Language Link</a>——这是 BIG 执行<a href="https://slator.com/ma-and-funding/brink-is-back-with-big-language-solutions-buys-protranslating/">收购和建设战略</a>的一笔最新交易，也是继2020年9月<a href="https://slator.com/ma-and-funding/big-gets-bigger-acquires-us-healthcare-specialist-isi/">收购美国医保专家 ISI</a> 和2019年6月<a href="https://slator.com/tag/Protranslating/">收购语言服务提供商 Protranslating</a> 之后的又一次收购。</p>
+        <content type="html"><![CDATA[<p>2021年5月21日，在<a href="https://www.blcu.edu.cn/">北京语言大学</a>高级翻译学院成立十周年之际，由北京语言大学外国语学部高级翻译学院、国际语言服务研究院、<a href="http://stimooc.blcu.edu.cn/course/22">中外语言服务人才培养基地</a>、MTI教育中心联合主办的“十四五”翻译与语言服务学科发展高端论坛在北京语言大学召开。</p>
 <!-- more -->
-<p>BIG 的首席执行官 <a href="https://www.linkedin.com/in/jeff-brink-33502713">Jeff Brink</a> 说，交易已于2021年4月30日完成。他<a href="https://slator.com/ma-and-funding/big-language-solutions-acquires-usd-27-5m-opi-provider-language-link/?utm_source=Slator+Newsletter&amp;utm_campaign=f8b74966b3-Slator+Weekly+-+Dec+11%2C+2020_COPY_01&amp;utm_medium=email&amp;utm_term=0_28e0ad4ca5-f8b74966b3-165496931&amp;mc_cid=f8b74966b3&amp;mc_eid=5f6ca6dd85">告诉 Slator</a>，&quot;我们预计2021年 BIG 公司的合并收入将超过7500万美元。通过额外的收购，收入可能会在年底超过9000万美元&quot;。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Verbit 收购媒体字幕公司 VITAC]]></title>
-        <id>https://nansey.github.io/post/verbit-acquire-vitac/</id>
-        <link href="https://nansey.github.io/post/verbit-acquire-vitac/">
-        </link>
-        <updated>2021-05-12T12:17:24.000Z</updated>
-        <summary type="html"><![CDATA[<p>2021年5月11日，转录和字幕供应商 <a href="https://verbit.ai/">Verbit</a> 宣布，它已经收购了美国的媒体字幕公司 <a href="https://vitac.com/">VITAC</a>。该笔交易是在 Verbit 的<a href="https://slator.com/ma-and-funding/verbit-raises-usd-60m-series-c-to-fund-ai-agency-strategy-and-ma/">6000万美元C轮融资</a>之后进行的。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>2021年5月11日，转录和字幕供应商 <a href="https://verbit.ai/">Verbit</a> 宣布，它已经收购了美国的媒体字幕公司 <a href="https://vitac.com/">VITAC</a>。该笔交易是在 Verbit 的<a href="https://slator.com/ma-and-funding/verbit-raises-usd-60m-series-c-to-fund-ai-agency-strategy-and-ma/">6000万美元C轮融资</a>之后进行的。</p>
-<!-- more -->
-<p>Verbit 首席执行官兼创始人 <a href="https://www.linkedin.com/in/tom-livne-a039b365">Tom Livne</a> <a href="https://slator.com/ma-and-funding/ai-transcription-agency-verbit-buys-captioning-provider-vitac-to-enter-media-sector/?utm_source=Slator+Newsletter&amp;utm_campaign=f8b74966b3-Slator+Weekly+-+Dec+11%2C+2020_COPY_01&amp;utm_medium=email&amp;utm_term=0_28e0ad4ca5-f8b74966b3-165496931&amp;mc_cid=f8b74966b3&amp;mc_eid=5f6ca6dd85">告诉 Slator</a>，&quot;我们与 VITAC 有一段时间的合作关系，我们认为现在是 Verbit 进入媒体垂直领域并整合两个品牌的合适时机。&quot;</p>
+<p>会上，研究院院长王立非教授宣布成立研究院专家委员会，聘请23名校内外专家担任委员，并颁发了聘书。国际语言服务研究院是经北京语言大学正式批准成立的研究机构，依托外国语学部管理和建设，重点开展以下研究和服务：1）语言服务理论体系构建、 2）语言服务行业与市场发展、 3）跨国语言管理、 4）对外贸易语言服务、 5）涉外法律语言服务、 6）企业传播语言服务、 7）语言服务贸易、 8）语言服务标准化等。（<a href="http://www.yeeworld.com/article/info/aid/13269.html">来源</a>）</p>
 ]]></content>
     </entry>
 </feed>
